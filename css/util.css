@@ -1,0 +1,38 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.fxb{
+    display: flex;
+}
+.fav{
+    align-items: center;
+}
+.jus{
+    justify-content: center;
+}
+.fsb{
+    align-items: center;
+}
+.divider-b{
+    border-bottom: 1px solid;
+    width: 100%;
+}
+.col {
+    column-gap: 3px;
+}
+.gab {
+    column-gap: 10px;
+
+}
+.gab2 {
+    column-gap: 15px;
+    
+}
+.gab3 {
+    column-gap: 25px;
+    
+}
