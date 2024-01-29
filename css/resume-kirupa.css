@@ -24,9 +24,7 @@
     box-shadow: 0 0 26px 10px rgba(0, 0, 0, .1);
 }
 .main-container {
-    height: 2920px;
     width: 100%;
-    background-color: yellow;
 
 }
 .slide-menu .header {
@@ -143,7 +141,6 @@
     color: rgba(49, 155, 230, 0.935);
 }
 .about-me {
-    height: 790px;
     width: 100%;
     background: var(--secondary-bg);
     padding-top: 100px;
@@ -243,7 +240,6 @@
 
 }
 .Skills {
-    height: 570px;
     width: 100%;
     background-color: #041331;
     padding: 100px 55px 70px 55px;
@@ -306,7 +302,6 @@
 
 }
 .portfolio {
-    height: 2358px;
     width: 100%;
     background-color: #E5E1DA;
     padding-top: 100px;
@@ -515,3 +510,17 @@
 }
    
 
+@media screen and (min-width: 360px) {
+ 
+    .row {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+
+
+    }
+
+
+
+  }
