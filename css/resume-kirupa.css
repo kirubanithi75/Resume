@@ -48,7 +48,6 @@
 }
 .menu-item {
     height: 50px;
-    width: 250px;
     background: var(--primary-bg);
     border-bottom: 1px solid  rgba(255, 255, 255, .02);
     padding: 15px 0px 15px 35px;
