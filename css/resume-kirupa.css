@@ -508,123 +508,106 @@
 }
    
 
-@media only screen and (max-width: 320px) {
- 
+  @media screen and (min-width:321px) and (max-width:768px) {
     .Skills .row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
 
     }
-    .slide-menu {
-        width: 120px;
+
+    .about-me .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        
+
     }
 
-    .slide-menu .header-name {
-        font-size: 20px;
+    .project-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+
     }
 
-    .menu-item {
-        padding: 15px 0px 15px 10px;   
-    
-    
+    .item-box {
+        height: 200px;
+        width: 200px;
     }
+
+
+
+
+    .main-section .name {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .main-section .web-h3 {
+        font-size: 59px;
+        font-weight: 600;
+        line-height: 70px;
+    }
+
+
+
+
+
     .page {
-        padding-left: 120px;
+        padding-left: 150px;
     }
 
-
-
-
-
-    .about-me .row {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
-        
-
+    .slide-menu {
+        width: 150px;
     }
-
-    .project-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-
-    }
-
-    .item-box {
-        height: 200px;
-        width: 200px;
-    }
-
-
     .main-section .name {
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 300;
+        line-height: 30px;
     }
 
     .main-section .web-h3 {
-        font-size: 59px;
-        font-weight: 600;
-        line-height: 70px;
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 500px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-  }
-  @media only screen and (min-width:321px) and (max-width:768px) {
-    .Skills .row {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
-
+    .box {
+        height: 240px;
+        width: 240px;
+    }
+    .image-h {
+        height: 240px;
+        width: 238px;
     }
 
-    .about-me .row {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
-        
-
+    .box-skill {
+        height: 124px;
+        width: 118px;
     }
 
-    .project-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-
+    .box-html {
+        height: 111px;
+        width: 118px;
     }
 
+    .center-box::before {
+        left: 67px;
+    }
     .item-box {
-        height: 200px;
-        width: 200px;
+        height: 103px;
+         width: 93px;
     }
 
-
-
-
-    .main-section .name {
-        font-size: 24px;
-        font-weight: 400;
+    .about-me  {
+        padding: 100px 10px;
     }
 
-    .main-section .web-h3 {
-        font-size: 59px;
-        font-weight: 600;
-        line-height: 70px;
+    .center-box {
+        height: 110px;
+        width: 110px;
     }
-
-
 
 
 
