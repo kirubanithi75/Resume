@@ -488,6 +488,11 @@
     cursor: pointer;
 
 }
+.link-project {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 
 
