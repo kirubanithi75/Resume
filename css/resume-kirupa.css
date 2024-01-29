@@ -348,10 +348,9 @@
     color: white;
   }
 .project-card {
-    display: contents;
+    display: grid;
+    grid-gap: 30px;
     justify-content: center;
-    column-gap: 30px;
-    align-items: center;
 }
 .project-cards {
     display: grid;
@@ -504,9 +503,7 @@
     color: var(--title-color);
     margin-top: 10px;
 }
-.row-box2 {
-    margin-top: 30px;
-}
+
 .heading-h2d span {
     color: #444;
 }
