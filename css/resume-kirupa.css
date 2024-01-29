@@ -68,7 +68,6 @@
 }
 .slide-menu .row {
     height: 225px;
-    width: 250px;
     display: flex;
     align-items: center;
     column-gap: 20px;
