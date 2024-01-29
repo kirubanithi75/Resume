@@ -612,6 +612,8 @@
     .center-box {
         height: 85px;
         width: 85px;
+        font-size: 15px;
+        font-weight: 500;
     }
 
     .slide-menu .header-name {
@@ -637,14 +639,19 @@
         width: 29px;
     }
     .about-h3 {
-        font-size: 16px;
+        font-size: 11px;
     }
     .line {
         margin-top: 4px;
+        width: 50px;
+    }
+    .intro-h4s {
+        margin-bottom: 3px;
     }
     .intro-h4 {
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 6px;
+        margin-bottom: -2px;
     }
     .discription {
         font-size: 11px;
