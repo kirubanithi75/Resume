@@ -363,7 +363,6 @@
 .item-box {
     height: 309px;
     width: 309px;
-    background-size: cover;
     overflow: hidden;
     position: relative;
     background-image: url(../image/ppppp.jpeg);
@@ -373,6 +372,8 @@
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     box-shadow: 0 0 6px 1px rgb(241 237 237 / 99%);
+    cursor: pointer;
+
 }
 .item-box2 {
     background-image: url(../image/always2.jpeg);
@@ -473,31 +474,18 @@
     transform: rotate(-10deg) scale(1.3);
     transition: .65s all;
 }
-.layer-box {
-    height: 116px;
-    width: 116px;
-    text-align: center;
-}
 .layer .icon-box {
-    height: 41px;
-    width: 41px;
     background: var(--title-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
-}
-.box-i {
-    height: 50px;
-    width: 116px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.icon-box i {
-    font-size: 20px;
+    padding: 8px;
+    font-size: 15px;
+    grid-gap: 6px;
+    color: #fff;
+    border-radius: 4px;
     font-weight: 400;
-    color: var(--secondary-bg);
+    cursor: pointer;
 }
 .pro-title {
     font-size: 20px;
