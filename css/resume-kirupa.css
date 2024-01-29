@@ -347,15 +347,13 @@
     background: var(--title-color);
     color: white;
   }
-.project-card {
-    display: grid;
-    grid-gap: 30px;
-    justify-content: center;
-}
 .project-cards {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: auto;
+
 }
 .item-bo {
     height: 309px;
@@ -363,7 +361,7 @@
 }
 .item-box {
     height: 309px;
-    width: 309px;
+    width: 100%;
     background-size: cover;
     overflow: hidden;
     position: relative;
