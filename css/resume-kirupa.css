@@ -61,6 +61,7 @@
 }
 .menu-active, .menu-item:hover {
     color: #16c0f0;
+    background: #0F1D38;
   } 
   .fa-home:before {
     content: "\f015";
