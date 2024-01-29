@@ -143,8 +143,6 @@
 .about-me {
     width: 100%;
     background: var(--secondary-bg);
-    padding-top: 100px;
-    padding-bottom: 100px;
     padding: 100px 55px;
 }
 .about-me .main-title {
@@ -252,8 +250,10 @@
     width: 224px;
 }
 .Skills .row {
-    display: flex;
-    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    justify-content: center;
     margin-top: 60px;
 }
 .center-box {
@@ -363,6 +363,7 @@
 .item-box {
     height: 309px;
     width: 309px;
+    background-size: cover;
     overflow: hidden;
     position: relative;
     background-image: url(../image/ppppp.jpeg);
@@ -373,7 +374,6 @@
     border-radius: 8px;
     box-shadow: 0 0 6px 1px rgb(241 237 237 / 99%);
     cursor: pointer;
-
 }
 .item-box2 {
     background-image: url(../image/always2.jpeg);
@@ -486,7 +486,11 @@
     border-radius: 4px;
     font-weight: 400;
     cursor: pointer;
+
 }
+
+
+
 .pro-title {
     font-size: 20px;
     font-weight: 600;
@@ -501,7 +505,7 @@
 }
    
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 768px) {
  
     .row {
 

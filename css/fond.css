@@ -1,0 +1,77 @@
+.back{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background-color: black;
+}
+.page{
+    height: 402px;
+    width: 550px; 
+    background-color: rgb(236, 245, 245);
+    color: black;
+    border-style: dotted solid;
+
+    margin-top: 110px;
+    margin-left: 450px;
+    text-align: center;
+    padding-top: 30px;
+    border: 1px solid red;
+    
+
+}
+.solid{
+    border-top: 1px solid blue;
+}
+.spac{
+    word-spacing: 40px;
+    margin-right: 155px;
+}
+.spac2{
+    word-spacing: 40px;
+    margin-right: 155px;
+}
+.spac3{
+    word-spacing: 40px;
+    margin-right: 155px;
+}
+.spac4{
+    word-spacing: 40px;
+    margin-right: 155px;
+}
+.spac5{
+    word-spacing: 40px;
+    margin-right: 155px;
+}
+
+#but{
+    margin-right: 152px;
+    color: red;
+    background-color: green;
+}
+.skil{
+    margin-right: -73px;
+    margin-top: -233px;
+
+}
+.skil2{
+    margin-left: 164px;
+    margin-top: 23px;
+
+}
+.skil3{
+    margin-left: 279px;
+    margin-top: 21px;
+
+}
+.skil4{
+    margin-left: 158px;
+    margin-top: 21px;
+
+}
+.skil5{
+    margin-left: 196px;
+    margin-top: 21px;
+
+}
+
+

@@ -1,0 +1,65 @@
+.contian{
+height: 100vh;
+width: 100%;
+background-color: #FFFFFF;
+display: flex;
+
+}
+.centerpage{
+    height: 550px;
+    width: 600px;
+    background-color: #FFFFFF;
+    margin-top: 76px;
+    margin-left: 395px;
+
+
+}
+h2{
+    margin-left: 46px;
+    margin-top: 22px;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 4px 4px #ababab;
+    color: #7726C4;
+    font-size: 30px;
+}
+.input{
+    
+    margin-left: 40px;
+    margin-top: 33px;
+    font-family: "Audiowide", sans-serif;
+}
+.name{
+    height: 37px;
+    width: 255px;
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: "Trirong", serif;
+
+
+ 
+}
+.write{
+    height: 134px;
+    width: 392px;
+    padding-left: 13px;
+    padding-bottom: 87px;
+    font-family: "Trirong", serif;
+
+}
+.but{
+    height: 43px;
+    width: 109px;
+    background-color: #7726C4;
+    margin-top: 26px;
+    margin-left: 46px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: "Sofia", sans-serif;
+
+
+
+}
+.lab{
+    margin-left: 25px;
+    font-size: 21px;
+}

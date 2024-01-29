@@ -1,0 +1,80 @@
+.contian{
+    height: 100vh;
+    width: 100%;
+    background-color: #505152;
+    display: flex;
+}
+.centerpage{
+    height: 470px;
+    width: 550px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: #505152;
+}
+.but{
+    margin-top: 30px;
+    margin-left: 29px;
+    display: flex;
+    
+}
+.signbut{
+    height: 44px;
+    width: 225px;
+    float: left;
+    width: 240px;
+    background-color: #0AC447;
+    color: #FAFAFA;
+    border: none;
+    font-style: italic;
+    font-size: 24px;
+
+}
+.loginbut{
+    height: 44px;
+    width: 225px;
+    font-style: italic;
+    float: left;
+    width: 240px;
+    background-color: #5d6063;
+    border: none;
+    font-size: 24px;
+    color: #FAFAFA;
+
+}
+.letter{
+    margin-top: 32px;
+    margin-left: 118px;
+    color: #FAFAFA; 
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
+
+}
+
+.input{
+    height: 42px;
+    width: 221px;
+    margin-left: 29px;
+    margin-top: 33px;
+    padding-left: 14px;
+    font-size: 17px;
+    color: #FAFAFA;
+    background-color: #5d6063;
+    border: 1px solid  #FAFAFA;
+
+}
+.input2{
+
+    width: 477px;
+}
+.butt{
+    height: 44px;
+    width: 477px;
+    margin-top: 35px;
+    margin-left: 27px;
+    color: #FAFAFA;
+    background-color: #0AC447;
+    font-size: 25px;
+    font-style: inherit;
+    border: none;
+
+}

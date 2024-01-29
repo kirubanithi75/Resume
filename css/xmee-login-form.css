@@ -1,0 +1,192 @@
+.xmee-page{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.xmee-img{
+    height: 630px;
+    width: 674px;
+    background-image: url(../image/bg10-lxmee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    
+}
+.logo-xmee{
+    width: 147px;
+
+}
+.h1-xe{
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 43px;
+    margin-top: 30px;
+
+}
+.mal-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    line-height: 28px;
+}
+.Register-button{
+    height: 49px;
+    width: 135px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    background: none;
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    line-height: 29px;
+    border-radius: 4px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accoun-page{
+    height: 630px;
+    width: 674px;
+    background-color: #FFFFFF;
+}
+.xmee-container{
+    display: flex;
+}
+.login-box{
+    height: 443px;
+    width: 450px;
+    background-color: #FFFFFF;
+}
+.accoun-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+    line-height: 28px;
+}
+.input-email{
+    height: 44px;
+    width: 450px;
+    margin-top: 80px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    font-size: 20px;
+    font-weight: 300;
+
+
+}
+.input-email1{
+    margin-top: 20px;
+}
+.input-checkbox{
+    display: flex;
+    margin-top: 20px;
+}
+.p-keep{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(159, 159, 159);
+    margin-left: 11px;
+
+}
+.p-keep1{
+    padding-left: 160px;
+}
+.icon{
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    color: rgb(159, 159, 159);
+
+    align-items: center;
+    position: absolute;
+    top: 143px;
+    left: 407px;
+}
+.input{
+    position: relative;
+}
+.log-button{
+    height: 48px;
+    width: 118px;
+    background-color: rgb(255, 189, 63);
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    line-height: 29px;
+    border: none;
+    border-radius: 4px;
+}
+.button{
+    text-align: center;
+}
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+    margin-top: 45px;
+}
+.socil-box{
+    height: 38px;
+    width: 38px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(59, 89, 152);
+    
+}
+.socil-box1{
+    color: rgb(0, 172, 238);
+}
+.socil-box2{
+    color: rgb(204, 51, 51);
+}
+.socil-box3{
+    color: rgb(0, 119, 181);
+}
+.socil-box4{
+    color:  rgb(204, 51, 51);
+}
+.socil-box:hover{
+    background-color: rgb(59, 89, 152);
+    color: #FFFFFF;
+}
+.socil-box1:hover{
+    background-color:  rgb(0, 172, 238);
+
+}
+.socil-box2:hover{
+    background-color:  rgb(204, 51, 51);
+}
+.socil-box3:hover{
+    background-color: rgb(0, 119, 181);
+}
+.socil-box4:hover{
+    background-color: rgb(204, 51, 51);
+}
+.row{
+    padding-top: 160px;
+}
+.log-button:hover{
+    background-color: #EBA627;
+}
+.Register-button:hover{
+    background-color: #FFFFFF;
+    color: #EBA627;
+}

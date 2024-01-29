@@ -1,0 +1,260 @@
+.claim{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+.header{
+    height: 45px;
+    display: flex;
+    color: #FCFCFC;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.kirupa{
+    width: 820px;
+    display: flex;
+    column-gap: 30px;
+}
+.letter1{
+    margin-left: 50px;
+    font-size: 22px;
+}
+.buttonask{
+    margin-right: 60px;
+    
+}
+.askbut{
+    height: 30px;
+    width: 131px;
+    border: none;
+    background-color: #FCFCFC;
+    font-size: 16px;
+    font-family: 'Roboto';
+
+}
+
+.askbut:hover{
+    background-color: aqua;
+    color: brown;
+}
+.page1{
+
+    height: 520px;
+    width: 100%;
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+.main-section{
+    height: 335px;
+    width: 600px;
+    background-color: aqua;
+    margin-top: 110px;
+    margin-left: 310px;
+   
+}
+.row{
+    position: absolute;
+    top: 70px;
+    right: 272px;
+    width: 278px;
+    height: 367px;
+    
+    background-color: white;
+    text-align: center;
+    padding-top: 43px;
+  
+
+
+}
+.box{
+    position: absolute;
+  top: -40px;
+  right: 275px;
+  width: 575px;
+  height: 379px;
+  background-image: url(../image/computer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+.jelus{
+    margin-left: 15px;
+}
+.learnbut
+{
+    height: 33px;
+    width: 106px;
+    margin-left: 18px;
+    margin-top: 20px;
+    color: #FCFCFC;
+    background-color: black;
+    border: none;
+}
+.learnbut:hover{
+    color: aqua;
+    background-color: brown;
+    cursor: pointer;
+}
+.fad{
+    text-align: center;
+    background-color: #FCFCFC;
+    padding: 12px; 
+   font-size: 44px;
+   font-family: 'Roboto';
+   text-shadow: 7px 4px 5px rebeccapurple;
+
+}
+.page2{
+
+    height: 300px;
+    width: 100%;
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.sub-section{
+
+    height: 219px;
+    width: 886px;
+    background-color: black;
+    padding: 50px;
+    
+    
+}
+.view{
+    display: flex;
+    justify-content: center;
+    margin-left: 650px;
+}
+.now{
+    color: #FCFCFC;
+    font-size: 30px;
+}
+.most{
+    color: #FCFCFC;
+    margin-top: 30px;
+    font-size: 17px;
+}
+.viewbut{
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: -47px;
+
+}
+.morebutton{
+    height: 42px;
+    width: 137px;
+    margin-left: 200px;
+    font-size: 18px;
+    background-color: aqua;
+    color: #FCFCFC;
+    border: none;
+}
+.morebutton:hover{
+    background-color: brown;
+    color: chartreuse;
+    cursor: pointer;
+
+}
+.page3{
+    height: 520px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+    padding: 59px;
+   
+
+}
+.best{
+    font-size: 42px;
+    font-family: 'Roboto';
+}
+.gunbox{
+    row-gap: 12px;
+    display: grid;
+
+
+}
+.ronbox{
+    height: 126px;
+    width: 176px;
+    background-color: blue;
+    padding-left: 10px;
+    padding-top: 10px; 
+}
+.pag{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.tools{
+    padding-right: 47px;
+}
+.rowletter{
+    font-size: 19px;
+    padding-top: 10px;
+}
+.page4{
+    height: 320px;
+    width: 100%;
+    background-color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.student{
+    width: 870px;
+    display: flex;
+}
+.studentbox{
+    height: 270px;
+    width: 480px;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 50px;
+}
+.studentbox1{
+    
+    background-image: url(../image/coloe2.jpg);
+    background-size: cover;
+
+}
+.studentbutton{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 19px;
+    background-color: black;
+    color: #FCFCFC;
+    border: none;
+}
+.studentbutton:hover{
+    background-color: #73AD21;
+    color: red;
+    cursor: pointer;
+
+}
+
+
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Roboto';
+}

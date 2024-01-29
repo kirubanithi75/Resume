@@ -1,0 +1,76 @@
+.page {
+    height: 739px;
+    width: 100%;
+    background-color: #F5F5F9;
+    text-align: center;
+}
+.found-h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(50, 71, 92, 0.87);
+    margin-bottom: 12px;
+    text-align: center;
+}
+.p-text {
+    color: rgba(50, 71, 92, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-page {
+    height: 596px;
+    width: 100%;
+}
+.responsive-img {
+    height: 500px;
+    width: 518px;
+    background-image: url(../image/responsive-img.png);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    
+}
+.Error-page {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.back-but {
+    height: 38px;
+    width: 143px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    border-radius: 7px;
+    margin-top: 40px;
+    background-color: rgb(105, 108, 255);
+}
+.pro-button {
+    height: 38px;
+    width: 159px;
+    background-color: rgb(255, 62, 29);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    right: 100px;
+    top: 550px;
+    border-radius: 7px;
+    box-shadow: 0 1px 20px 1px rgb(255, 62, 29);
+    position: fixed;
+
+}
+.postion-but {
+    position: relative;
+}

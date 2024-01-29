@@ -1,0 +1,83 @@
+.contian{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.page{
+    height: 610px;
+    width: 100%;
+    background-image: url(../image/flower2.jpg);
+    background-size: cover;
+
+}
+.heading{
+    display: flex;
+    column-gap: 20px;
+    margin-left: 23px;
+    padding: 10px;
+    color: #FBFBFB;
+}
+.letter{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.letter1{
+    font-size: 20px;
+    margin-right: 247px;
+
+
+}
+.sign{
+    height: 34px;
+    width: 98px;
+    margin-left: 219px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+.image{
+    margin-top: -304px;
+    margin-left: 260px;
+}
+.phoneimg{
+    height: 394px;
+
+
+}
+.center{
+    height: 154px;
+}   
+.start{
+margin-left: 570px;
+margin-top: 302px;
+color: white;
+
+}
+.stuff{
+    font-family: 'Roboto';
+    font-size: 32px;
+
+
+}
+.appbut{
+    margin-left: 19px;
+    margin-top: 13px;
+    height: 42px;
+    width: 141px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    background-color: white;
+    
+    font-size: 15px;
+}
+.end{
+    padding-left: 286px;
+    padding-top: 107px;
+    font-size: 20px;
+    color: blue;
+}
+p{
+    margin-top: 27px;
+}

@@ -1,0 +1,297 @@
+.demo{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+.header{
+    height: 160px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    padding-left: 158px;
+}
+.letter1{
+    font-size: 30px;
+    color: blue;
+    padding-right: 145px;
+
+
+}
+
+.sub-header{
+    font-size: 50px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+
+}
+.main-section{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    padding: 35px;
+    background-image: url(../image/ulgam2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.parg{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.button{
+    height: 87px;
+    width: 330px;
+    margin-top: 50px;
+    background-color: #6D59DB;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: none;
+
+}
+.button:hover{
+    background-color: #2588C4;
+    cursor: pointer;
+
+}
+
+
+
+
+.button1{
+    background: none;
+    border: none;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.button1:hover{
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.section{
+    height: 700px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.section{
+    display: flex;
+    
+}
+.sub-letter{
+    padding: 48px;
+    margin-top: 90px;
+}
+.seo{
+    font-size: 38px;
+}
+.sec{
+    padding: 140px;
+}
+.imgage{
+    width: 550px;
+}
+.mp3{
+    margin-top: 30px;
+    font-size: 20px;
+    color:#8c979e;
+    
+}
+.morebutton{
+    height: 75px;
+    width: 292px;
+    margin-top: 77px;
+    background-color: #5D47D7;
+    border: none;
+    font-size: 27px;
+    color: #FFFFFF;
+
+}
+.morebutton:hover{
+    background-color: #3B24C4;
+    cursor: pointer;
+}
+.section-sub{
+    height: 790px;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+}
+.lorem{
+    font-size: 44px;
+    color: black;
+
+}
+.par{
+    font-size: 21px;
+    padding-top: 44px;
+    color:#8c979e;
+}
+.image{
+    width: 700px;
+}
+.seebutton{
+    height: 77px;
+    width: 275px;
+    margin-top: 60px;
+    font-size: 25px;
+    color: #FFFFFF; 
+    border: none;
+    background-color:   #5D47D7 ;
+}
+.seebutton:hover{
+    background-color:  #5228C4;
+    cursor: pointer;
+
+}
+
+
+
+.port{
+    padding: 106px;
+}
+.parallax{
+    height: 500px;
+    width: 100%;
+   text-align: center;
+   padding: 104px;
+   background-image: url(../image/see1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.sit{
+    font-size: 19px;
+    margin-top: 40px;
+    color: #FFFFFF;
+
+}
+.small-h2{
+    font-size: 60px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.infobutton{
+    height: 60px;
+    width: 250px;
+    margin-top: 45px;
+    border: none;
+    background-color:   #5D47D7 ;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+.infobutton:hover{
+    background-color:  #5228C4;
+    cursor: pointer;
+
+}
+.section-lim{
+    height: 1210px;
+    width: 100%;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.lim-h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: inherit;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 115px;
+    color: black;
+
+}
+.sed{
+    font-size: 17px;
+    margin-top: 30px;
+    
+    color: #8c979e;
+    line-height: 24px;
+    
+}
+.nowbutton{
+    height: 54px;
+    width: 200px;
+    margin-top: 35px;
+    background-color: #745cf9;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.image-2{
+    margin-top: 40px;
+}
+.laster{
+    height: 200px;
+    width: 100%;
+    background-color: #2588C4;
+    text-align: center;
+}
+.oru-h2{
+padding-top: 56px;
+font-size: 35px;    
+
+}
+.hear{
+    font-size: 24px;
+    line-height: 100px;
+}
+.project{
+    height: 816px;
+    width: 100%;
+    background-color: black;
+    position: relative
+    
+}
+.img1{
+    width: 337px;
+    height: 269px;
+   
+
+}
+.image3{
+    position: absolute;
+    right:-1px;
+
+    
+    height: 100px;
+    display: inline-table;
+  
+
+}
+.custem{
+    height: 450px;
+    width: 100%;
+    background-image: url(../image/ulgam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    padding-top: 50px;
+    color: #FFFFFF;
+
+}
+p{
+    font-size: 20px;
+    margin-top: 38px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.nithi{
+    border-radius: 115px;
+    height: 94px;
+    margin-top: 20px;
+}
+.oroject{
+    background-color: black;
+}

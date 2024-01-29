@@ -1,0 +1,66 @@
+.contian{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 140px;
+    padding-left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home{
+    height: 332px;
+    width: 668px;
+    background-color: white;
+    padding-top: 15px;
+    margin-left: 251px;
+    margin-top: 100px;
+    padding-left: 5px;
+    padding-right: 59px;
+    text-align: center;
+    
+}
+.row{
+
+    height: 165px;
+    width: 107%;
+    margin-left: 9px;
+    margin-right: 30px;
+    margin-top: 1px;
+    row-gap: 30px;
+    display: flex;
+    column-gap: 17px;
+
+}
+
+.box{
+    height: 130px;
+    width: 1952px;
+    background-color: #C0C00E;
+    color: #FFFFFF;
+}
+
+.box2{
+       height: 150px;
+       padding-top: 45px;
+}
+.boxgray{
+    background-color: #626660;
+    padding-top: 45px;
+    color: #FFFFFF;
+}
+.boxblue{
+    background-color: #2417C4;
+    padding-top: 45px;
+    color: #FFFFFF;
+}
+.boxpurple{
+    background-color: #961EC4;
+    padding-top: 45px;
+    color: #FFFFFF;
+}
+.boxaqua{
+    background-color: #20A2C4;
+    padding-top: 45px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,152 @@
+.page {
+    height: 633px;
+    width: 100%;
+    background-color: #EEEDF2;
+    padding: 21px;
+    display: flex;
+    column-gap: 21px;
+}
+.navigation {
+    height: 590px;
+    width: 252px;
+    background-color: #131313;
+    padding: 18px;
+}
+.navigation .nav-header {
+    height: 132px;
+    width: 215px;
+    border-bottom: 1px solid rgba(238, 237, 242, 0.18);
+    
+
+}
+.nav-header .menu-logo {
+    height: 42px;
+    width: 215px;
+}
+.nav-header .logo-h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(238, 237, 242);
+
+}
+.nav-header .menu-logo i {
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(238, 237, 242);
+    cursor: pointer;
+}
+.nav-header .menu-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-header .search-input {
+    height: 42px;
+    width: 215px;
+    background-color: #ffffff0d;
+    border-radius: 5px;
+    margin-top: 22px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 45px;
+    position: relative;
+}
+.nav-header .box {
+    height: 42px;
+    width: 42px;
+    color:#ffffff66;
+    font-size: 17px;
+    font-weight: 400;
+    position: absolute;
+    top: 103px;
+}
+.nav-subtittle {
+    height: 415px;
+    width: 215px;
+    padding-top: 24px;
+}
+.nav-subtittle .nav-box {
+    height: 42px;
+    width: 215px;
+    margin-bottom: 6px;
+    column-gap: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+.nav-subtittle .nav-box i {
+    font-size: 20px;
+    font-weight: 400;
+    color:rgb(238 237 231 / 44%);
+
+}
+.nav-subtittle .nave-item {
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(238 237 231 / 44%);
+    cursor: pointer;
+
+}
+.nav-subtittle .nav-box2 {
+    background-color: #5C31FF;
+    padding-left: 7px;
+
+}
+.nav-subtittle .nave-item2 {
+    color: white;
+}
+.nav-subtittle .nav-box2 i {
+    color: white;
+}
+.nav-subtittle .nav-box:hover {
+    background-color: rgba(255, 255, 255, 0.079);
+}
+.nav-box:hover .nave-item {
+    color: white;
+
+
+}
+.nav-box:hover .nav-icon {
+    color: white;
+
+
+
+}
+.image-lo {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.image-l {
+    height: 50px;
+    border-radius: 6px;
+
+}
+.gallery-bo {
+    height: 300px;
+    width: 1034px;
+    background-image: url(../image/jpkk.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    column-gap: 21px;
+}
+.box-iamge {
+    height: 267px;
+    width: 330px;
+    background-color: #5C31FF;
+    border-radius: 10px;
+    margin-top: 21px;
+}
+.lay-image {
+    width: 330px;
+    height: 267px;
+    border-radius: 10px;
+}

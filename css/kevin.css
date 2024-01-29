@@ -1,0 +1,74 @@
+.contian{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    
+}
+
+
+
+.head{
+    height: 67px;
+    padding: 12px;
+
+}
+
+.menu{
+        height: 100%;
+        
+
+
+
+
+
+}
+
+.menuleft{
+    display: flex;
+    column-gap: 46px;
+    margin-left: 571px;
+    color: #FBFBFB;
+
+
+}
+.pagecontian{
+
+
+    height: calc(100vh - 42px);
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    height: 400px;
+    width: 720px;
+    background-color: aqua;
+}
+.name{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 40px;
+    font-style: italic;
+}
+.name1{
+    margin-top: 8px;
+    font-size: 32px;
+
+}
+h5{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.button{
+    height: 29px;
+    width: 118px;
+    background-color: aqua;
+    font-size: 13px;
+    margin-top: 24px;
+    margin-left: 310px;
+    border: none;
+    border: 1px solid white;
+    
+}

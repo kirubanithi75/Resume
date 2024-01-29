@@ -1,0 +1,9 @@
+.profile {
+    height: 100px;
+}
+
+.profilebg {
+    height: 300px;
+    width: 300px;
+    background-image: url(../image/banner.avif);
+}

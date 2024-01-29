@@ -1,0 +1,266 @@
+.contian{
+    width: 100%;
+    background-color: #FBFBFB;
+    border: 2px white;
+}
+.headding{
+    display: flex;
+    column-gap: 15px;
+    background-color: black;
+    color: #FBFBFB;
+    padding-bottom: 8px;
+    font-size: 11px;
+    padding-top: 8px;
+    justify-content: center;
+    
+}
+.image{
+    height: 17px;
+}
+.img{
+    padding-left: 233px;
+
+}
+.image1{
+    height: 20px;
+}
+
+
+
+.line{
+    display: flex;
+    justify-content: center;
+
+   
+}
+.fin{
+    margin-left: 55px;
+    font-size: 23px;
+    margin-top: 16px;
+    
+
+}
+.select{
+    margin-left: 9px;
+    padding: 19px;
+    
+}
+.sel{
+    display: flex;
+    margin-left: 308px;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+.sarch{
+    height: 16px;
+    margin-top: 20px;
+}
+.hand{
+    height: 34px;
+    margin-top: 16px;
+    margin-right: -53px;
+}
+.star{
+    height: 470px;
+    background-image: url(../image/thala1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5px;
+
+}
+.center{
+    text-align: center;
+    padding-top: 130px;
+    color: #FBFBFB;
+}
+.your{
+    font-size: 40px;
+    font-family: 'Roboto';
+    text-shadow: 4px 3px 3px red;
+    
+}
+.parg{
+    margin-top: 16px;
+    font-size: 19px;
+    
+
+}
+
+p{
+    margin-top: 24px;
+    font-size: 15px;
+    
+}
+.buttonmore{
+    margin-top: 30px;
+}
+.butlear{
+    height: 41px;
+    width: 143px;
+    color: #FBFBFB;
+    background: none;
+    border: none;
+    border: 1px solid #FBFBFB;
+    margin-left: 19px;
+    font-size: 20px;
+}
+.butlear1{
+    background-color: black;
+    border: none;
+
+}
+.butlear:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  .company{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .par{
+    margin-top: 14px;
+    font-size: 14px;
+    
+  }
+  .com{
+    font-size: 27px;
+    font-family: 'Roboto';
+    
+  }
+  .row{
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    row-gap: 30px;
+    display: flex;
+    column-gap: 23px;
+    justify-content: center;
+
+}
+.box{
+    height: 319px;
+    width: 293px;
+    background-image: url(../image/computer.jpg);
+    background-size: cover;
+    color: #FBFBFB;
+
+}
+h4{
+    margin-top: 86px;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.viewbutton{
+    margin-top: 10px;
+}
+.button{
+    height: 43px;
+    width: 160px;
+    border: none;
+    border: 1px solid #FBFBFB;
+    background: none;
+    color: #FBFBFB;
+    font-size: 18px;
+}
+.button:hover{
+    background-color: #C420AB;
+    color: #4027C4;
+}
+.best{
+    margin-top: 221px;
+    font-family: 'Roboto';
+}
+.button1{
+    margin-top: 10px;
+    
+}
+.box1{
+    background-image: url(../image/back1.jpg);
+    background-size: cover;
+
+}
+.box2{
+    background-image: url(../image/thala.jpg);
+    background-size: cover;
+
+}
+.button2{
+    margin-top: 10px;
+    
+}
+.choose{
+    background-image: url(../image/im1.png);
+    
+    
+    height: 420px;
+     margin-top: 332px;
+
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+.us{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 37px;
+    color: #FBFBFB;
+    font-family: 'Roboto';
+    text-shadow: 4px 3px 3px red;
+
+}
+
+.whiterow{
+    height: 50px;
+    width: 100%;
+    margin-top: 55px;
+    row-gap: 30px;
+    display: flex;
+    column-gap: 23px;
+    justify-content: center;
+
+}
+.boxwhite{
+    height: 200px;
+    width: 270px;
+    background-color: #FBFBFB;
+}
+.boxh{
+    margin-top: 9px;
+    font-size: 20px;
+    font-family: 'Roboto';
+
+}
+.timeimg{
+    height: 87px;
+}
+.timeimg1{
+    height: 34px;
+    margin-top: 24px;
+}
+.boxh1{
+    margin-top: -19px;
+    font-family: 'Roboto';
+
+}
+.lor{
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+  
+.parag{
+    margin-top: -9px;
+    font-size: 15px;
+    padding: 17px;
+}
+
+.material-symbols-outlined {
+    
+}
+
+

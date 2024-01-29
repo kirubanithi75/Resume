@@ -1,0 +1,219 @@
+.sub-page{
+    height: 750px;
+    width: 100%;
+    background-image: url(../image/register.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 163px;
+    z-index: 1;
+}
+.layar{
+    position: absolute;
+    contain: "";
+    display: block;
+    background-color: #00000052;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+.header{
+    height: 100px;
+    width: 100%;
+}
+.header-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    padding-left: 24px;
+}
+.header-letter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 22px;
+    padding-right: 100px;
+
+
+}
+.letter{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 18px;
+}
+.header-image{
+    width: 137px;
+}
+.qa-h2{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 65px;
+    margin-top: 180px;
+}
+.ask-p{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+
+}
+.login-box{
+    height: 502px;
+    width: 423px;
+    background-color: white;
+    margin-left: 13px;
+    border-radius: 4px;
+
+}
+.join{
+    display: flex;
+    column-gap: 108px;
+    margin-left: 36px;
+}
+.sign-h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+     
+}
+.what-box{
+    height: 200px;
+    width: 380px;
+    background-color: aqua;
+}
+.sin-h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 36px;
+    
+}
+.login-header{
+    height: 136px;
+    width: 423px;
+    background-color: rgb(45, 111, 247);
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(124, 127, 133);
+    line-height: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.name span{
+    color: red;
+}
+.input-box{
+    height: 38px;
+    width: 301px;
+    outline: none;
+    padding-left: 30px;
+    border: 1px solid rgb(225, 227, 227);
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 105px;
+    left: 63px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    
+}
+.in-box{
+    position: relative;
+    padding: 60px;
+}
+.icon2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 187px;
+    left: 63px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+
+}
+.in-check{
+    height: 15px;
+    width: 15px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.input-checkbox{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 78px;
+}
+.login-but{
+    height: 40px;
+    width: 303px;
+    background-color: rgb(45, 111, 247);
+    margin-top: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.08;
+    color: rgb(255, 255, 255);
+}
+.pass{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(124, 127, 133);
+    line-height: 22px;
+}
+.login-but:hover{
+    background-color: rgb(124, 127, 133);
+    cursor: pointer;
+}
+.pass1{
+    color: rgb(39, 41, 48);
+}
+.box-outer{
+    display: flex;
+    justify-content: right;
+    color: rgb(255, 255, 255);
+    padding-top: 12px;
+    padding-right: 159px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.box-outer span{
+    color:  rgb(45, 111, 247);
+}
+.icon-letter{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}

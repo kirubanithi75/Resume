@@ -1,0 +1,472 @@
+:root {
+    --primary-bg: #FEFEFE;
+    --secondary-bg: #F5F5F9;
+    --icon-search-color:rgba(50, 71, 92, 0.87);
+    --nav-but-color: rgba(50, 71, 92, 0.38);
+    --text-color:rgba(50, 71, 92, 0.6);
+}
+
+.page {
+    padding-left: 260px;
+    display: flex;
+}
+.left-navigation {
+    height: 100vh;
+    width: 260px;
+    background: var(--primary-bg);
+    padding: 12px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+}
+.left-navigation .nav-header {
+    height: 64px;
+    width: 228px;
+    padding: 16px 35px 16px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-navigation .leading-normal {
+    font-size: 29px;
+    color: rgba(50, 71, 92, 0.87);
+    font-weight: 700;
+
+}
+.left-navigation .nav-box {
+    height: 46px;
+    width: 228px;
+    column-gap: 10px;
+    padding-left: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.left-navigation .icon-nav {
+    font-size: 21px;
+    font-weight: 500;
+    color:  rgb(105, 108, 255);
+
+}
+.left-navigation .nav-item1 {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(105, 108, 255);
+}
+.nav-section {
+    height: 18px;
+    width: 203px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.left-navigation .item-nave {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(50, 71, 92, 0.38);
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+.left-navigation .icon-nav2 {
+    color: rgba(50, 71, 92, 0.6);
+}
+.left-navigation .nav-item {
+    color: rgba(50, 71, 92, 0.6);
+    font-size: 15px;
+    font-weight: 500;
+
+
+}
+.nav-boxaction {
+    height: 46px;
+    width: 228px;
+    background-color: rgba(105, 108, 255, 0.16);
+    column-gap: 10px;
+    padding-left: 15px;
+    margin-top: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.left-navigation .image-nav {
+    height: 150px;
+    margin-top: 5px;
+}
+.left-navigation .nav-box:hover {
+    background-color: rgba(105, 108, 255, 0.16);
+    color:  rgb(105, 108, 255);
+}
+.nav-box:hover .icon-nav2 {
+    color:  rgb(105, 108, 255);
+
+}
+.nav-box:hover .nav-item2 {
+    color:  rgb(105, 108, 255);
+
+}
+.layout-content-wrapper {
+    height: 1250px;
+    width: 100%;
+    background: var(--secondary-bg);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.navbar {
+    height: 64px;
+    width: 100%;
+    background: var(--primary-bg);
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 10px;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, .13), 0 5px 14px 0 rgba(0, 0, 0, .11);
+}
+.navbar i {
+    font-size: 20px;
+    font-weight: 100;
+    color:var(--icon-search-color) ;
+    cursor: pointer;
+
+
+}
+.navbar-item {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--nav-but-color);
+    cursor: pointer;
+
+
+}
+.navbar .nave-but {
+    height: 23px;
+    width: 33px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--nav-but-color);
+    border: 1px solid var(--nav-but-color);
+    background: none;
+    cursor: pointer;
+
+}
+.navbar .icon-box {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.navbar .theme-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.navbar .img {
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+}
+.navbar .icon-box i {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--icon-search-color);
+}
+.navbar .search-i {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.navbar .icon-box:hover {
+ background-color: rgba(50, 71, 92, 0.053);
+ border-radius: 40px;
+}
+.navbar .green-color {
+    height: 9px;
+    width: 9px;
+    background-color: #71DD37;
+    border-radius: 40px;
+    position: absolute;
+    top: 52px;
+    right: 52px;
+    border: 1px solid var(--primary-bg);
+}
+.sub-header {
+    height: 48px;
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(50, 71, 92, 0.198);
+    column-gap: 25px;
+}
+.default-button {
+    height: 48px;
+    width: 129px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: center;
+    background: none;
+    cursor: pointer;
+
+}
+.default-button  i {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(105, 108, 255);
+    text-transform: uppercase;
+}
+.button-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(105, 108, 255);
+    text-transform: uppercase;
+}
+.default-button {
+    border-bottom: 2px solid rgb(105, 108, 255);
+
+}
+.default-button2 {
+    border-bottom: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(50, 71, 92, 0.6);
+}
+.button-text2 {
+    color: rgba(50, 71, 92, 0.6);
+
+}
+.default-button2 i {
+    color: rgba(50, 71, 92, 0.6);
+
+}
+.default-button:hover {
+    background-color: rgba(0, 0, 0, 0.083);
+    border-radius: 5px;
+}
+.main-section {
+    height: 795px;
+    width: 100%;
+    background: var(--primary-bg);
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, .13), 0 5px 14px 0 rgba(0, 0, 0, .11);
+
+}
+.v-card-item {
+    height: 80px;
+    width: 100%;
+    padding: 24px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(50, 71, 92, 0.87);
+    line-height: 22px;
+}
+.main-section .profile {
+    height: 124px;
+    width: 100%;
+    padding: 0px 24px 24px 24px;
+    border-bottom: 1px solid rgba(50, 71, 92, 0.198);
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+
+}
+.box-img {
+    width: 100px;
+    border-radius: 4px;
+}
+.upload-but {
+    height: 38px;
+    width: 183px;
+    background-color: rgb(105, 108, 255);
+    color: var(--primary-bg);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 9px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.rest-but {
+    height: 38px;
+    width: 79px;
+    font-weight: 500;
+    border-radius: 9px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(255, 63, 29, 0.241);
+    color: rgb(255, 62, 29);
+}
+.main-section .button {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.main-section .title1 {
+    font-size: 15px;
+}
+.rest-but:hover {
+    background-color: rgba(255, 63, 29, 0.274);
+}
+.card-input-text {
+    height: 590px;
+    width: 100%;
+    padding: 24px;
+}
+.input-field {
+    height: 56px;
+    width: 484px;
+    border: 1px solid rgba(50, 71, 92, 0.198);
+    border-radius: 10px;
+    padding: 15px 16px 15px 16px;
+    font-size: 16px;
+    color:  rgba(50, 71, 92, 0.6);
+    outline: none;
+
+
+}
+::placeholder {
+    color:  rgba(50, 71, 92, 0.6);
+
+
+}
+.input-field:hover {
+    border: 1px solid rgba(0, 0, 0, 0.455);
+}
+.field {
+    display: flex;
+    column-gap: 22px;
+    margin-top: 15px;
+    position: relative;
+}
+.box-name {
+    height: 19px;
+    width: 62px;
+    background: var(--primary-bg);
+    position: absolute;
+    top: -11px;
+    left: 22px;
+    font-size: 13px;
+    font-weight: 400;
+    color:  rgba(50, 71, 92, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.postion {
+    position: relative;
+}
+.field2 {
+    margin-top: 26px;
+}
+.box-name2 {
+    width: 40px;
+}
+.box-name3 {
+    width: 77px;
+}
+.box-name4 {
+    width: 50px;
+}
+.box-name6 {
+    width: 90px;
+}
+.option-input {
+    height: 300px;
+    width: 500px;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    color:  rgba(50, 71, 92, 0.6);
+    background: var(--primary-bg);
+    border: none;
+}
+.upload-but2 {
+    width: 146px;
+}
+.button2 {
+    margin-bottom: 0;
+    margin-top: 26px;
+}
+.rest-but2 {
+    background-color: rgba(0, 0, 0, 0.15);
+    color:  rgba(50, 71, 92, 0.6);
+    font-size: 16px;
+}
+.rest-but2:hover {
+    background-color: rgba(0, 0, 0, 0.194);
+}
+.sub-section {
+    height: 200px;
+    width: 100%;
+    background: var(--primary-bg);
+    margin-top: 30px;
+    border-radius: 7px;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, .13), 0 5px 14px 0 rgba(0, 0, 0, .11);
+
+}
+.density {
+    height: 40px;
+    width: 100%;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+.box {
+    height: 37px;
+    width: 37px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.checkbox-in {
+    height: 15px;
+    width: 15px;
+}
+.p-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(50, 71, 92, 0.6);
+    cursor: pointer;
+
+}
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.045);
+}
+.upload-but4 {
+    margin-left: 24px;
+    background-color: #FF9786;
+    margin-top: 20px;
+
+}
+.up-posbutton {
+    height: 38px;
+    width: 160px;
+    background-color: rgb(255, 62, 29);
+    color: var(--primary-bg);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    box-shadow: 0 1px 20px 1px rgb(255, 62, 29);
+    position: absolute;
+    right: 100px;
+    position: fixed;
+    top: 560px;
+}
+.probutton {
+    position: relative;
+}
+.input-field:focus {
+    border:2px solid rgba(50, 71, 92, 0.6);
+
+}

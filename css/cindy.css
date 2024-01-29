@@ -1,0 +1,14 @@
+.content{
+    height: 100vh;
+    width: 100%;
+    background-color: skyblue;
+    font-size: 27px;
+    font-style: all-small-caps;
+}
+h4{
+    margin-top: 20px;
+    font-style: oblique;
+}
+h2{
+    margin-top: 20px;
+}

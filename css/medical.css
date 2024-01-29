@@ -1,0 +1,92 @@
+.madi{
+    height: 100vh;
+    width: 100%;
+    background-color: #AD21C4;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+}
+.page{
+    height: 370px;
+    width: 500px; 
+    background-color: #FBFBFB;
+    color: white;
+    border-radius: 20px;
+
+    margin-top: 110px;
+    margin-left: 450px;
+    text-align: center;
+
+    
+    
+    
+}
+h4{
+    padding-top: 11px;
+    border-style: solid;
+    
+    padding-bottom: 7px;
+    margin-top: 17px;
+    background-color: #fc0d0d  ;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 27px;
+    border: 2px solid black;
+}
+
+.row{
+
+    height: 100px;
+    width: 300px;  
+}
+
+
+
+.box{
+    height: 50px;
+    width: 154px;
+    background-color: #0a2fa1;
+    margin-top: 14px;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-style: oblique;
+    border-top-right-radius: 10px 9px;
+    border-top-left-radius: 10px 9px;
+
+}
+.box2{
+    width: 270px;
+}
+.box1{
+    width: 120px;
+}
+.line{
+    height: 100px;
+    width: 219px;
+    margin-top: 3px;
+    margin-left: 212px;
+    color: black;
+    font-family: "Sofia", sans-serif;
+
+}
+.letter1{
+
+    margin-top: -235px;
+    margin-left: -72px;
+    font-size: 18px;
+    
+}
+.letter2{
+    margin-top: 36px;
+    margin-left: 86px;
+    font-size: 15px;
+
+
+}
+.letter3{
+    margin-top: 25px;
+    margin-left: -9px;
+    font-size: 19px;
+    margin-right: 183px;
+}

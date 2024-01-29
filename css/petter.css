@@ -1,0 +1,51 @@
+.contian{
+    height: 100vh;
+    width: 100%;
+    background-color: #26C48C;
+    display: flex;
+}
+.rowletter{
+    
+    display: flex;
+    column-gap: 46px;
+    margin-top: 39px;
+    margin-left: 62px;
+    color: #FBFBFB;
+
+}
+.letter1{
+    font-size: 29px;
+    margin-right: 442px;
+
+
+}
+.pet{
+    margin-left: 470px;
+    margin-top: 192px;
+    color: #FBFBFB;
+}
+h1{
+    font-size: 65px;
+}
+h3{
+    margin-left: 109px;
+    font-size: 40px;
+}
+h5{
+    margin-left: 365px;
+    margin-top: 16px;
+    color: #FBFBFB;
+    font-size: 17px;
+}
+.butt{
+    height: 47px;
+    width: 133px;
+    margin-top: 30px;
+    margin-left: 595px;
+    background-color: #26C48C;
+    color: #FBFBFB;
+    font-size: 13px;
+    border: 2px solid #FBFBFB ;
+
+    
+}

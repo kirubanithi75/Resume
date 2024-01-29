@@ -1,0 +1,68 @@
+.contian{
+    height: 100vh;
+    width: 100%;
+    background-color: #24B6C4;
+    display: flex;
+    border-style: inset;
+    
+
+
+   }
+
+.page{
+
+   height: 347px;
+   width: 455px;
+   background-color: #FFFFFF; 
+   margin-top: 130px;
+   margin-left: 405px;
+}
+h2{
+    margin-top: 45px;
+    margin-left: 51px;
+    color: #26B2C4;
+    font-family: "Audiowide" , sans-serif; 
+
+}
+
+.user{
+    margin-left: 51px;
+    margin-top: 29px;
+}
+.pass{
+
+    margin-left: 0px;
+    margin-top: 29px;
+}
+            
+.input{
+    height: 42px;
+    width: 340px;
+    padding-left: 20px;
+    font-size: 21px;
+    font-family: "Sofia", sans-serif;
+
+}
+.input2{
+    height: 42px;
+    width: 340px;
+    
+}
+
+
+.login{
+    margin-left: 0px;
+    margin-top: 29px;
+
+}
+.butt{
+        height: 42px;
+        width: 340px;
+        background-color: #2196F3;
+        color: white;
+        font-size: 24px;
+        font-family: "Sofia", sans-serif;
+        border: none;
+
+
+}
