@@ -347,11 +347,16 @@
     background: var(--title-color);
     color: white;
   }
-.row-box {
-    display: flex;
+.project-card {
+    display: contents;
     justify-content: center;
     column-gap: 30px;
     align-items: center;
+}
+.project-cards {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
 }
 .item-bo {
     height: 309px;
@@ -508,35 +513,6 @@
    
 
 
-@media only screen and (max-width: 320px) {
- 
-    .Skills .row {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-
-
-    }
-    .slide-menu {
-        width: 120px;
-    }
-
-    .slide-menu .header-name {
-        font-size: 20px;
-    }
-
-    .menu-item {
-        padding: 15px 0px 15px 10px;   
-    
-    
-    }
-    .page {
-        padding-left: 120px;
-    }
-
-
-    
-
-
     .about-me .row {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -545,12 +521,10 @@
 
     }
 
-    .row-box {
+    .project-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
-        padding: 20px;
-        margin-top: 0px;
 
     }
 
@@ -560,10 +534,16 @@
     }
 
 
+    .main-section .name {
+        font-size: 24px;
+        font-weight: 400;
+    }
 
-
-
-
+    .main-section .web-h3 {
+        font-size: 59px;
+        font-weight: 600;
+        line-height: 70px;
+    }
 
 
 
@@ -594,12 +574,10 @@
 
     }
 
-    .row-box {
+    .project-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
-        padding: 20px;
-        margin-top: 0px;
 
     }
 
@@ -611,10 +589,21 @@
 
 
 
+    .main-section .name {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .main-section .web-h3 {
+        font-size: 59px;
+        font-weight: 600;
+        line-height: 70px;
+    }
+
+
 
 
 
 
 
   }
-
