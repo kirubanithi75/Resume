@@ -555,31 +555,36 @@
 
 
     .page {
-        padding-left: 150px;
+        padding-left: 111px;
     }
 
     .slide-menu {
-        width: 150px;
+        width: 111px;
+    }
+    .fa-home:before {
+        font-size: 15px;
+
+
     }
     .main-section .name {
-        font-size: 24px;
-        font-weight: 300;
+        font-size: 15px;
+        font-weight: 500;
         line-height: 30px;
     }
 
     .main-section .web-h3 {
-        font-size: 35px;
-        line-height: 40px;
-        font-weight: 500px;
+        font-size: 23px;
+        line-height: 28px;
+        font-weight: 500;
     }
 
     .box {
-        height: 240px;
-        width: 240px;
+        height: 212px;
+        width: 184px;
     }
     .image-h {
-        height: 240px;
-        width: 238px;
+        height: 211px;
+        width: 182px;
     }
 
     .box-skill {
@@ -588,8 +593,8 @@
     }
 
     .box-html {
-        height: 111px;
-        width: 118px;
+        height: 90px;
+        width: 105px;
     }
 
     .center-box::before {
@@ -601,13 +606,96 @@
     }
 
     .about-me  {
-        padding: 100px 10px;
+        padding: 33px 30px;
     }
 
     .center-box {
-        height: 110px;
-        width: 110px;
+        height: 85px;
+        width: 85px;
     }
+
+    .slide-menu .header-name {
+
+        font-size: 20px;
+
+    }
+    .menu-item {
+        font-size: 15px;
+        padding: 15px 0px 15px 15px;
+    }
+
+    .about-me .heading-h2 {
+        font-size: 19px;
+    }
+    .divider {
+        margin-bottom: 30px;
+    }
+    .divider::before {
+        width: 29px;
+    }
+    .divider::after  {
+        width: 29px;
+    }
+    .about-h3 {
+        font-size: 16px;
+    }
+    .line {
+        margin-top: 4px;
+    }
+    .intro-h4 {
+        font-size: 15px;
+        margin-top: 6px;
+    }
+    .discription {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .sub-h4  {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    .Skills {
+        padding: 33px;
+    }
+    .heading-h2l {
+        font-size: 19px;
+    }    
+
+    .heading-h2d {
+        font-size: 19px;
+    }
+    .portfolio {
+        padding: 16px;
+    }
+    .layer .icon-box {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .link-project {
+        font-size: 7px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
