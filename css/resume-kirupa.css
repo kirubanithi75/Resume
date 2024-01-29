@@ -516,7 +516,81 @@
 
 
     }
+    .slide-menu {
+        width: 120px;
+    }
+
+    .slide-menu .header-name {
+        font-size: 20px;
+    }
+
+    .menu-item {
+        padding: 15px 0px 15px 10px;   
+    
+    
+    }
+    .page {
+        padding-left: 120px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   }
+  @media only screen and (min-width:321px) and (max-width:768px) {
+    .Skills .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+    .about-me .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        
+
+    }
+
+    .row-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding: 20px;
+        margin-top: 0px;
+
+    }
+
+    .item-box {
+        height: 200px;
+        width: 200px;
+    }
+
+
+
+
+
+
+
+
+
+  }
+
