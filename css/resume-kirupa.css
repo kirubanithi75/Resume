@@ -639,7 +639,7 @@
 
     }
     .menu-item {
-        font-size: 15px;
+        font-size: 12px;
         padding: 15px 0px 15px 15px;
     }
 
@@ -698,7 +698,16 @@
     .link-project {
         font-size: 7px;
     }
-
+       .slide-menu .icon-box {
+        font-size: 7px;
+        display: block;
+        padding-left: 15px;
+        height: 40px;
+    
+    }
+    .icon-box i {
+        font-size: 10px;
+    }
 
 
 
