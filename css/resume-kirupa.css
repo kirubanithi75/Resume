@@ -293,27 +293,31 @@
     left: 82px;
 }
 .center-box2::before {
-    height: 45px;
-    width: 45px;
-    top: -14px;
-    left: 70px;
+    height: 65px;
+    width: 66px;
+    top: -7px;
+    left: 30px;
 
+    
 }
 .center-box3::before {
-    height: 86px;
-    width: 108px;
-    top: -31px;
-    left: 70px;
+    height: 110px;
+    width: 61px;
+    top: -14px;
+    left: 23px;
+    transform: rotate(14deg);
 
 }
 .center-box4::before {
-    height: 90px;
-    width: 129px;
-    top: -31px;
-    left: 52px;
+    height: 139px;
+    width: 46px;
+    top: -5px;
+    left: 40px;
+    border-radius: 1px;
+    transform: rotate(6deg);
+
 
 }
-
 .portfolio {
     width: 100%;
     background-color: f9f9f9;
