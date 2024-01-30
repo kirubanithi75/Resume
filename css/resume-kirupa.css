@@ -299,6 +299,21 @@
     left: 70px;
 
 }
+.center-box3::before {
+    height: 86px;
+    width: 108px;
+    top: -31px;
+    left: 70px;
+
+}
+.center-box4::before {
+    height: 90px;
+    width: 129px;
+    top: -31px;
+    left: 52px;
+
+}
+
 .portfolio {
     width: 100%;
     background-color: f9f9f9;
