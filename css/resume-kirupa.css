@@ -211,12 +211,10 @@
     font-weight: 600;
     color: rgb(68, 68, 68);
     line-height: 39px;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
     margin-top: 25px;
 }
 .intro-h4s {
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-weight: 600;
     font-size: 22px;
 }
@@ -227,7 +225,6 @@
     line-height: 25px;
 }
 .intro-h4r {
-    margin-top: 25px;
     font-weight: 600;
     font-size: 22px;
 
