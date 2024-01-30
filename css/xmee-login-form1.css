@@ -1,5 +1,4 @@
 .xmee-page{
-    height: 100vh;
     width: 100%;
     background-image: url(../image/bg22-l\ lo.jpg);
     background-size: cover;
@@ -46,7 +45,7 @@
     margin-top: 20px;
     padding: 46px 68px;
     position: relative;
-
+    margin-bottom: 32px;
 }
 .xmee{
     display: flex;
@@ -216,6 +215,7 @@
 }
 .Register-p span{
     color: #0077B5;
+        cursor: pointer;
 }
 .logo-img{
     width: 147px;
