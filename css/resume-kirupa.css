@@ -575,12 +575,16 @@
 
 
     .page {
-        padding-left: 111px;
+        padding-left: 40px;
     }
 
     .slide-menu {
-        width: 111px;
+        width: 40px;
     }
+    .menu-h5  {
+        display: none;
+    }
+
     .fa-home:before {
         font-size: 15px;
 
@@ -638,7 +642,8 @@
 
     .slide-menu .header-name {
 
-        font-size: 20px;
+    display: none;
+
 
     }
     .menu-item {
