@@ -67,30 +67,28 @@
     content: "\f015";
     font-size: 24px;
 }
-.slide-menu .row {
+.slide-menu .contacts {
     height: 225px;
-    display: flex;
     align-items: center;
-    column-gap: 20px;
-    justify-content: center;
-
+    position: absolute;
+    bottom: -122px;
 }
 .slide-menu .icon-box {
-    height: 32px;
-    width: 32px;
-    border: 1px solid var(--secondary-bg);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     color: var(--secondary-bg);
     cursor: pointer;
+    padding-left: 35px;
+    height: 50px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+
 }
-.slide-menu .icon-box:hover {
-    background-color: rgba(49, 155, 230, 0.935);
+.icon-box i {
+    font-size: 18px;
 }
+
 .main-container .main-section {
     height: 100vh;
     width: 100%;
