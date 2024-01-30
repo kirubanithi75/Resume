@@ -9,7 +9,6 @@
 
 
 .container {
-    height: 3860px;
     width: 100%;
     background: var(--primary-bg);
     padding-top: 96px;
@@ -18,12 +17,12 @@
 }
 .banner-area {
     height: 533px;
-    width: 1011px;
+    width: 100%;
     background-color: #FFFFFF;
 }
 .banner-area .header {
     height: 66px;
-    width: 1011px;
+    width: 100%;
     justify-content: space-between;
     padding: 15px;
     border-bottom: 1px solid #eeeeee;
@@ -40,7 +39,7 @@
 }
 .container .main-wrapper {
     height: 467px;
-    width: 1011px;
+    width: 100%;
 }
 .main-wrapper .image-love {
     height: 467px;
@@ -94,8 +93,7 @@
     justify-content: center;
 }
 .feature-area {
-    height: 726px;
-    width: 1011px;
+    width: 100%;
     background-color: #000000;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -177,8 +175,7 @@
     justify-content: center;
 }
 .service-area {
-    height: 970px;
-    width: 1011px;
+    width: 100%;
     background-color: #FFFFFF;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -292,8 +289,8 @@
     background-repeat: no-repeat;
 }
 .project-area {
-    height: 613px;  
-    width: 1011px;
+    height: 613px;
+    width: 100%;
     background-image: url(../image/project-bg.jpg\ kk.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -371,8 +368,7 @@
     background-color: rgba(127, 127, 127, 0.5);
 }
 .submit-page {
-    height: 429px;
-    width: 1011px;
+    width: 100%;
     background-color: #FFFFFF;
     padding-top: 100px;
     position: relative;
@@ -427,8 +423,7 @@
     margin-top: 50px;
 }
 .section {
-    height: 412px;
-    width: 1011px;
+    width: 100%;
     background-color: #000000;
     padding-top: 100px;
 }
