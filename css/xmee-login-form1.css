@@ -160,6 +160,7 @@
     justify-content: center;
     column-gap: 9px;
     margin-top: 30px;
+    cursor: pointer;
 }
 .online-button{
     height: 45px;
