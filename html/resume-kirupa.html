@@ -79,7 +79,7 @@
 
         <div class="main-container">
 
-            <div class="main-section">
+            <div class="main-section" id="home-pge">
 
                 <div class="intro">
 
@@ -93,7 +93,7 @@
 
             </div>
 
-            <div class="about-me">
+            <div class="about-me" id="about-scrol">
                 <div class="main-title">
 
                     <h2 class="heading-h2">
@@ -160,7 +160,7 @@
             </div>
 
 
-            <div class="Skills">
+            <div class="Skills" id="skil-scrol">
 
                 <h2 class="heading-h2 heading-h2l">
                     MY
@@ -213,7 +213,7 @@
 
 
 
-            <div class="portfolio">
+            <div class="portfolio" id="port">
 
                 <h2 class="heading-h2 heading-h2d">
                     My
@@ -525,12 +525,42 @@
     </div>
 
 
+
+
+
+     <script >
+
+
+
+    function about() {
+        document.getElementById("about-scrol").scrollIntoView({ 
+          behavior: 'smooth' 
+        });
         
-     <script >
+        }
+
+
+        function skills() {
+        document.getElementById("skil-scrol").scrollIntoView({ 
+          behavior: 'smooth' 
+        });
+        
+        }
+
+        function por() {
+        document.getElementById("port").scrollIntoView({ 
+          behavior: 'smooth' 
+        });
+        
+        }
+
+
         function home() {
-          window.scrollTo(0, 700);
+        document.getElementById("home-pge").scrollIntoView({ 
+          behavior: 'smooth' 
+        });
+        
         }
-     </script>
 
 
 
@@ -539,53 +569,18 @@
 
 
 
-     <script >
-        function home()
-      {
-          window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior:"smooth"
-          });
-          
-        }
-        function about()
-          {
-                  window.scrollTo({
-                    top: 650,
-                    left:0,
-                    behavior:"smooth"
-
-
-
-
-                  });
-                  
-               
-          }
-        function skills()
-         {
-          window.scrollTo({
-
-            top: 1429,
-            left:0,
-            behavior:"smooth"
 
 
 
 
 
-          });
-                    
-         }
-            function por()
-             {
-                window.scrollTo({
-                    top: 2000,
-                    left: 0,
-                    behavior:"smooth"
-                });
-            }
+
+
+
+
+
+
+
 
             
 
