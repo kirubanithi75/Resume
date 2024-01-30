@@ -523,7 +523,10 @@
 .heading-h2d span {
     color: #444;
 }
-   
+ .layer .icon-box:hover {
+    background: rgb(21 137 218);
+}
+  
 
   @media screen and (min-width:321px) and (max-width:768px) {
     .Skills .row {
