@@ -1,5 +1,5 @@
 .sub-page{
-    height: 750px;
+    height: 100%;
     width: 100%;
     background-image: url(../image/register.png);
     background-repeat: no-repeat;
@@ -9,6 +9,12 @@
     min-height: 163px;
     z-index: 1;
 }
+.discy-page {
+    height: 100vh;
+
+    
+}
+
 .layar{
     position: absolute;
     contain: "";
