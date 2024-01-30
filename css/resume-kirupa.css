@@ -75,7 +75,7 @@
 }
 .slide-menu .icon-box {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--secondary-bg);
     cursor: pointer;
     padding-left: 35px;
@@ -86,7 +86,7 @@
 
 }
 .icon-box i {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .main-container .main-section {
