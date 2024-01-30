@@ -467,6 +467,7 @@
     color: #ffffff75;
     font-size: 15px;
     justify-content: center;
+    cursor: pointer;
 }
 .project .row-social {
     column-gap: 10px;
