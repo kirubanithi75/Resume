@@ -1,5 +1,5 @@
 .xmee-page{
-    height: 809px;
+    height: 100vh;
     width: 100%;
     background-image: url(../image/bg22-l\ lo.jpg);
     background-size: cover;
@@ -41,11 +41,10 @@
     line-height: 28px;
 }
 .login-box{
-    height: 759px;
     width: 570px;
     background-color: #FFFFFF;
     margin-top: 20px;
-    padding: 65px 90px 65px 90px;
+    padding: 46px 68px;
     position: relative;
 
 }
