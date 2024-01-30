@@ -92,13 +92,15 @@
     
 
 }
+.input {
+    position: relative;
+}
 .eye-box{
     height: 48px;
     width: 30px;
     position: absolute;
-    top: 318px;
-    left: 457px;
-    right: 0;
+     top: 34px;
+    left: 361px;    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
