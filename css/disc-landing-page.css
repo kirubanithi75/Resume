@@ -214,6 +214,7 @@
 }
 .box-outer span{
     color:  rgb(45, 111, 247);
+    cursor: pointer;
 }
 .icon-letter{
     display: flex;
