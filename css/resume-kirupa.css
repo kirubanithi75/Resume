@@ -58,10 +58,6 @@
     column-gap: 10px;
     align-items: center;
 }
-.menu-active, .menu-item:hover {
-    color: #16c0f0;
-    background: #0F1D38;
-  } 
   .fa-home:before {
     content: "\f015";
     font-size: 24px;
@@ -424,13 +420,9 @@
     display: none;
 }
 .active {
-    color: white;
-    background-color: #16c0f0;
+    color: #16c0f0;
+    background-color: #0F1D38;
 }
-.active, .button-list:hover {
-    background: var(--title-color);
-    color: white;
-  }
 .project-cards {
     display: grid;
     grid-gap: 30px;
