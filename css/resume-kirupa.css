@@ -135,6 +135,76 @@
 .main-section .web-h3 span {
     color: rgba(49, 155, 230, 0.935);
 }
+.intro {
+    position: relative;
+    animation: intro 4s backwards;
+  
+}
+@keyframes intro {
+    from {left: 0px; transform: .99s;}
+    to {left: 100px;}
+  
+}
+
+
+
+
+
+
+
+
+
+.reveal{
+    position: relative;
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.activ {
+    opacity: 1;
+  }
+  
+  .activ.fade-bottom {
+    animation: fade-bottom 1s alternate;
+  }
+  .activ.fade-left {
+    animation: fade-left 1s alternate;
+  }
+  .activ.fade-right {
+    animation: fade-right 1s alternate;
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
 .about-me {
     width: 100%;
     background: var(--secondary-bg);
