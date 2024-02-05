@@ -137,7 +137,7 @@
   
 }
 @keyframes intro {
-    from {left: 0px; transform: .99s;}
+    from {left: 0px;transform: translatex(8px);}
     to {left: 100px;}
   
 }
