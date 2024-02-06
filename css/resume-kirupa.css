@@ -133,12 +133,12 @@
 }
 .intro {
     position: relative;
-    animation: intro 4s backwards;
+    animation: intro 1s backwards;
   
 }
 @keyframes intro {
-    from {left: 0px;transform: translatex(8px);}
-    to {left: 100px;}
+    from {left: 0px;transform: translatex(1px);}
+    to {left: 70px;}
   
 }
 
