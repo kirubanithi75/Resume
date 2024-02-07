@@ -248,14 +248,12 @@
 }
 .box {
     height: 456px;
-    width: 380px;
     background: linear-gradient(-50deg, #16c0f0 62%, transparent 25%);
     box-shadow: 0 0 10px #d9d9d9;
 }
 .image-h {
     height: 456px;
     padding: 8px;
-    width: 380px;
 }
 .about-me .row {
     display: flex;
