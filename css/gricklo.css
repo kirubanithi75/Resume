@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 163px;
     z-index: 1;
 }
 .container::before {
@@ -74,6 +73,9 @@
     column-gap: 20px;
     color: #fff;
 }
+.menu-item {
+    cursor: pointer;
+}
 .header .header-btn {
     color: #fff;
     font-family: "Work Sans",sans-serif;
@@ -81,10 +83,11 @@
     font-size: 16px;
     padding: 0 3px;
     background: none;
-    margin-right: 30px;
+    margin-right: 30px; 
+    cursor: pointer;
 
 }
-.header .add-but {
+.add-but {
     background: #4DB7FE;
     color: #fff;
     font-size: 16px;
@@ -101,7 +104,7 @@
     padding: 24px 23px !important;
     margin-left: 0px;
 }
-.header .add-but::before {
+.add-but::before {
     content: "";
     position: absolute;
     left: 0;
@@ -117,7 +120,7 @@
     transform: scaleX(0);
     
 }
-.header .add-but:hover::before {
+.add-but:hover::before {
     transform: scaleX(1);
     z-index: -1;
 }
@@ -227,7 +230,6 @@
 .sub-title {
     color: #1A213D;
     font-size: 36px;
-    display: block;
     font-weight: 600;
     line-height: 1.4;
     margin-bottom: 18px;
@@ -380,7 +382,7 @@
     height: 209px;
     width: 354px;
     position: relative;
-
+    
     z-index: 0;
 }
 .out-image::before {
@@ -463,12 +465,12 @@
     margin-bottom: 30px;
 }
 .properties-card {
-    height: 410px;
     width: 412px;
     background-color: #fff;
     border-radius: 5px;
     position: relative;
     box-shadow: 0px 6px 6px 0px rgba(2,25,65,0.08);
+    padding-bottom: 31px;
 }
 .properties-cards {
     display: flex;
@@ -499,6 +501,7 @@
     padding: 7px 15px;
     border-radius: 25px;
     background: rgba(126,109,92,0.9);
+    cursor: pointer;
 }
 .img-text {
     position: absolute;
@@ -601,9 +604,303 @@
     color: rgb(48, 76, 187);
     font-size: 20px;
     border-radius: 30px;
+    cursor: pointer;
+}
+.icon-contact:hover {
+    background-color: #0b34c9;
+    color: #fff;
 }
 .contact {
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+.wantToWork {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-work {
+    height: 127px;
+    width: 734px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #DEE0E5;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 30px 50px;
+}
+.pera h2 {
+    color: #1A213D;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+.pera p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #000;
+}
+.add-but2 {
+    padding: 30px 35px !important;
+}
+.our-services {
+    width: 100%;
+    background-color: #F1F6F9;
+    padding: 90px 0px 70px;
+}
+.services {
+    width: 356px;
+    text-align: center;
+}
+.services-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: auto;
+    width: 80%;
+}
+.services-icon {
+    height: 88px;
+    width: 356px;
+    text-align: center;
+}
+.services-img {
+    width: 74px;
+}
+.services h5 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #1A213D;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.services:hover.services h5{
+    color: #0b34c9;
+}
+.services p {
+    font-weight: 300;
+    color: #6A6063;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.video-testiomonial {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 100px 0px 90px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+
+}
+.image-video {
+    width: 546px;
+    background-image: url(../image/video-bg.jpg\ sec.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.img-play-logo {
+    position: absolute;
+    border: 37px solid rgba(255,255,255,0.2);
+    content: "";
+    border-radius: 50%;
+    left: -30px;
+    top: 183px;
+    right: 0;
+    background: #0000;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 40px;
+}
+.box-p {
+    height: 210px;
+    width: 546px;
+    background-color: #F1F6F9;
+    padding: 30px 100px 30px 40px;
+    color: #1A213D;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.founder-text span {
+    color: #1A213D;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.founder {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 30px;
+}
+@media screen and (min-width:321px) and (max-width:768px) {
+
+
+    .header .main-menu {
+        display: none;
+    }
+    .container .header {
+        display: flex;
+        justify-content: space-around;
+        column-gap: 20px;
+    }
+    .header .logo-img {
+        height: 34px;
+    }
+    .header .menu-items {
+        column-gap: 11px;
+    }
+    .button-header {
+        display: flex;
+        column-gap: 7px;
+    }
+    .header .header-btn {
+        font-size: 10px;
+    }
+    .add-but {
+        font-size: 10px;
+        padding: 14px 14px !important; 
+    }
+    .add-but2 {
+        padding: 20px 20px !important;
+    }
+    .contain .input-text {
+        margin-top: 7px;
+    }
+    .input {
+        width: 163px;
+        height: 41px;
+        font-size: 18px;
+        display: none;
+
+    }
+    .header .icon-box  {
+        display: none;
+    }
+    .contain .litle-h1  {
+        font-size: 20px;
+    }
+    .contain .visit-p {
+        font-size: 17px;
+        padding: 0;
+    }
+    .contain .search-box  {
+        height: 220px;
+        display: block;
+    }
+    .contain .input-text {
+        width: 225px;
+        height: 50px;
+        margin-top: 15px;
+        font-size: 13px;
+
+    }
+    .contain .box-letter {
+        left: 129px;
+        top: 45px;    }
+    .contain .box-letter2 {
+        left: 107px;
+        top: 28px;
+        font-size: 13px;
+
+        }
+
+    .contain .input-text::placeholder  {
+        font-size: 13px;
+    }
+    .contain .search-form {
+        font-size: 14px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    .Destination-page .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .sub-title {
+        font-size: 16px;
+    }
+    .sub-header-p  {
+        font-size: 14px;
+    }
+
+    .photos-page .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+
+    }
+    .properties-cards {
+        display: block;
+
+    }
+
+    .properties-card {
+        margin-top: 35px;
+    }
+    .services-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    .pera h2 {
+        font-size: 14px;
+    }
+    .pera p {
+        font-size: 13px;
+    }
+
+
+    .image-video{
+        height: 333px;
+        width: 402px;
+    }
+    .video-testiomonial  {
+        display: block;
+    }
+
+    .header-h2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .box-p {
+        height: 210px;
+        width: 410px;
+        padding: 15px;
+    }
+
+    .testimonial-caption {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
 }
