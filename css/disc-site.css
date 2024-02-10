@@ -136,6 +136,9 @@ background-color: #1B1D22;
     border-radius: 50px;
     
 }
+.menu-item:hover {
+    color: #2d6ff7;
+}
 .box-author:hover{
     background-color: #1B1D22;
     border: 2px solid #484d5a;
@@ -173,6 +176,7 @@ background-color: #1B1D22;
 }
 .section .follow-button{
     height: 30px;
+    width: 107px;
     border: none;
     background-color: #33353c;
     color: rgb(124, 127, 133);
@@ -180,8 +184,18 @@ background-color: #1B1D22;
     border-radius: 2px;
     cursor: pointer;
 }
+.section .follow-button2 {
+    height: 30px;
+    width: 102px;
+
+}
+.section .follow-button3 {
+    height: 30px;
+    width: 83px;
+}
 .section .ask-button {
     height: 30px;
+    width: 151px;
     background-color: rgb(45, 111, 247);
     border: none;
     border-radius: 2px;
@@ -207,7 +221,7 @@ background-color: #1B1D22;
     color: #4774D1;
 }
 .ask-button:hover{
-    background-color: #7C7F85;
+    background-color: rgb(41 92 198);
 }
 .main-section{
     height: 1360px;
@@ -253,7 +267,8 @@ background-color: #1B1D22;
     color: rgb(198, 199, 201);
     line-height: 22px;
     margin-bottom: 8px;
-    margin-left: 21px;
+    margin-left: 21px;  
+    cursor: pointer;
 
 }
 .main-section .menu-ico{
@@ -405,6 +420,7 @@ background-color: #1B1D22;
     color: rgb(255, 255, 255);
     font-weight: 400;
     position: relative;
+    cursor: pointer;
     
 }
 .main-inner .social-ul{
@@ -419,8 +435,14 @@ background-color: #1B1D22;
     background-color: rgb(239, 78, 65);
 }
 .main-inner .social-icon:hover{
-    background-color: #22242A;
+    background-color: rgb(58 97 182);
     color: white;
+}
+.main-inner .social-icon1:hover {
+    background-color: rgb(43 144 186);
+}
+.main-inner .social-icon2:hover {
+    background-color: rgb(201 58 46);
 }
 .layar::before{
     content: "Facebook";
@@ -562,7 +584,7 @@ background-color: #1B1D22;
     cursor: pointer;
 }
 .but-ask:hover{
-    background-color: #7C7F85;
+    background-color: rgb(37 89 198);
     color: white;
 }
 .sidebar .stats-inner {
