@@ -4,6 +4,7 @@
     background-color: #FFFFFF;
 }
 .xmee-img{
+    height: 630px;
     width: 674px;
     background-image: url(../image/bg10-lxmee.jpg);
     background-repeat: no-repeat;
@@ -43,7 +44,12 @@
     color: rgb(255, 255, 255);
     line-height: 29px;
     border-radius: 4px;
+    cursor: pointer;
 }
+.p-keep1:hover {
+    color: #DD6C72;
+    cursor: pointer;
+} 
 .box{
     display: flex;
     justify-content: center;
@@ -56,9 +62,9 @@
 }
 .xmee-container{
     display: flex;
-    width: 100%;
 }
 .login-box{
+    height: 443px;
     width: 450px;
     background-color: #FFFFFF;
 }
@@ -128,6 +134,7 @@
     line-height: 29px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 .button{
     text-align: center;
@@ -148,7 +155,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(59, 89, 152);
-    
+    cursor: pointer;    
 }
 .socil-box1{
     color: rgb(0, 172, 238);
