@@ -94,7 +94,7 @@
     cursor: pointer;
 }
 .get-but:hover {
-    background-color: #28ae608f;
+    background-color: #109347;
 }
 .letter {
     cursor: pointer;
@@ -337,7 +337,7 @@
     cursor: pointer;
 }
 .about-but:hover {
-    background-color: #28ae60ca;
+    background-color: #109347;
 }
 .Business-letter{
     padding-left: 32px;
