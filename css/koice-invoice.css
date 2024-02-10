@@ -267,17 +267,3 @@ li{
 
 
 }
-.button{
-    text-align: center;
-    margin-top: 16px;
-}
-.button i{
-    font-size: 14px;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.5);
-}
-.but:hover{
-    background-color: #D3D4D5;
-    color: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
