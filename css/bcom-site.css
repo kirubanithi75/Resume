@@ -150,6 +150,10 @@
     cursor: pointer;
     margin-top: 20px;
 }
+.menu:hover {
+    color: #6936F5;
+}
+
 .bcom-page{
     display: flex;
     justify-content: center;
@@ -311,8 +315,11 @@
     height: 100%;
     width: 0;
     opacity: 0;
-    transition: .1s all;
+    transition: .30s all;
     background: linear-gradient(126deg, #CDBEF6 0%, #6936F5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }   
 .start-but:hover .layar-button{
@@ -321,6 +328,9 @@
     transition: .3s all;
     width: 100%;
     cursor: pointer;
+}
+.numbet-but:hover {
+    background-color: #ede7e7;
 }
 .boc-phone{
     height: 30px;
@@ -572,6 +582,7 @@
     font-weight: 500;
     color: rgb(255, 255, 255);
     line-height: 25px;
+    cursor: pointer;
 }
 .all-row{
     display: flex;
@@ -634,7 +645,6 @@
     cursor: pointer;
 }
 .icon-market{
-    height: 98px;
     width: 75px;
     background: var(--primary-hoverbutton-bg);
     display: flex;
@@ -643,8 +653,11 @@
     font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
-
+.icon-market:hover {
+    background: var(--button-hover);
+}
 
 
 .market{
@@ -670,6 +683,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    cursor: pointer;
 }
 .plan{
     display: flex;
@@ -765,7 +779,7 @@
 }
 .icon-bo li{
     font-size: 13px;
-    color:  #FFFFFF8C;
+    color: #ffffff;
     
 }
 .user-h6w{
@@ -773,7 +787,7 @@
 }
 .icon-bo i{
 
-    color: #080D417A;
+    color: #ffffff;
     background: none;
     border-radius: 20px;
 }
@@ -787,6 +801,7 @@
     line-height: 28px;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .user-button:hover{
@@ -859,6 +874,7 @@
     font-weight: 400;
     background: var(--primary-hoverbutton-bg);
     border: none;
+    cursor: pointer;
 }
 .icon-but i{
     font-size: 17px;
@@ -885,6 +901,7 @@
     font-weight: 600;
     line-height: 28px; 
     position: relative;   
+    cursor: pointer;
 }
 .layar::before{
     position: absolute;
@@ -939,6 +956,10 @@
     height: 344px;
     width: 409px;
     padding: 30px 40px 40px 40px;
+}
+.read-but:hover .fa-long-arrow-right:before {
+    margin-left: 10px;
+    transition: .65s;
 }
 .date{
     font-size: 16px;
@@ -1216,7 +1237,7 @@
     margin-top: 30px;
     background: var(--primary-bg);
     border: none;
-
+    cursor: pointer;
 
 }
 .submit-button:hover{
