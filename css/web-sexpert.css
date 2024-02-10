@@ -99,6 +99,9 @@
     cursor: pointer;
 
 }   
+.header .con-but:hover {
+    background-color: #b92936;
+}
 .header .button {
     display: flex;
     column-gap: 40px;
@@ -190,7 +193,9 @@
 
 }
 .section .box-icon:hover {
-    box-shadow: 11px 4px 0px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 .section .box-icon2:hover {
     box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.4);
@@ -367,7 +372,7 @@
 .gallery-box:hover {
     -webkit-transform: scale(1.1);
     transition: .3s all;
-
+    z-index: 1;
 }
   .section-titlee {
     color: var(--primarry-back-color);
@@ -502,6 +507,7 @@
     color: rgb(255, 255, 255);
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
+    cursor: pointer;
 
 }
 .box-pos2 {
@@ -515,7 +521,9 @@
 
 }
 .box-pos:hover {
-    box-shadow: 0 0 40px 0 rgba(0,0,0,.45);
+    -webkit-box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 .services-section {
     height: 1324px;
@@ -537,7 +545,7 @@
 .services-section  .row {
     display: flex;
     justify-content: center;
-    column-gap: 30px;
+    column-gap: 19px;
     margin-top: 90px;
 }
 .service {
@@ -802,4 +810,7 @@
     width: 445px;
     background-color: yellow;
 
+}
+.contact-section .send-button:hover {
+    background-color: #241b48;
 }
