@@ -116,6 +116,11 @@
     color: #FFF;
     line-height: 62px;
 }
+.kir a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .nam-p{
     font-size: 20px;
     font-weight: 400;
