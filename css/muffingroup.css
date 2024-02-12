@@ -1,0 +1,284 @@
+:root {
+    --primary-bg: rgb(255, 255, 255);
+    --btn-background-color: rgb(157, 42, 246);
+    --btn-hover-color: #781ebe;
+    --secondary-color: #262626;
+    --discription-color: rgb(171, 171, 171);
+}
+
+
+.video {
+    width: 100%;
+}
+.video-contain {
+    height: 750px;
+    width: 100%;
+    position: relative;
+
+}
+.header {
+    height: 80px;
+    width: 100%;
+    background: var(--secondary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+.header .logo-vr {
+    width: 50px;
+    cursor: pointer;
+}
+.header .menu-items {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(172, 172, 172);
+}
+.header .btn {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px 25px;
+    background-color: rgb(71, 71, 71);
+    color: var(--primary-bg);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.header .btn:hover {
+    background-color: rgb(98, 98, 98);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 45px;
+}
+.header .menu-item {
+    cursor: pointer;
+}
+.header .active {
+    color: var(--primary-bg);
+}
+.header .menu-item:hover {
+    color: var(--primary-bg);
+}
+.title-contion .logo-vr {
+    height: 313px;
+    width: 100%; 
+    background: url(../image/vr-slider-decoration.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.title-contion {
+    width: 80%;
+    position: absolute;
+    top: 150px;
+    left: 140px;
+    text-align: center;
+}
+.title-contion .sub-title {
+    font-size: 55px;
+    color: var(--primary-bg);
+    font-weight: 500;
+    line-height: 60px;
+}
+.month p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--primary-bg);
+    margin-top: 10px;
+}
+.price {
+    width: 110px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--primary-bg);
+    background-color: black;
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.month {
+    display: flex;
+    align-items: baseline;
+    column-gap: 16px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.title-contion .but {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--primary-bg);
+    background-color: #9D2AF6;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.title-contion .but:hover {
+    background-color: #8721d5;
+
+}
+.section {
+    width: 100%;
+    background: var(--secondary-color);
+    padding-top: 120px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 7px;
+    color: var(--primary-bg);
+}
+.sub-title-h2 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    color: var(--primary-bg);
+    margin-top: 50px;
+}
+.discription {
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--discription-color);
+    line-height: 32px;
+    margin-top: 20px;
+
+}
+.img-wrapper {
+    width: 100%;
+    padding-top: 100px;
+}
+.section .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.image-wrapper {
+    height: 550px;
+    width: 100%;
+}
+.about-setting {
+    height: 218px;
+    width: 281px;
+    background: rgb(59, 59, 59);
+    border-radius: 12px;
+    padding: 35px;
+    margin-bottom: 35px;
+}
+.logo-about {
+    width: 72px;
+}
+.about-setting .title {
+    color: var(--primary-bg);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.desc {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+    color: var(--discription-color);
+}
+.about-setting:hover {
+    background-color: rgb(75, 75, 75);
+    transition: 1s;
+}
+.kn-button {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-bg);
+    cursor: pointer;
+    background: var(--btn-background-color);
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.kn-button:hover {
+    background-color: var(--btn-hover-color);
+}
+.gallery {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 100px 0px;
+    text-align: center;
+}
+.gallery-logo {
+    width: 140px;
+    margin-bottom: 20px;
+}
+.sub-title-h2color {
+    color: var(--secondary-color);
+}
+.discription-color {
+    color: rgb(88, 88, 88);
+}
+.gallery .photo {
+    width: 89%;
+    margin-top: 75px;
+}
+.section-inner {
+    width: 100%;
+    background-color: tomato;
+}
+.text-box {
+    height: 674px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-inner .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.text-box-image {
+    background-image: url(../image/vr-pic3.webp);
+    background-position: center center;
+}
+.title-color {
+    color: var(--secondary-color);
+}
+.sub-title-h2fondsize {
+    font-size: 42px;
+    color: #262626;
+    line-height: 50px;
+}
+.box-2 {
+    background-image: url(../image/vr-pic4.webp);
+    background-position: center center;
+}
+.background-overlay {
+    height: 989px;
+    width: 100%;
+    background-image: url(../image/vr-pic5.webp);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-title-h2-mar {
+    margin-top: 20px;
+}
+.kn-button-small {
+    font-size: 15px;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-bg);
+
+}
