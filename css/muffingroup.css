@@ -210,7 +210,7 @@
 .gallery {
     width: 100%;
     background-color: #F0F0F0;
-    padding: 100px 0px;
+    padding: 100px 0px 0px 0px;
     text-align: center;
 }
 .gallery-logo {
@@ -226,10 +226,6 @@
 .gallery .photo {
     width: 89%;
     margin-top: 75px;
-}
-.section-inner {
-    width: 100%;
-    background-color: tomato;
 }
 .text-box {
     height: 674px;
@@ -269,6 +265,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0px;
 }
 .sub-title-h2-mar {
     margin-top: 20px;
@@ -281,4 +278,312 @@ a {
     text-decoration: none;
     color: var(--primary-bg);
 
+}
+.photo-wrapper {
+    height: 1081px;
+}
+.main-section {
+    width: 100%;
+    padding: 120px 0px 40px ;
+}
+.but-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.title-price {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 42px;
+    color: var(--secondary-color);
+    margin-top: 50px;
+}
+.kn-button-color {
+    background-color: rgb(255, 255, 255);
+    color: var(--btn-background-color);
+}
+.kn-button-color:hover {
+    color: var(--primary-bg);
+}
+.image-iner {
+    height: 800px;
+    width: 100%;
+    background-image: url(../image/vr-pic6.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.setting-about {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 80px 100px;
+}
+.setting-about .icon-box {
+    height: 72px;
+    width: 72px;
+    border-radius: 9px;
+    background-color: var(--primary-bg);
+}
+.icon-img {
+    height: 72px;
+    
+}
+.title-text {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.desc-fond {
+    font-size: 20px;
+    text-align: start;
+}
+.setting-about .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 90px;
+}
+.about-box  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+
+
+}
+.icon-text {
+    width: 500px;
+}
+.game-page {
+    width: 100%;
+    background-image: url(../image/vr-bg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 120px 0px;
+    text-align: center;
+}
+.trailer-box {
+    height: 255px;
+    width: 299px;
+    border-radius: 30px;
+    background-image: url(../image/vr-pic7.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 35px;
+}
+.game-page .trailer-row {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 100px;
+
+}
+.vr-pic {
+    width: 299px;
+    border-radius: 30px;
+
+}
+.trailer-box-vice {
+    background-image: url(../image/vr-pic8.webp);
+
+}
+.trailer-box-new {
+    background-image: url(../image/vr-pic9.webp);
+
+}
+.trailer-box-war {
+    background-image: url(../image/vr-pic10.webp);
+
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-bg);
+    background-color: #3c3b3b;
+    background-image: url(../image/stripes_10_w.png);
+    padding: 4px 8px;
+}
+.text-img {
+    width: 119px;
+}
+.trailer-box {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.trailer-box h2 {
+    font-size: 24px;
+    color: var(--primary-bg);
+    margin-top: 10px;
+    font-weight: 400;
+}
+.line {
+    height: 1px;
+    width: 0;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.trailer-box:hover .text-img .line {
+    width: 100%;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.Accesories-page {
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 120px 0px;
+    text-align: center;
+}
+.sub-title-h2margi {
+    margin-top: 35px;
+    color: var(--secondary-color);
+}
+.box-game {
+    height: 582px;
+    width: 367px;
+    background-color: var(--primary-bg);
+    padding: 30px;
+    border-radius: 24px;
+    text-align: start;
+}
+.Accesories-page .row {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 60px;
+}
+.title-box {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #262626;
+    margin-bottom: 8px;
+}
+.title-p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #585858;
+    margin-bottom: 40px;
+}
+.vr-pic-box {
+    width: 317px;
+}
+.kn-button-size {
+    width: 307px;
+    background-color: #F0F0F0;
+    color: #262626;
+}
+.kn-button-size:hover {
+    background-color: #ded7d7;
+
+}
+.video-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sub-title-h2-pos {
+    position: absolute;
+    top: 250px;
+}
+.preorder {
+    width: 100%;
+    padding: 120px 66px;
+    background-color: #262626;
+    background-image: url(../image/vr-pic14.webp);
+    background-position: bottom left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+
+}    
+
+.input-inner {
+    width: 48%;
+}
+
+.input-addres {
+    width: 100%;
+    border-radius: 24px;
+    border: 2px solid #484848;
+    margin-top: 42px;
+    padding: 50px;
+
+}
+.title-input {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary-bg);
+
+}
+.title-input-2 {
+    font-weight: 500;
+    margin-top: 10px;
+}
+.input-name {
+    height: 374px;
+    width: 100%;
+    margin-top: 33px;
+}
+.name-input {
+    height: 39px;
+    width: 100%;
+    background: none;
+    border-bottom: 2px solid #575757;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #9a9a9a;
+    margin-top: 15px;
+    padding: 10px;
+}
+.massage-input {
+    height: 60px;
+    width: 100%;
+    background: none;
+    border-bottom: 2px solid #575757;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-top: 10px;
+    padding: 10px;
+}
+.name-input:focus {
+    border-bottom: 2px solid var(--btn-hover-color);
+}
+.massage-input:focus {
+    border-bottom: 2px solid var(--btn-hover-color);
+
+}
+.phone-number {
+    width: 100%;
+    border-radius: 24px;
+    background-color: #434343;
+    padding: 40px;
+    margin-top: 40px;
+}
+.phone-number p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ababab;
+    margin-bottom: 30px;
+}
+.phone-number h4 {
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--primary-bg);
+}
+.kn-button-shart {
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 30px;
 }
