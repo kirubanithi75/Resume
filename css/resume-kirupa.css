@@ -521,6 +521,13 @@
     background-position: top;
 
 }
+.item-box1 {
+    background-image: url(../image/create.jpeg);
+}
+.item-box18 {
+    background-image: url(../image/saker.jpeg);
+}
+
 .layer {
     position: absolute;
     bottom: 0;
