@@ -72,8 +72,18 @@
     background: url(../image/vr-slider-decoration.svg);
     background-size: cover;
     background-repeat: no-repeat;
-
-
+    position: relative;
+    animation: intro 1s backwards;
+}
+@keyframes intro {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 .title-contion {
     width: 80%;
@@ -164,7 +174,6 @@
     column-gap: 20px;
 }
 .image-wrapper {
-    height: 550px;
     width: 100%;
 }
 .about-setting {
@@ -279,12 +288,9 @@ a {
     color: var(--primary-bg);
 
 }
-.photo-wrapper {
-    height: 1081px;
-}
 .main-section {
     width: 100%;
-    padding: 120px 0px 40px ;
+    padding: 120px 0px 0px ;
 }
 .but-order {
     display: flex;
@@ -306,13 +312,9 @@ a {
 .kn-button-color:hover {
     color: var(--primary-bg);
 }
-.image-iner {
-    height: 800px;
-    width: 100%;
-    background-image: url(../image/vr-pic6.webp);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.vr-back-image {
+    width: 82%;
+    margin-top: 60px;
 }
 .setting-about {
     width: 100%;
@@ -339,11 +341,10 @@ a {
     font-size: 20px;
     text-align: start;
 }
-.setting-about .row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.ram-about {
+    display: flex;
     grid-gap: 20px;
-    width: 90px;
+
 }
 .about-box  {
     display: grid;
@@ -351,9 +352,6 @@ a {
     grid-gap: 50px;
 
 
-}
-.icon-text {
-    width: 500px;
 }
 .game-page {
     width: 100%;
@@ -587,3 +585,195 @@ a {
     font-weight: 500;
     margin-top: 30px;
 }
+
+
+
+.reveal{
+    position: relative;
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.activ {
+    opacity: 1;
+  }
+  
+  .activ.fade-bottom {
+    animation: fade-bottom 1s alternate;
+  }
+  .activ.fade-left {
+    animation: fade-left 1s alternate;
+  }
+  .activ.fade-right {
+    animation: fade-right 1s alternate;
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+
+  @media screen and (min-width:321px) and (max-width:768px){
+
+    .header .menu-items {
+        display: none;
+    }
+
+    .title-contion .sub-title {
+        font-size: 14px;
+        line-height: 15px;
+        font-weight: 300;
+    }
+    .title-contion .logo-vr {
+        height: 77px;
+        width: 82%;
+    }
+    .month p  {
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .month {
+        column-gap: 7px;
+        margin-top: 2px;
+
+    }
+    .price {
+        width: 75px;
+        font-size: 11px;
+        padding: 8px;
+    }
+    .video-contain {
+        height: 230px;
+    }
+    .title-contion {
+        top: 95px;
+        left: 62px;
+    }
+
+    .title-contion .but {
+        font-size: 10px;
+        padding: 7px;
+        margin-top: 10px;
+    }
+
+    .sub-title-h2  {
+        font-size: 15px;
+        margin-top: 9px;
+        line-height: 22px;
+    }
+    .discription {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 7px;
+    }
+
+    .img-wrapper  {
+        padding-top: 30px;
+    }
+
+    .section .row {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        justify-items: center;
+    }
+    .gallery-logo  {
+        width: 140px;
+        margin-bottom: 10px;
+    }
+    .gallery .photo {
+        margin-top: 18px;
+    }
+
+    .section-inner .row  {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .about-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+    }
+    .setting-about .icon-box {
+        height: 55px;
+        width: 55px;
+    }
+    .icon-img {
+        height: 55px;
+    }
+    .title-text  {
+        font-size: 15px;
+    }
+    .desc-fond  {
+        font-size: 15px;
+    }
+    .setting-about {
+        padding: 30px;
+    }
+    .game-page .trailer-row  {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        justify-items: center;
+        grid-gap: 20px;
+        margin-top: 20px;
+
+    }
+    .Accesories-page .row  {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        justify-items: center;
+        grid-gap: 20px;
+        margin-top: 20px;
+
+
+    }
+    .Accesories-page {
+        padding: 20px 0px;
+    }
+    .preorder {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .sub-title-h2-pos {
+        top: 90px;
+    }
+    .input-inner  {
+        width: 84%;
+    }
+
+
+  }
