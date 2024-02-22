@@ -38,7 +38,6 @@
     padding-top: 160px;
 }
 .box-contain {
-    height: 500px;
     width: 100%;
     background-color: #0E1D1E;
     margin-top: 70px;
@@ -434,4 +433,164 @@
 .kn-but:hover {
     background-color: rgba(4, 32, 26, 0.183);
 
+}
+.Partners-page {
+    height: 650px;
+    width: 100%;
+    background-color: #091314;
+    padding: 40px 80px;
+}
+.website {
+    height: 104px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.133);
+}
+.famer {
+    margin-top: 40px;
+}
+.fam-h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.box-icon {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(9, 19, 20);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.imag-pos {
+    height: 70px;
+    width: 500px;
+    position: absolute;
+    visibility: hidden;
+    top: 20px;
+    bottom: 0;
+    right: 207px;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(../image/fam.kkk.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top right;
+}
+.website:hover .imag-pos {
+    visibility: visible;
+    transition: .65s all;
+    opacity: 1;
+    height: 100%;
+}
+.fam-pos {
+    width: 400px;
+}
+.box-icon i {
+    font-size: 20px;    
+    color: rgb(255, 255, 255);
+}
+.sub-section {
+    width: 100%;
+    background-color: #091314;
+    padding: 100px 80px;    
+}
+.Wrapper-box {
+    height: 511px;
+    width: 100%;
+    background-color: #0A1314;
+    border-radius: 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 100px;
+}
+.nosie-box {
+    height: 494px;
+    width: 384px;
+    border-radius: 60px;
+    background: linear-gradient(rgba(14, 31, 33, 0.4) 0%, rgba(13, 31, 33, 0.5) 32.4324%, rgb(13, 31, 33) 57.4667%);
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.43) 0px 0.602187px 0.602187px -1.25px, rgba(0, 0, 0, 0.38) 0px 2.28853px 2.28853px -2.5px, rgba(0, 0, 0, 0.15) 0px 10px 10px -3.75px;
+    transform: rotate(-3deg);
+    top: -60px;
+    left: 100px;
+
+}
+.voice-h {
+    width: 385px;
+    border-top-left-radius: 62px;
+    border-top-right-radius: 62px;
+}
+.design-h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    cursor: pointer;
+}
+.nosie-box p {
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.481);
+    padding-left: 30px;
+    margin-top: 7px;
+}
+.kn-butmore {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(132, 127, 253);
+    margin-left: 30px;
+    margin-top: 14px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+    column-gap: 10px;
+    padding: 10px;
+    background: none;
+}
+.kn-butmore:hover i {
+    margin-left: 10px;
+    transition: .65s all;
+}
+.title-h2 {
+    padding-top: 100px;
+}
+.description-2 {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.538);
+
+}
+.fond {
+    font-size: 52px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-top: 200px;
+    text-align: center;
+}
+.fond span {
+    color: rgb(82, 204, 146);
+    margin-left: 25px;
+}
+.show {
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
 }
