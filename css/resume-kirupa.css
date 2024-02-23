@@ -527,6 +527,16 @@
 .item-box18 {
     background-image: url(../image/saker.jpeg);
 }
+.item-box20 {
+    background-image: url(../image/map-1.jpeg);
+    background-position: top;
+}
+.item-box21 {
+    background-image: url(../image/dive-ll.jpeg);
+    background-position: top;
+
+}
+
 
 .layer {
     position: absolute;
