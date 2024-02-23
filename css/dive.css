@@ -230,7 +230,7 @@
 }
 .box-big {
     height: 400px;
-    width: 58%;
+    width: 400px;
     background-color: #0C1618;
     border-radius: 50%;
     box-shadow: rgba(255, 255, 255, 0.04) 0.44458px 0.59278px 1.03736px -0.4px inset, rgba(255, 255, 255, 0.043) 1.21072px 1.61429px 2.82501px -0.8px inset, rgba(255, 255, 255, 0.043) 2.6583px 3.5444px 6.20271px -1.2px inset, rgba(255, 255, 255, 0.047) 5.90083px 7.86777px 13.7686px -1.6px inset, rgba(255, 255, 255, 0.06) 15px 20px 35px -2px inset;
@@ -632,7 +632,7 @@
     }
     .box-big {
         height: 246px;
-        width: 65%;
+        width: 246px;
     }
     .text-header {
         margin-top: 5px;
