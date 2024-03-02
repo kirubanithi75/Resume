@@ -1,0 +1,760 @@
+:root {
+    --primary-bg: #191919;
+    --secondary-bg: #222222;
+    --bth-color: #E32879;
+    --discription-color: rgb(179, 179, 179);
+    --text-h2: rgb(255, 255, 255);
+}
+.header {
+    height: 79px;
+    width: 100%;
+    background: var(--primary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 89px;    
+}
+.hazze-logo {
+    width: 106px;
+}
+.header .menu-item {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.header .menu-items {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.header .active {
+    color: rgb(227, 40, 121);
+}
+.hero-section {
+    height: 800px;
+    width: 100%;
+    background-image: url(../image/hazz-hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+.text-p {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--bth-color);
+    letter-spacing: 2px;
+}
+.title {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.sit-p {
+    color: #ffffff;
+    margin-bottom: 45px;
+    margin-bottom: 45px;
+}
+.primary-btn {
+    padding: 12px 30px 12px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--bth-color);
+    color: var(--text-h2);
+}
+.primary-btn:hover {
+    background-color: #9c0f4c;
+}
+.about-page {
+    width: 100%;
+    background-color: var(--primary-bg);
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+}
+.about-img {
+    width: 100%;
+}
+.title-margin {
+    margin-top: 7px;
+}
+.f-para {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--discription-color);
+    margin-bottom: 10px;
+}
+.s-para {
+    margin-bottom: 37px;
+}
+.services-section {
+    padding: 10px 0px;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: var(--primary-bg);
+    text-align: center;
+}
+.services-section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 50px;
+
+}
+.service-item {
+    height: 350px;
+    width: 360px;
+    background: var(--secondary-bg);
+    padding-top: 47px;
+}
+.service-img {
+    width: 51px;
+}
+.sub-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-h2);
+    margin-top: 33px;
+    margin-bottom: 25px;
+}
+.portfolio-section {
+    width: 100%;
+    background-color: var(--secondary-bg);
+    padding: 100px 0px 50px;
+    text-align: center;
+}
+.image-man {
+    height: 700px;
+    width: 40%;
+    background-image: url(../image/hazz-portfolio-1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image-man::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #19191920;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .65s all;
+}
+.image-man:hover:before {
+    visibility: visible;
+    opacity: 1;
+    transition: .65s all;
+    width: 100%;
+}
+.chain-icon {
+    height: 66px;
+    width: 66px;
+    background-color: #E32879;
+    border-radius: 50px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-chain:before, .fa-link:before {
+    content: "\f0c1";
+    font-size: 24px;
+}
+.pi-hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    visibility: hidden;
+    width: 0;
+    opacity: 0;
+    transition: .65s all;
+
+}
+.image-man:hover .pi-hover{
+    visibility: visible;
+    opacity: 1;
+    transition: .65s all;
+    width: 100%;
+} 
+.image-port {
+    height: 700px;
+    width: 40%;
+}
+.portfolio-section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.image-gallery {
+    height: 393px;
+    width: 100%;
+    background-image: url(../image/hazz-portfolio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-gallery::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1919192d;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .65s all;
+}
+.image-gallery:hover:before {
+    visibility: visible;
+    opacity: 1;
+    transition: .65s all;
+    width: 100%;
+}
+.image-gallery:hover .pi-hover {
+    visibility: visible;
+    opacity: 1;
+    transition: .65s all;
+    width: 100%;
+}
+.img-box {
+    height: 307px;
+    width: 50%;
+    background-image: url(../image/hazz-portfolio-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.box-row {
+    display: flex;
+}
+.img-box2 {
+    background-image: url(../image/hazz-portfolio-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img-box:hover:before {
+    visibility: visible;
+    opacity: 1;
+    transition: .65s all;
+    width: 100%;
+}
+.img-box:hover .pi-hover {
+    visibility: visible;
+    opacity: 1;
+    transition: .65s all;
+    width: 100%;
+}
+.img-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1919192d;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .65s all;
+}
+.counter-section {
+    width: 100%;
+    padding: 70px 90px;
+    background: var(--primary-bg);
+    display: flex;
+    justify-content: space-between;
+}
+.title-line {
+    margin-top: 14px;
+    line-height: 54px;
+}
+.primary-btn-margin {
+    margin-top: 50px;
+}
+.ci-number {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--bth-color);
+}
+.sub-title-margin {
+    margin-top: 0px;
+}
+.project-number {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.project-number2 {
+    margin-top: 40px;
+}
+.testimonial-section {
+    width: 100%;
+    background: var(--primary-bg);
+    padding: 10px 0px 100px;
+}
+.testimonial-section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+
+}
+.box-item {
+    height: 258px;
+    width: 40%;
+    background-color: var(--secondary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+.testimonial-img {
+    width: 128px;
+    border-radius: 50%;
+}
+.sub-title-bottam {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.text-p-font {
+    font-size: 12px;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+.f-para-line {
+    line-height: 26px;
+}
+.button {
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.button-1 {
+    height: 8px;
+    width: 27px;
+    border-radius: 10px;
+    background: var(--bth-color);
+    cursor: pointer;
+}
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    column-gap: 10px;
+}
+.sub-page {
+    width: 100%;
+    padding: 80px 0px;
+    background-image: url(../image/hazz-ctc-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.sub-title-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.primary-btn-color {
+    background-color: rgb(255, 255, 255);
+    color: var(--bth-color);
+}
+.primary-btn-color:hover {
+    background-color: rgb(205, 202, 202);
+}
+.member-section {
+    width: 100%;
+    padding: 100px 0px;
+    background: var(--primary-bg);
+    text-align: center;
+}
+.member-section .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+    margin-top: 50px;
+}
+.member-box {
+    height: 435px;
+    width: 360px;
+    background-image: url(../image/hazz-member-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.member-box2 {
+    background-image: url(../image/hazz-member-2.jpg);
+}
+.member-box3 {
+    background-image: url(../image/hazz-member-3.jpg);
+}
+.layer-img {
+    position: absolute;
+    top: 22px;
+    left: 19px;
+    height: 90%;
+    width: 90%;
+    background: var(--primary-bg);
+    padding: 50px 20px 60px 20px;
+    opacity: 0;
+    bottom: 0;
+    overflow: hidden;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  
+}
+.member-box:hover .layer-img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    transition: .65s all;
+
+
+
+}
+.sub-title-mar {
+    margin-bottom: 5px;
+}
+.social-icon {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+}
+.social-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+.blog-section {
+    width: 100%;
+    background-color: var(--secondary-bg);   
+    padding: 100px 0px 80px;
+
+}
+.blog-section .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.blog-item {
+    width: 40%;
+    background: var(--primary-bg);
+    display: flex;
+}
+.title-text {
+    text-align: center;
+    margin-top: 7px;
+
+}
+.text-p-text {
+    text-align: center;
+}
+.blog-img {
+    height: 390px;
+    width: 262px;
+    background-image: url(../image/hazz-blog-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.date {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bth-color);
+}
+.blog-text i {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bth-color);
+
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.month {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+}
+.blog-text {
+    padding: 46px 20px 38px 30px;
+    height: 390px;
+    width: 292px;
+
+}
+.blog-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 17px;
+    margin-bottom: 22px;
+}
+.anthor-img {
+    width: 53px;
+    border-radius: 50%;
+}
+.bt-author {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 42px;
+}
+.sub-title-font {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.blog-img2 {
+    background-image: url(../image/hazz-blog-2.jpg);
+}
+.bio-page {
+    width: 100%;
+    padding: 80px 0px 50px;
+    background: var(--primary-bg);
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.logo-ha {
+    width: 106px;
+    margin-bottom: 30px;
+}
+.address {
+    height: 278px;
+    width: 262px;
+}
+.name-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+    line-height: 30px;
+}
+.social-row2 {
+    justify-content: left;
+}
+.footer-widget {
+    height: 228px;
+    width: 262px;
+}
+.sub-title-fon {
+    margin-top: 0px;
+}
+.mail-input {
+    height: 44px;
+    width: 260px;
+    background: none;
+    border: 1px solid rgb(112, 112, 112);
+    outline: none;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 25px;
+    color: rgb(112, 112, 112);
+}
+.primary-btn-size {
+    padding: 12px 94px;
+    margin-top: 10px;
+}
+@media screen and (min-width:321px) and (max-width:768px) {
+
+    .about-page {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+    .bio {
+        padding: 29px
+    }
+    .title {
+        font-size: 26px;
+    }
+
+    .services-section .row  {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+
+    .service-item  {
+        margin-top: 10px;
+    }
+
+    .portfolio-section .row {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+    .image-man {
+        width: 100%;
+    }
+    .image-port {
+        width: 100%;
+    }
+    .image-gallery {
+        margin-top: 10px;
+    }
+    .counter-section {
+        padding: 20px;
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+    .project-number {
+        margin-top: 20px;
+    }
+    .testimonial-section .row  {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+    .box-item  {
+        width: 100%;
+    }
+
+    .member-section .row  {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+
+
+    .member-box {
+        margin-top: 10px;
+    }
+
+    .blog-section .row  {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+    .blog-item {
+        width: 100%;
+    }
+    .blog-img {
+        width: 50%;
+    }
+    .blog-img {
+        width: 50%;
+    }
+
+    .blog-title  {
+        font-size: 18px;
+    }
+    .f-para {
+        font-size: 14px;
+    }
+
+    .bio-page {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+
+    }
+
+    .menu-items {
+        column-gap: 4px;
+    }
+    .header {
+        padding: 0px 6px;
+    }
+
+    .header .menu-item {
+        font-size: 12px;
+    }
+
+    .hazze-logo {
+        width: 73px;
+    }
+
+
+
+
+
+}
