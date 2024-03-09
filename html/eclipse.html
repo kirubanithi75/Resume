@@ -5,6 +5,9 @@
         <link rel="stylesheet" href="../css/util.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
 
     </head>
     <body>
@@ -15,12 +18,12 @@
                         <img class="logo" src="../image/ecli-logo.png" alt="">
     
                         <div class="menu-items">
-                            <div class="menu-item">Home</div>
-                            <div class="menu-item">About</div>
-                            <div class="menu-item">Courses</div>
-                            <div class="menu-item">Pages</div>
-                            <div class="menu-item">Blog</div>
-                            <div class="menu-item">Contacts</div>
+                            <div class="menu-item active" onclick="changeTab(1)">Home</div>
+                            <div class="menu-item" onclick="changeTab(2)">About</div>
+                            <div class="menu-item" onclick="changeTab(3)">Courses</div>
+                            <div class="menu-item" onclick="changeTab(4)">Pages</div>
+                            <div class="menu-item" onclick="changeTab(5)">Blog</div>
+                            <div class="menu-item" onclick="changeTab(6)">Contacts</div>
                             <div class="menu-item">
                                 <i class="fa fa-search"></i>
                             </div>
@@ -38,9 +41,9 @@
                                 </h1>
                                 <p class="sub-discription">
                                     In the history of modern astronomy, there is probably no one
-                                    greater<br> leap forward than the building and launch of the space
-                                    telescope<br> known as the Hubble.
-                                    </p>
+                                    greater leap forward than the building and launch of the space
+                                    telescope known as the Hubble.
+                                </p>
 
 
                             </div>
@@ -48,7 +51,7 @@
 
 
                         </div>
-                        <div class="text-box">
+                        <div class="text-box text-box2">
                             <img class="image-header" src="../image/ecli-header-img.png" alt="">
                         </div>
 
@@ -62,63 +65,21 @@
     
             </section>
 
-            <section>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="fluid-box">
-                            <div class="icon">
-                                <i class="fa fa-book"></i>
-                            </div>
-                            <div>
-                                <h4 class="icon-title">New Classes</h4>
-                                <p class="sub-discription sub-discription-color">
-                                    In the history of<br> modern<br> astronomy, there is<br> probably no one<br> greater leap<br> forward.
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="fluid-box">
-                            <div class="icon">
-                                <i class="fa fa-trophy"></i>
-                            </div>
-                            <div>
-                                <h4 class="icon-title">Top Courses</h4>
-                                <p class="sub-discription sub-discription-color">
-                                    In the history of<br> modern<br> astronomy, there is<br> probably no one<br> greater leap<br> forward.
-                                    </p>
-                            </div>
-
-                        </div>
-                        <div class="fluid-box">
-                            <div class="icon">
-                                <i class="fa fa-desktop"></i>
-                            </div>
-                            <div>
-                                <h4 class="icon-title">Full E-Books</h4>
-                                <p class="sub-discription sub-discription-color">
-                                    In the history of<br> modern<br> astronomy, there is<br> probably no one<br> greater leap<br> forward.
-                                    </p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </section>
 
             <section>
                 <div class="main-container">
-                    <h2 class="sub-title">
+                    <h2 class="sub-title reveal fade-left">
                         Popular Courses <br>
                         Available Right Now
                     </h2>
-                    <p class="sub-discription sub-discription-color">
+                    <p class="sub-discription sub-discription-color reveal fade-right">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut<br> labore et dolore magna aliqua.
                     </p>
 
 
                     <div class="row">
-                        <div class="popular-box">
+                        <div class="popular-box reveal fade-right">
                             <div class="thumb"></div>
                             <div class="details">
                                 <div class="language">
@@ -140,7 +101,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="popular-box">
+                        <div class="popular-box reveal fade-bottom">
                             <div class="thumb thumb2"></div>
                             <div class="details">
                                 <div class="language">
@@ -163,7 +124,7 @@
                             </div>
 
                         </div>
-                        <div class="popular-box">
+                        <div class="popular-box reveal fade-left">
                             <div class="thumb thumb3"></div>
                             <div class="details">
                                 <div class="language">
@@ -194,13 +155,13 @@
             <section>
                 <div class="vido-conatain">
 
-                    <div class="text-white">
+                    <div class="text-white reveal fade-bottom">
                         <div>
-                            <h2 class="title">
+                            <h2 class="title reveal fade-left">
                                 Watch Our Trainers <br>
                                 in Live Action
                             </h2>
-                            <p class="sub-discription sub-discription-p">
+                            <p class="sub-discription sub-discription-p reveal fade-right">
                                 In the history of modern astronomy, there is probably no one greater<br> leap forward than the building and
                                 launch of the space telescope<br> known as the Hubble.
                             </p>
@@ -209,12 +170,13 @@
                     </div>
 
                     <div class="image-play">
-                        <div class="video-img">
+
+                        <div class="video-img reveal fade-left">
                             <img src="../image/ecli-play-btn.png" alt="">
                         </div>
 
-                        <h4 class="sub-title sub-title-color">Learn Angular js Course for Legendary Persons</h4>
-                        <p class="sub-discription sub-discription-p">
+                        <h4 class="sub-title sub-title-color reveal fade-bottom">Learn Angular js Course for Legendary Persons</h4>
+                        <p class="sub-discription sub-discription-p reveal fade-left">
                             In the history of modern astronomy, there is probably no one greater leap forward than<br> the building and
                             launch of the space telescope known as the Hubble.
                         </p>
@@ -225,10 +187,10 @@
             </section>
             <section>
                 <div class="feature-page">
-                    <h2 class="title title-color">
+                    <h2 class="title title-color reveal fade-left">
                         Features That <br>Can Avail By Everyone
                     </h2>
-                    <p class="sub-discription sub-discription-padding">
+                    <p class="sub-discription sub-discription-padding reveal fade-bottom">
                         If you are looking at blank cassettes on the web,<br> you may be
                         very confused at the difference in<br> price. You may see some for
                         as low as $.17<br> each.
@@ -337,21 +299,21 @@
                 <div class="testimonials-section">
 
 
-                    <div class="stage-outer">
+                    <div class="stage-outer reveal fade-bottom">
                         <div>
                             <img class="logo-number" src="../image/ecli-number-logo.webp" alt="">
-                            <p class="outer-p">
+                            <p class="outer-p reveal fade-left">
                                 As conscious traveling Paup ers we must always<br> be oncerned
                                 about our dear Mother Earth. If you<br> think about it, you
                                 travel across her face<br> and She is the host to your
                                 journey.
                             </p>
-                            <h4 class="sub-title sub-title-margin">Fanny Spencer</h4>
+                            <h4 class="sub-title sub-title-margin reveal fade-right">Fanny Spencer</h4>
                             <p class="sub-discription sub-discription-color">Chief Executive, Amazon</p>
 
                         </div>
                     </div>
-                    <div class="stage-outer">
+                    <div class="stage-outer reveal fade-right">
                         <img class="t1-img" src="../image/ecli-t1.jpg" alt="">
                     </div>
                 </div>
@@ -362,10 +324,10 @@
 
                     <div class="text-box text-box-height">
                         <div class="text-us">
-                            <h1 class="title">    
+                            <h1 class="title reveal fade-right">    
                                 Take the first step <br>to learn with us
                             </h1>
-                            <p class="sub-discription">
+                            <p class="sub-discription reveal fade-left">
                                 In the history of modern astronomy, there is probably no one
                                 greater<br> leap forward than the building and launch of the space
                                 telescope<br> known as the Hubble.
@@ -375,16 +337,16 @@
                     </div>
                     <div class="Courses">
 
-                        <div class="Forms">
-                            <h3 class="sub-title sub-title-center">Courses for Free</h3>
-                            <p class="sub-discription sub-discription-font">It is high time for learning</p>
+                        <div class="Forms reveal fade-bottom">
+                            <h3 class="sub-title sub-title-center reveal fade-left">Courses for Free</h3>
+                            <p class="sub-discription sub-discription-font reveal fade-right">It is high time for learning</p>
                             <div>
-                                <input type="text" class="form-control"  placeholder="Name">
+                                <input type="text" class="form-control reveal fade-right"  placeholder="Name">
 
-                                <input type="number" class="form-control"  placeholder="Phone Number">
-                                <input type="email" class="form-control"  placeholder="Email adress">
+                                <input type="number" class="form-control reveal fade-right"  placeholder="Phone Number">
+                                <input type="email" class="form-control reveal fade-right"  placeholder="Email adress">
 
-                                <button class="btn text-uppercase">Submit</button>
+                                <button class="btn text-uppercase reveal fade-right">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -393,17 +355,17 @@
 
             <section>
                 <div class="blog-post">
-                    <h2 class="sub-title">
+                    <h2 class="sub-title reveal fade-right">
                         Features That <br>
                         Can Avail By Everyone
                     </h2>
-                    <p class="sub-discription sub-discription-color">
+                    <p class="sub-discription sub-discription-color reveal fade-right">
                         There is a moment in the life of any aspiring<br> astronomer that it is time to buy that first<br> telescope.
                         It’s exciting to think about setting up<br> your own viewing station.
                     </p>
 
                     <div class="row">
-                        <div class="single-blog">
+                        <div class="single-blog reveal fade-right">
                             <div class="date-box">
                                 <p class="sub-discription">29th, oct, 2018</p>
                                 <p class="sub-discription">121 likes</p>
@@ -422,7 +384,7 @@
                             </div>
 
                         </div>
-                        <div class="single-blog single-blog2">
+                        <div class="single-blog single-blog2 reveal fade-bottom">
                             <div class="date-box">
                                 <p class="sub-discription">29th, oct, 2018</p>
                                 <p class="sub-discription">121 likes</p>
@@ -441,7 +403,7 @@
                             </div>
 
                         </div>
-                        <div class="single-blog single-blog3">
+                        <div class="single-blog single-blog3 reveal fade-left">
                             <div class="date-box">
                                 <p class="sub-discription">29th, oct, 2018</p>
                                 <p class="sub-discription">121 likes</p>
@@ -467,37 +429,124 @@
 
             <section>
                 <div class="section-gap">
+                    <div class="container">
+                        <div class="box-footer">
+                            <h4 class="box-title">Top Products</h4>
+                            <p class="box-subtitle">Managed Website</p>
+                            <p class="box-subtitle">Manage Reputation</p>
+                            <p class="box-subtitle">Power Tools</p>
+                            <p class="box-subtitle">Marketing Service</p>
+
+
+
+                        </div>
+                        <div class="box-footer">
+                            <h4 class="box-title">Quick Links</h4>
+                            <p class="box-subtitle">Jobs</p>
+                            <p class="box-subtitle">Brand Assets</p>
+                            <p class="box-subtitle">Investor Relations</p>
+                            <p class="box-subtitle">Terms of Service</p>
+
+                        </div>
+                        <div class="box-footer">
+                            <h4 class="box-title">Features</h4>
+                            <p class="box-subtitle">Jobs</p>
+                            <p class="box-subtitle">Brand Assets</p>
+                            <p class="box-subtitle">Investor Relations</p>
+                            <p class="box-subtitle">Terms of Service</p>
+
+                        </div>
+                        <div class="box-footer">
+                            <h4 class="box-title">Resources</h4>
+                            <p class="box-subtitle">Guides</p>
+                            <p class="box-subtitle">Research</p>
+                            <p class="box-subtitle">Experts</p>
+                            <p class="box-subtitle">Agencies</p>
+
+                        </div>
+                        <div class="box-footer box-footer2">
+                            <h4 class="box-title">Newsletter</h4>
+                            <p class="box-subtitle">You can trust us. we only send promo offers,</p>
+                            <div class="box-row">
+                                <div class="box-icon">
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                                <div class="box-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                                <div class="box-icon">
+                                    <i class="fa fa-dribbble"></i>
+                                </div>
+                                <div class="box-icon">
+                                    <i class="fa fa-behance"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
                     
                 </div>
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
+
+        <script>
+
+const sections = document.querySelectorAll('section');
+            const tabs = document.querySelectorAll('.menu-item');
+        
+            function changeActiveTab() {
+              let index = 0;
+        
+              sections.forEach((section, i) => {
+                const rect = section.getBoundingClientRect();
+        
+                if (rect.top <= window.innerHeight / 2) {
+                  index = i;
+                }
+              });
+        
+              tabs.forEach((tab, i) => {
+                tab.classList.toggle('active', i === index);
+              });
+            }
+        
+            function changeTab(index) {
+              sections[index - 1].scrollIntoView({ behavior: 'smooth' });
+            }
+        
+            window.addEventListener('scroll', changeActiveTab);
+        
+            changeActiveTab();
+
+
+
+
+
+            function reveal() {
+             var reveals = document.querySelectorAll(".reveal");
+
+              for (var i = 0; i < reveals.length; i++) {
+              var windowHeight = window.innerHeight;
+                  var elementTop = reveals[i].getBoundingClientRect().top;
+               var elementVisible = 150;
+
+               if (elementTop < windowHeight - elementVisible) {
+             reveals[i].classList.add("activ");
+         } else {
+             reveals[i].classList.remove("activ");
+        }
+      }
+        }
+
+            window.addEventListener("scroll", reveal);
+
+
+
+
+
+
+        </script>
     </body>
 </html>
