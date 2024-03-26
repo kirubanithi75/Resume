@@ -1,0 +1,403 @@
+:root {
+    --primary-bg: #FFFFFF;
+    --text-color: #0b0f28;
+    --bth-color: #dd0a37;
+
+}
+
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: -100px;
+    transition: top 0.3s;
+    border-bottom: 1px solid #ffffff4d;
+    z-index: 5;
+  }
+.logo-evn {
+    width: 125px;
+}
+.menu-item {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+    cursor: pointer;
+}
+.menu-item:hover {
+    color: rgb(221, 10, 55);
+    transition: .65s all;
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    text-transform: uppercase;
+}
+.active {
+    color: rgb(221, 10, 55);
+    transition: .65s all;
+}
+.contaner {
+    height: 600px;
+    width: 100%;
+    background-image: url(../image/even-background01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 43px;
+    font-weight: 700;
+    color: var(--primary-bg);
+    margin-bottom: 15px;
+}
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.kn-button {
+    padding: 14px 50px;
+    font-size: 16px;
+    background-color: var(--bth-color);
+    text-transform: uppercase;
+    color: var(--primary-bg);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.kn-button:hover {
+    background-color: #a10627;
+}
+.about-section {
+    width: 100%;
+    background-color: var(--primary-bg);
+    padding: 90px 0px 0px 0px ;
+    text-align: center;
+}
+.title-color {
+    color: var(--text-color);
+    margin-bottom: 70px;
+}
+.title-color span {
+    color: var(--bth-color);
+}
+.about-p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+    line-height: 24px;
+}
+.number {
+    height: 99px;
+    background-color: white;
+}
+.number-h {
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(221, 10, 55);
+}
+.number p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(11, 15, 40);
+}
+.about-section .row {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    width: 55%;
+    margin-top: 60px;
+}
+.even-galery {
+    width: 70%;
+}
+.about-section .galery {
+    height: 572px;
+    width: 100%;
+    background-color: var(--primary-bg);
+    padding: 40px 0px 0px 0px;
+}
+.icon {
+    font-size: 50px;
+    font-weight: 400px;
+    color: #a10627;
+    position: relative;
+}
+.prev {
+    position: absolute;
+    left: 120px;
+    top: -350px;
+    cursor: pointer;
+
+}   
+.next {
+    position: absolute;
+    right: 120px;
+    top: -350px;
+    cursor: pointer;
+}
+.video-cta {
+    height: 500px;
+    width: 100%;
+    background-image: url(../image/even-background02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.box-icon {
+    height: 120px;
+    width: 120px;
+    background: var(--primary-bg);
+    border-radius: 50%;
+    font-size: 40px;
+    color: var(--bth-color);
+    margin-bottom: 60px;
+}
+.video-play {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schedule-section {
+    width: 100%;
+    background-color: var(--primary-bg);
+    padding: 90px 0px;
+}
+
+.event .event-day .day  {
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.event .event-day .year {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.event-day {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: var(--bth-color);
+}
+.event-time {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.event .event-time i {
+    color: #a10627;
+}
+.event-title {
+    font-size: 22px;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 9px;
+    line-height: 24px;
+}
+.lead-color {
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+.lead-color span {
+    color: #dd0a37;
+}
+.event {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    position: relative;
+}
+.event-margin {
+    margin-top: 60px;
+}
+.event-day-size {
+    height: 30px;
+    width: 30px;
+}
+.event:after {
+    content: "";
+    position: absolute;
+    left: 321px;
+    top: 0px;
+    bottom: -160px;
+    width: 4px;
+    background-color: var(--bth-color);
+}
+.box-size {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-after::after {
+    content: "";
+    bottom: 100px;
+}
+.download-btn {
+    text-align: center;
+    margin-top: 60px;
+}
+.speakers-section {
+    width: 100%;
+    padding: 90px 0px;
+    background-color: #F9F9FA;
+
+}
+.speaker-img {
+    height: 520px;
+    background-image: url(../image/even-speaker01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+.speaker-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .35s all;
+    z-index: -4;
+
+}
+.speaker-img:hover::before  {
+    visibility: visible;
+    opacity: 1;
+    transition: .35s all;
+}
+.speakers-section .row {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: auto;
+    grid-gap: 30px;
+}
+.speaker-img-2 {
+    background-image: url(../image/even-speaker02.jpg);
+
+}
+.speaker-img-3 {
+    background-image: url(../image/even-speaker03.jpg);
+
+}
+.speaker-content {
+    height: 131px;
+    width: 100%;
+    background: var(--bth-color);
+    padding: 40px 30px 30px;
+    position: relative;
+}
+.speaker-content h2 {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+.speaker-content span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;   
+    text-align: right;
+    display: block;
+    margin-top: 5px;
+
+}
+.social-icon {
+    height: 40px;
+    width: 40px;
+    background-color: var(--bth-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.449);
+}
+.social-icon i {
+    font-size: 20px;
+    color: var(--primary-bg);
+}
+.social-row {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    visibility: hidden;
+    transition: .35s all;
+    opacity: 0;
+}
+.speaker-img:hover .social-row {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;    
+    opacity: 1;
+
+}
+.sponsors-section {
+    height: 527px;
+    width: 100%;
+    padding: 90px 0px;
+    background-color: var(--primary-bg);
+}
+.sponsor-img {
+    height: 90px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.sponsors-section .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: auto;
+    grid-column: 40px;
+    grid-row-gap: 40px;
+    grid-gap: 30px;
+}
+.sponsor-img:hover {
+    opacity: 1;
+    transition: .65s all;
+}
+.ticket-section {
+    height: 368px;
+    width: 100%;
+    background-image: url(../image/evean-background03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0px;
+    text-align: center;
+}
