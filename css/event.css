@@ -372,6 +372,8 @@
     width: 100%;
     padding: 90px 0px;
     background-color: var(--primary-bg);
+    text-align: center;
+
 }
 .sponsor-img {
     height: 90px;
