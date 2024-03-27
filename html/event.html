@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="../css/event.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" >
 
 
 
@@ -16,19 +17,21 @@
         <div>
 
             <div class="page">
+
                 <div class="header" id="navbar">
                     <div class="logo">
                         <img class="logo-evn" src="../image/even-logo-alt.png" alt="">
                     </div>
     
                     <div class="menu-items">
-                        <div class="menu-item active">Home</div>
-                        <div class="menu-item">About</div>
-                        <div class="menu-item">Schedule</div>
-                        <div class="menu-item">Speakers</div>
-                        <div class="menu-item">Sponsors</div>
-                        <div class="menu-item">Contact</div>
-                        <div class="menu-item">Blog</div>
+                        <div class="menu-item menu-active" onclick="changeTab(1)">Home</div>
+                        <div class="menu-item" onclick="changeTab(2)">About</div>
+                        <div class="menu-item" onclick="changeTab(3)">Schedule</div>
+                        <div class="menu-item" onclick="changeTab(4)">Speakers</div>
+                        <div class="menu-item" onclick="changeTab(5)">Sponsors</div>
+                        <div class="menu-item" onclick="changeTab(6)">Contact</div>
+                        <div class="menu-item" onclick="changeTab(7)">Blog</div>
+
                         
                     </div>
                 </div>      
@@ -41,7 +44,7 @@
             <section>
                 <div class="contaner">
 
-                    <div>
+                    <div class="intro">
                         <h1 class="title">Lorem ipsum dolor sit amet</h1>
                         <h4 class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</h4>
 
@@ -53,43 +56,43 @@
     
             <section>
                 <div class="about-section">
-                    <h3 class="title title-color">About
+                    <h3 class="title title-color reveal fade-left">About
                         <span>Event</span>
                     </h3>
 
 
-                    <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    <p class="about-p reveal fade-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                         dolor in reprehenderit in<br> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
 
                     <div class="row">
 
-                        <div class="number">
+                        <div class="number reveal fade-left">
                             <h3 class="number-h">960<span>+ </span></h3>
                             <p>Hours</p>
                         </div>
                         
                         
-                        <div class="number">
+                        <div class="number reveal fade-bottom">
                             <h3 class="number-h">800<span>+ </span></h3>
                             <p>Venues</p>
                         </div>
                         
                         
-                        <div class="number">
+                        <div class="number reveal fade-left">
                             <h3 class="number-h">53<span>+ </span></h3>
                             <p>Country</p>
                         </div>
                         
                         
-                        <div class="number">
+                        <div class="number reveal fade-right">
                             <h3 class="number-h">21<span>+ </span></h3>
                             <p>Speakers</p>
                         </div>
                         
                     </div>
 
-                    <div class="galery">
+                    <div class="galery reveal fade-left">
                         <div class="slideshow-container">
                             <div class="mySlides fade">
                                 <img class="even-galery" src="../image/even-galery01.jpg" alt="">
@@ -111,7 +114,7 @@
 
                     <div class="video-cta">
                         <div>
-                            <div class="video-play">
+                            <div class="video-play reveal fade-bottom">
                                 <div class="box-icon fxb fsb jus">
                                     <i class="fa fa-play"></i>
                                 </div>
@@ -119,8 +122,8 @@
 
 
                             </div>
-                            <h2 class="title">Watch this video</h2>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h2 class="title reveal fade-left">Watch this video</h2>
+                            <p class="lead reveal fade-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -133,7 +136,7 @@
 
             <section>
                 <div class="schedule-section">
-                    <h3 class="title title-color tac">Event
+                    <h3 class="title title-color tac reveal fade-left">Event
                         <span>Schedule</span>
                     </h3>
 
@@ -150,12 +153,12 @@
                             </div>
     
                             <div>
-                                <p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+                                <p class="event-time reveal fade-left"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
     
-                                <h3 class="event-title">His id altera fabellas facilisis. Has eros assueverit cu</h3>
+                                <h3 class="event-title reveal fade-right">His id altera fabellas facilisis. Has eros assueverit cu</h3>
     
-                                <p class="lead lead-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="lead lead-color">By <span>John Doe</span></p>
+                                <p class="lead lead-color reveal fade-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="lead lead-color reveal fade-bottom">By <span>John Doe</span></p>
                             </div>
     
                         </div>
@@ -169,12 +172,12 @@
 
                             </div>
                             <div>
-                                <p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+                                <p class="event-time reveal fade-left"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
     
-                                <h3 class="event-title">Perpetua consectetuer definitiones id sea, mei<br> utinam eripuit ne</h3>
+                                <h3 class="event-title reveal fade-right">Perpetua consectetuer definitiones id sea, mei<br> utinam eripuit ne</h3>
     
-                                <p class="lead lead-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="lead lead-color">By <span>John Doe</span></p>
+                                <p class="lead lead-color reveal fade-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="lead lead-color reveal fade-right">By <span>John Doe</span></p>
                             </div>
     
                         </div>
@@ -188,12 +191,12 @@
                             </div>
     
                             <div>
-                                <p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+                                <p class="event-time reveal fade-left"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
     
-                                <h3 class="event-title">At mucius deserunt delicatissimi eam, labitur <br>detraxit ut sit</h3>
+                                <h3 class="event-title reveal fade-right">At mucius deserunt delicatissimi eam, labitur <br>detraxit ut sit</h3>
     
-                                <p class="lead lead-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="lead lead-color">By <span>John Doe</span></p>
+                                <p class="lead lead-color reveal fade-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="lead lead-color reveal fade-left">By <span>John Doe</span></p>
                             </div>
     
                         </div>
@@ -212,12 +215,12 @@
                             </div>
     
                             <div>
-                                <p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+                                <p class="event-time reveal fade-left"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
     
-                                <h3 class="event-title">His id altera fabellas facilisis. Has eros assueverit cu</h3>
+                                <h3 class="event-title reveal fade-right">His id altera fabellas facilisis. Has eros assueverit cu</h3>
     
-                                <p class="lead lead-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="lead lead-color">By <span>John Doe</span></p>
+                                <p class="lead lead-color reveal fade-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="lead lead-color reveal fade-left">By <span>John Doe</span></p>
                             </div>
     
                         </div>
@@ -232,12 +235,12 @@
                             </div>
     
                             <div>
-                                <p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+                                <p class="event-time reveal fade-left"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
     
-                                <h3 class="event-title">At mucius deserunt delicatissimi eam, labitur <br>detraxit ut sit</h3>
+                                <h3 class="event-title reveal fade-right">At mucius deserunt delicatissimi eam, labitur <br>detraxit ut sit</h3>
     
-                                <p class="lead lead-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="lead lead-color">By <span>John Doe</span></p>
+                                <p class="lead lead-color reveal fade-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="lead lead-color reveal fade-left">By <span>John Doe</span></p>
                             </div>
     
                         </div>
@@ -249,18 +252,18 @@
 
                             <div class="event-day fxb fsb jus">
                                 <div>
-                                    <span class="day">17</span>
-                                    <span class="year">Feb, 2018</span>
+                                    <span class="day reveal fade-left">17</span>
+                                    <span class="year reveal fade-right">Feb, 2018</span>
                                 </div>
                             </div>
     
                             <div>
-                                <p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+                                <p class="event-time reveal fade-left"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
     
-                                <h3 class="event-title">His id altera fabellas facilisis. Has eros assueverit cu</h3>
+                                <h3 class="event-title reveal fade-right">His id altera fabellas facilisis. Has eros assueverit cu</h3>
     
-                                <p class="lead lead-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="lead lead-color">By <span>John Doe</span></p>
+                                <p class="lead lead-color reveal fade-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="lead lead-color reveal fade-bottom">By <span>John Doe</span></p>
                             </div>
     
                         </div>
@@ -274,12 +277,12 @@
                             </div>
     
                             <div>
-                                <p class="event-time"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
+                                <p class="event-time reveal fade-left"><i class="fa fa-clock-o"></i> 8 : 00 AM - 11 : 00 AM</p>
     
-                                <h3 class="event-title">At mucius deserunt delicatissimi eam, labitur <br>detraxit ut sit</h3>
+                                <h3 class="event-title reveal fade-bottom">At mucius deserunt delicatissimi eam, labitur <br>detraxit ut sit</h3>
     
-                                <p class="lead lead-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class="lead lead-color">By <span>John Doe</span></p>
+                                <p class="lead lead-color reveal fade-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="lead lead-color reveal fade-bottom">By <span>John Doe</span></p>
                             </div>
     
                         </div>
@@ -295,7 +298,7 @@
             <section>
                 <div class="speakers-section">
 
-                    <h3 class="title title-color tac">
+                    <h3 class="title title-color tac reveal fade-left">
                         Our
                         <span>Speakers</span>
                     </h3>
@@ -304,7 +307,7 @@
 
 
 
-                    <div class="row">
+                    <div class="row reveal fade-bottom">
                         <div class="speaker-img">
                             <div class="speaker-content">
                                 <div class="social-row">
@@ -393,7 +396,7 @@
 
             <section>
                 <div class="sponsors-section">
-                    <h3 class="title title-color tac">
+                    <h3 class="title title-color tac reveal fade-right">
                         Our
                         <span>Sponsors</span>
                     </h3>
@@ -433,10 +436,87 @@
             <section>
                 <div class="ticket-section">
 
-                    <h1 class="title">Get Ticket Now!</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h1 class="title reveal fade-left">Get Ticket Now!</h1>
+                    <p class="lead reveal fade-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</p>
 
-                    <button class="kn-button">Buy Ticket</button>
+                    <button class="kn-button reveal fade-left">Buy Ticket</button>
+                </div>
+            </section>
+
+            <section>
+                <div class="contact-section">
+                    <h3 class="title title-color tac reveal fade-left">
+                        Contact
+                        <span>Info</span>
+                    </h3>
+
+                    <div class="row reveal fade-bottom">
+                        <div class="address-box">
+                            <h3 class="sub-title">Address</h3>
+                            <p class="lead lead-color lead-font">2635 Simons Hollow Road, NEW YORK</p>
+                        </div>
+                        <div class="address-box">
+                            <h3 class="sub-title">Phone</h3>
+                            <p class="lead lead-color lead-font">570-751-2415</p>
+
+                        </div>
+                        <div class="address-box">
+                            <h3 class="sub-title">Email</h3>
+                            <p class="lead lead-color lead-font">event@support.com</p>
+
+                        </div>
+                    </div>
+                    <div class="map"></div>
+                </div>
+            </section>
+
+            <section>
+                <div class="footer">
+                    <div class="row">
+                        <div class="copyright reveal fade-right">
+                            <p>Copyright © 2024 All rights reserved | This template is made with 
+                                <i class="fa fa-heart-o"></i>
+                                by Colorlib
+                            </p>
+
+
+
+                        </div>
+                        <div class="copylogo reveal fade-bottom">
+                            <img class="logo-even" src="../image/even-2logo.png" alt="">
+                        </div>
+                        <div class="copyright reveal fade-left">
+                            <div class="icon-social">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa fa-google-plus"></i>
+
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa fa-instagram"></i>
+
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa fa-pinterest"></i>
+
+                            </div>
+                            <div class="icon-social">
+                                <i class="fa fa fa-linkedin"></i>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
 
 
 
@@ -447,80 +527,14 @@
 
                 </div>
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
         <script>
+            
+
+
+
+
     
             window.onscroll = function() {scrollFunction()};
 
@@ -563,31 +577,61 @@
                 dots[slideIndex-1].className += " active";
                 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </script>
 
+        <script>
+                            const sections = document.querySelectorAll('section');
+        const tabs = document.querySelectorAll('.menu-item');
+    
+        function changeActiveTab() {
+          let index = 0;
+    
+          sections.forEach((section, i) => {
+            const rect = section.getBoundingClientRect();
+    
+            if (rect.top <= window.innerHeight / 2) {
+              index = i;
+            }
+          });
+    
+          tabs.forEach((tab, i) => {
+            tab.classList.toggle('active', i === index);
+          });
+        }
+    
+        function changeTab(index) {
+          sections[index - 1].scrollIntoView({ behavior: 'smooth' });
+        }
+    
+        window.addEventListener('scroll', changeActiveTab);
+    
+        changeActiveTab();
 
+
+
+
+
+
+
+        function reveal() {
+             var reveals = document.querySelectorAll(".reveal");
+
+              for (var i = 0; i < reveals.length; i++) {
+              var windowHeight = window.innerHeight;
+                  var elementTop = reveals[i].getBoundingClientRect().top;
+               var elementVisible = 150;
+
+               if (elementTop < windowHeight - elementVisible) {
+             reveals[i].classList.add("activ");
+         } else {
+             reveals[i].classList.remove("activ");
+        }
+      }
+        }
+
+            window.addEventListener("scroll", reveal);
+
+        </script>
 
 
 
