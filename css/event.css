@@ -368,12 +368,10 @@
 
 }
 .sponsors-section {
-    height: 527px;
     width: 100%;
     padding: 90px 0px;
     background-color: var(--primary-bg);
     text-align: center;
-
 }
 .sponsor-img {
     height: 90px;
@@ -394,7 +392,6 @@
     transition: .65s all;
 }
 .ticket-section {
-    height: 368px;
     width: 100%;
     background-image: url(../image/evean-background03.jpg);
     background-repeat: no-repeat;
@@ -402,4 +399,221 @@
     background-attachment: fixed;
     padding: 90px 0px;
     text-align: center;
+}
+.contact-section {
+    width: 100%;
+    background-color: var(--primary-bg);
+    padding: 90px 0px 0px 0px;
+}
+.address-box {
+    height: 64px;
+    text-align: center;
+}
+.contact-section .row {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    width: 80%;
+    grid-gap: 10px;
+    margin-bottom: 40px;
+}
+.sub-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--bth-color);
+    line-height: 25px;
+}
+.lead-font {
+    font-size: 16px;
+    margin-top: 6px;
+}
+.map {
+    height: 380px;
+    width: 100%;
+    background-image: url(../image/even-map.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    width: 100%;
+    background-color: var(--primary-bg);
+    padding: 60px 0px;
+}
+.copyright {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.footer .row {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    width: 80%;
+    grid-gap: 10px;
+
+}
+.copylogo {
+    height: auto;
+    text-align: center;
+}
+.copyright p {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+
+}
+.logo-even {
+    width: 125px;
+}
+.icon-social {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--bth-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-bg);
+    cursor: pointer;
+
+}
+.icon-social:hover {
+    background: #be042c;
+}
+.intro {
+    position: relative;
+    animation: intro 1s;
+  
+}
+@keyframes intro {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+  }
+
+
+.reveal{
+    position: relative;
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.activ {
+    opacity: 1;
+  }
+  
+  .activ.fade-bottom {
+    animation: fade-bottom 1s alternate;
+  }
+  .activ.fade-left {
+    animation: fade-left 1s alternate;
+  }
+  .activ.fade-right {
+    animation: fade-right 1s alternate;
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+@media screen and (min-width:321px) and (max-width:768px) {
+
+    .about-section .row  {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .about-section .galery {
+        height: auto;
+    }
+    .speakers-section .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponsors-section .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-section .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .footer .row  {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+   
+    }
+
+    
+    .prev {
+        position: absolute;
+        left: 23px;
+        top: -123px;
+        cursor: pointer;
+    }
+
+    
+    .next {
+        position: absolute;
+        right: 27px;
+        top: -121px;
+    }
+
+    
+    .event-day {
+        height: 95px;
+        width: 206px;
+    }
+
+    .event-day-size  {
+        height: 82px;
+        width: 82px;
+    }
+    .event {
+        column-gap: 30px;
+    }
+    .event:after  {
+        left: 43px;
+    }
+    .menu-items {
+        display: none;
+    }
+
+
+
 }
