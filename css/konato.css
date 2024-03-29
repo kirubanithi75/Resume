@@ -136,6 +136,9 @@
 .custom-select {
     position: relative;
     font-family: Arial;
+    border: 1px solid  rgb(190, 204, 214);
+    border-radius: 4px;
+
   }
   
   .custom-select select {
@@ -151,7 +154,7 @@
     position: absolute;
     content: "";
     top: 21px;
-    left: 17px;
+    right: 31px;
     width: 0;
     height: 0;
     border: 6px solid transparent;
@@ -160,7 +163,7 @@
   
   .select-selected.select-arrow-active:after {
     border-color: transparent transparent var(--text-color-h2) transparent;
-    top: 7px;
+    top: 12px;
     transition: .65s all;
 
   }
@@ -175,20 +178,24 @@
     width: 115px;
     outline: none;
     cursor: pointer;
-    border: 1px solid rgb(190, 204, 214);
     display: flex;
-    justify-content: center;
     align-items: center;
-
+    padding-left: 20px;
+  }
+  .select-items div {
+    border: 1px solid  rgb(190, 204, 214);
+    border-top: none;
   }
   
   .select-items {
     position: absolute;
     background-color: white;
     top: 100%;
+    top: 44px;
     left: 0;
     right: 0;
     z-index: 99;
+
   }
   
   .select-hide {
@@ -198,6 +205,7 @@
   .select-items div:hover, .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
   }
+  
   
 
 .bed-img {
