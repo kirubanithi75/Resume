@@ -789,6 +789,7 @@
 .contact-section .form-control3{
     height: 252px;
     width: 540px;
+    resize: none;
 }
 .contact-section .send-button {
     height: 52px;
