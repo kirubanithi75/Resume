@@ -552,6 +552,8 @@ a {
     color: #9a9a9a;
     margin-top: 10px;
     padding: 10px;
+    resize: none;
+
 }
 .name-input:focus {
     border-bottom: 2px solid var(--btn-hover-color);
