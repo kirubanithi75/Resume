@@ -17,6 +17,9 @@
 .fsb{
     align-items: center;
 }
+.tac {
+    text-align: center;
+}
 .divider-b{
     border-bottom: 1px solid;
     width: 100%;
@@ -35,4 +38,44 @@
 .gab3 {
     column-gap: 25px;
     
+}
+.font-weight-small {
+    font-weight: 500;
+}
+.font-weight-big {
+    font-weight: 700;
+}
+.social-icon-box-m {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-m {
+    column-gap: 5px;
+}
+.col-l {
+    column-gap: 30px;
+}
+.col-bd {
+    column-gap: 15px;
+}
+.mar-bd {
+    margin-top: 10px;
+}
+.mar-l {
+    margin-top: 15px;
+}
+.mar-m {
+    margin-top: 25px;
+}
+.mar-xl {
+    margin-top: 40px;
 }
