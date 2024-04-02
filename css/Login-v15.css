@@ -156,3 +156,22 @@
     transition: .65s all;
 
 }
+@media screen and (min-width:321px) and (max-width:768px) {
+
+    .validate-form {
+        padding: 50px 31px 46px 35px;
+    }
+    .label-input {
+        left: 12px;
+        top: 22px;
+    }
+    .label-input-top {
+        top: 102px;
+    }
+
+    .main-container  {
+        width: 100%;
+    }
+
+    
+}
