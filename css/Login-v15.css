@@ -1,0 +1,158 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #EBEEEF;
+    padding: 15px
+}
+.main-container {
+    width: 50%;
+    border-radius: 10px;
+}
+.form-title {
+    height: 180px;
+    width: 100%;
+    background-image: url(../image/login-si-bg-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.form-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(54,84,99,.7);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    z-index: -1;
+}
+.title {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;    
+}
+.validate-form {
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 43px 88px 93px 190px;
+    position: relative;
+    margin-bottom: 27px;
+
+}
+.input {
+    height: 45px;
+    width: 100%;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    background: 0 0;
+    padding: 0 5px;
+    border-bottom: 1px solid #b2b2b2;
+    padding-bottom: 10px;
+    outline: none;
+}
+.label-input {
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    font-size: 15px;
+    color: gray;
+}
+.user {
+    margin-bottom: 27px;
+
+}
+.label-input-top {
+    top: 124px;
+}
+
+
+
+
+.main {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #999;
+    font-weight: 400;
+}
+
+.main input[type=checkbox] {
+    visibility: hidden;
+}
+
+.checkbox-container {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+.checkbox-container::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 3px;
+    top: -1px;
+    width: 5px;
+    height: 10px;
+    border: solid green;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.main input:checked~.checkbox-container::after {
+    display: block;
+}
+.label-checkbox {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-login {
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #57b846;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn-login:hover {
+    background-color: #333333;
+    transition: .65s all;
+}
+.input:focus {
+    border-bottom: 1px solid green;
+    transition: .65s all;
+
+}
