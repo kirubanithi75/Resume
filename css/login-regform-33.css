@@ -1,0 +1,121 @@
+.main-container {
+    width: 100%;
+    background-image: -webkit-linear-gradient(136deg, rgb(254, 225, 64) 0%, rgb(250, 112, 154) 100%);
+    padding: 165px 0px;
+}
+.container {
+    width: 66%;
+}
+.form-left {
+    height: 520px;
+    width: 40%;
+    background-image: url(../image/login-form-v7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text-1 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 38px;
+    
+}
+.text-2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    left: 20%;
+}
+.text-2::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 1px;
+    width: 219px;
+    bottom: -6px;
+    left: 0%;
+}
+.form-detail {
+    height: 600px;
+    width: 60%;
+    background-color: #FFFFFF;
+    padding: 73px 80px 41px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,.15);
+    -o-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .15);
+    -ms-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 0 8px 20px 0 rgba(0,0,0,.15);
+}
+.name {
+    color: #666;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.input-text {
+    height: 37px;
+    width: 100%;
+    padding: 5px 15px 10px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #e5e5e5;
+    outline: none;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 28px;
+}
+.bth {
+    background: #373be3;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 15px 50px;
+}
+.form-row-last p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+    padding-left: 20px;
+}
+.form-row-last a {
+    font-size: 16px;
+    color: #373be3;
+    padding-left: 15px;
+}
+.bth:hover {
+    background: #2124e9;
+}
+.input-text:focus {
+    border-bottom: 1px solid #FCB761;
+}
+@media screen and (min-width:321px) and (max-width:768px) {
+    
+    .row-flex  {
+        display: block;
+    }
+    .form-left  {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .form-detail  {
+        width: 100%;
+        padding: 59px 42px 41px;
+    }
+    .main-container {
+        padding: 165px 15px;
+    }
+
+
+
+
+
+
+}

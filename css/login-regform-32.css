@@ -1,0 +1,85 @@
+.page-content {
+    width: 100%;
+    padding: 180px 0px;
+    background-image: -webkit-linear-gradient(136deg, rgb(0, 0, 70) 0%, rgb(28, 181, 224) 100%)
+}
+.form-content {
+    width: 70%;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+}
+.form-left {
+    height: 584px;
+    width: 50%;
+    background-image: url(../image/login-title-form-v6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.form-detail {
+    height: 584px;
+    width: 50%;
+    padding: 30px 40px;
+}
+.title {
+    font-size: 35px;
+    margin-top: 29px;
+    margin-bottom: 47px;
+}
+.input-text {
+    height: 32px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 0px 15px 15px 10px;
+    outline: none;
+    color: #333;
+}
+.input-text:focus {
+    border-bottom: 2px solid #E37B27;
+}
+.form-row {
+    margin-bottom: 35px;
+}
+.submit {
+    color: white;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.15);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #fe892a;
+    border-radius: 7px;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #bb5909;
+}
+@media screen and (min-width:321px) and (max-width:761px) {
+
+    .row-flex {
+        display: block;
+    }
+    .form-content {
+        width: 100%;
+    }
+    .form-left {
+        width: 100%;
+    }
+    .form-detail {
+        width: 100%;
+    }
+    .page-content {
+        padding: 60px 14px;
+    }
+
+
+
+
+
+
+
+}
