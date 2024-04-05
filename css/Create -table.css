@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    background-color: #F8F9FD;
+    padding: 112px 120px;
+    text-align: center;
+}
+.title {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 54px;
+    color: #000;
+    text-align: center;
+}
+.sub-title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.table thead.thead-primary {
+    background: #6807f9;
+}
+.table thead th {
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    width: 6%;
+}
+.table tbody th.scope {
+    background: #e8ebf8;
+    border-bottom: 2px solid #e0e5f6;
+}
+.table tbody th, .table tbody td {
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    background: #fff;
+    vertical-align: middle;
+    border-bottom: 2px solid #f8f9fd;
+
+}
+table {
+    border-collapse: collapse;
+}
+.table tbody td:nth-child(odd) {
+    background: #f4f6fc;
+    border-bottom: 2px solid #eceffa;
+}
+.btn {
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    background: #6807f9;
+    border-color: #6807f9;
+    color: #fff;
+    padding: 10px;
+
+}
+.btn:hover {
+    background: #5205c5;
+
+}
+.table-wrap {
+    overflow-x: scroll;
+}
+@media screen and (min-width:321px) and (max-width:768px) {
+    .table-wrap {
+        overflow-x: scroll;
+    }
+    .table tbody th, .table tbody td {
+        border: none;
+        padding: 16px;
+        
+    }
+    .container {
+        padding: 100px 0px;
+    }
+
+
+
+
+}
