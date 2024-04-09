@@ -1,0 +1,143 @@
+.main-container {
+    width: 100%;
+    padding: 112px 0px;
+    background-color: #19191D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continer {
+    width: 80%;
+    background-color: #19191D;
+}
+.control {
+    display: block;
+    position: relative;
+    padding: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.control input[type=checkbox] {
+    visibility: hidden;
+}
+.checkbox-container {
+    position: absolute;
+    top: 25px;
+    left: 17px;
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    border: 2px solid #3f3f47;
+    background: transparent;
+}
+.control input:checked~.checkbox-container {
+    border: 2px solid #007bff;
+    background: #007bff;
+}
+.checkbox-container::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 4px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+
+}
+.control input:checked~.checkbox-container::after {
+    display: block;
+}
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+table thead th {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+.table thead tr th:nth-child(odd) {
+    height: 100px;
+    width: 100px;
+    background-color: #007bff;
+}
+table thead th:nth-child(1) {
+    color: red;
+}
+table thead th:nth-child(2) {
+    height: 49px;
+    width: 90px;
+    padding: 12px;
+}
+table thead th:nth-child(3) {
+    height: 49px;
+    width: 259px;
+    padding: 12px;
+
+}
+table thead th:nth-child(4) {
+    height: 49px;
+    width: 357px;
+    padding: 12px;
+
+}
+table thead th:nth-child(5) {
+    height: 49px;
+    width: 228px;
+    padding: 12px;
+
+}
+table thead th:nth-child(6) {
+    height: 49px;
+    width: 189px;
+    padding: 12px;
+
+}
+th {
+    text-align: inherit;
+}
+table tbody td {
+    color: #777;
+    font-weight: 400;
+    font-weight: 300;
+    padding: 20px 12px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.d-block {
+    color: #b3b3b3;
+    font-weight: 300;
+}
+.spacer {
+    height: 3px;
+    width: 100%;
+    background-color: #19191D;
+}
+tbody tr {
+    background-color: #25252B;
+}
+table {
+    border-collapse: collapse;
+    
+}
+table tbody tr:nth-child(2) {
+    padding: 0px;
+}
+.spacer-padding {
+    padding: 0px;
+}
+table tbody tr td a {
+    color: #b3b3b3;
+}
+tbody tr:hover {
+    background-color: #2E2E36;
+    transition: .65s all;
+}
