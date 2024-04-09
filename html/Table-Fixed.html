@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/util.css">
+        <link rel="stylesheet" href="../css/Table-Fixed.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="continer">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <label class="control">
+                                    <input type="checkbox"  id="selectAll" onclick="toggleAll()">
+                                    <span class="checkbox-container"></span>
+                                </label>
+                            </th>
+                            <th>Order</th>
+                            <th>Name</th>
+                            <th>Occupation</th>
+                            <th>Contact</th>
+                            <th>Education</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+
+                        <tr scope="row" class="">
+                            <th scope="row">
+                                <label class="control">
+                                    <input type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                </label>
+                            </th>
+                            <td>
+                            1392
+                            </td>
+                            <td><a href="#">James Yates</a></td>
+                            <td>
+                            Web Designer<br>
+                            <small class="d-block">Far far away, behind the word mountains</small>
+                            </td>
+                            <td>+63 983 0962 971</td>
+                            <td>NY University</td>
+                        </tr>
+
+                        <tr class="spacer">
+                            <td colspan="100" class="spacer-padding"></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <th scope="row">
+                                <label class="control">
+                                    <input type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                </label>     
+                            </th>
+                            <td>4616</td>
+                            <td><a href="#">Matthew Wasil</a></td>
+                            <td>
+                                Graphic Designer<br>
+                                <small class="d-block">Far far away, behind the word mountains</small>
+                            </td>
+                            <td>+02 020 3994 929</td>
+                            <td>London College</td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100" class="spacer-padding"></td>
+                        </tr>
+
+
+
+
+                        <tr>
+                            <th scope="row">
+                                <label class="control control--checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                </label>     
+                            </th>
+                            <td>98741</td>
+                            <td><a href="#">Sampson Murphy</a></td>
+                            <td>
+                                Mobile Dev<br>
+                                <small class="d-block">Far far away, behind the word mountains</small>
+                            </td>
+                            <td>+01 352 1125 0192</td>
+                            <td>Senior High</td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100" class="spacer-padding"></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <th scope="row">
+                                <label class="control control--checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                </label>     
+                            </th>
+                            <td>4616</td>
+                            <td><a href="#">Matthew Wasil</a></td>
+                            <td>
+                                Graphic Designer<br>
+                                <small class="d-block">Far far away, behind the word mountains</small>
+                            </td>
+                            <td>+02 020 3994 929</td>
+                            <td>London College</td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100" class="spacer-padding"></td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">
+                                <label class="control control--checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                </label>     
+                            </th>
+                            <td>9841</td>
+                            <td><a href="#">Matthew Wasil</a></td>
+                            <td>
+                                Graphic Designer<br>
+                                <small class="d-block">Far far away, behind the word mountains</small>
+                            </td>
+                            <td>+02 020 3994 929</td>
+                            <td>London College</td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100" class="spacer-padding"></td>
+                        </tr>
+
+
+
+
+
+
+
+
+                        <tr>
+                            <th scope="row">
+                                <label class="control control--checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                </label>     
+                            </th>
+                            <td>4616</td>
+                            <td><a href="#">Sampson Murphy
+                            </a></td>
+                            <td>
+                                Mobile Dev<br>
+                                <small class="d-block">Far far away, behind the word mountains</small>
+                            </td>
+                            <td>+01 352 1125 0192</td>
+                            <td>Senior High</td>
+                        </tr>
+                        <tr class="spacer">
+                            <td colspan="100" class="spacer-padding"></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <th scope="row">
+                                <label class="control control--checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                </label>     
+                            </th>
+                            <td>9548</td>
+                            <td><a href="#">Gaspar Semenov
+
+
+                            </a></td>
+                            <td>
+                                Illustrator<br>
+                                <small class="d-block">Far far away, behind the word mountains</small>
+                            </td>
+                            <td>+92 020 3994 929</td>
+                            <td>Collage</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+        <script>
+            function toggleAll() {
+                var checkboxes = document.querySelectorAll('tbody input[type="checkbox"]');
+                var selectAllCheckbox = document.getElementById('selectAll');
+    
+                for (var i = 0; i < checkboxes.length; i++) {
+                    checkboxes[i].checked = selectAllCheckbox.checked;
+                }
+            }
+        </script>
+    
+    </body>
+</html>
