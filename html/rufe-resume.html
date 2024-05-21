@@ -10,97 +10,12 @@
 
 
 <meta content="width=device-width, initial-scale=1" name="viewport" >
-
+<link rel="icon" type="image/x-icon" href="../image/founder-img.png.webp">
 
 </head>
 
 <body>
     <div class="page">
-
-        <div class="header-menu">
-
-            <div class="header">
-                <p class="header-name">R
-                    <span>ESUME</span>
-
-                </p>
-
-
-
-            </div>
-            <div class="menu-section" id="select">
-
-                <div class="menu-item menu-active" onclick="changeTab(1)"  onclick="home()">
-                    <i class="fa fa-home"></i>
-
-                    <h5 class="menu-h5 ">Home</h5>
-                    
-                </div>
-                <div class="menu-item " onclick="changeTab(2)"  onclick="about()" >
-                    <i class="fa fa-vcard"></i>
-
-                    <h5 class="menu-h5" >About</h5>
-                </div>
-                <div class="menu-item" onclick="skills()">
-                    <i class="fa fa-gears"></i>
-
-                    <h5 class="menu-h5" >Skills</h5>
-                </div>
-                <div class="menu-item" onclick="por()">
-                    <i class="fa fa-briefcase"></i>
-
-                    <h5 class="menu-h5" >Portfolio</h5>
-                </div>
-
-            </div>
-
-            <div class="contacts">
-
-                <div class="icon-box">
-
-                    <i class="fa fa-envelope"></i>
-                    <div class="mail-contact">kathirkirupa133@gmail.com </div>
-                </div>
-                <div class="icon-box">
-                    <i class="fa fa-phone"></i>
-                     <div class="mail-contact">9360658928</div>
-
-                </div>
-
-
-
-
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <div class="slide-menu">
 
@@ -323,20 +238,20 @@
                     </div>
 
 
-                    <div  id="filter" class="filter-button" >
-                        <button class="button-list active" >All</button>
-                        <button class="button-list button-list2" >Web Page</button>
-                        <button class="button-list button-list2">Tables</button>
-                        <button class="button-list button-list2">Response</button>
-                        <button class="button-list button-list2">Forms</button>
-                        <button class="button-list button-list2">Animation</button>
-                        <button class="button-list button-list2">Javascript</button>
+                    <div  id="myBtnContainer" class="filter-button" >
+                        <button class="button-list filter"  onclick="filterSelection('all')">All</button>
+                        <button class="button-list button-list2" onclick="filterSelection('WebPage')">Web Page</button>
+                        <button class="button-list button-list2" onclick="filterSelection('Tables')">Tables</button>
+                        <button class="button-list button-list2" onclick="filterSelection('Response')">Response</button>
+                        <button class="button-list button-list2" onclick="filterSelection('Forms')">Forms</button>
+                        <button class="button-list button-list2" onclick="filterSelection('Animation')">Animation</button>
+                        <button class="button-list button-list2" onclick="filterSelection('Javascript')">Javascript</button>
 
                     </div>
 
 
                     <div class="project-cards">
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage Response Animation Javascript">
         
                             <div class="item-box item-box1">
                                 <div class="layer">
@@ -352,8 +267,8 @@
         
                             </div>
         
-                        </div>
-                        <div class="project-card reveal fade-right">
+                        </div> 
+                        <div class="project-card reveal fade-right WebPage Response Animation Javascript">
         
                             <div class="item-box item-box23">
                                 <div class="layer">
@@ -370,7 +285,7 @@
                             </div>
         
                         </div>
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage Response Animation Javascript">
 
     
                             <div class="item-box item-box20">
@@ -388,7 +303,7 @@
         
                             </div>
                         </div>
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right WebPage Response">
         
                             <div class="item-box item-box21">
                                 <div class="layer">
@@ -407,7 +322,7 @@
                         </div>
 
 
-                        <div class="project-card reveal fade-bottom">
+                        <div class="project-card reveal fade-bottom WebPage Response Animation Javascript">
 
                             <div class="item-box item-box25">
                                 <div class="layer">
@@ -432,7 +347,7 @@
 
 
 
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage Response Animation">
 
                             <div class="item-box item-box22">
                                 <div class="layer">
@@ -450,7 +365,7 @@
                         </div>    
 
 
-                       <div class="project-card reveal fade-left">
+                       <div class="project-card reveal fade-left WebPage Response Animation">
 
                             <div class="item-box item-box18">
                                 <div class="layer">
@@ -471,7 +386,7 @@
 
 
 
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right WebPage Response Animation">
 
                             <div class="item-box item-box24">
                                 <div class="layer">
@@ -489,7 +404,7 @@
                             </div>
                         </div>    
 
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage Response Animation Javascript">
         
                             <div class="item-box item-box26">
                                 <div class="layer">
@@ -507,7 +422,7 @@
         
                         </div>
 
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right Forms WebPage Response">
 
                             <div class="item-box item-box27">
                                 <div class="layer">
@@ -524,7 +439,7 @@
         
                         </div>    
 
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left Forms WebPage Response">
 
                             <div class="item-box item-box28">
                                 <div class="layer">
@@ -540,7 +455,7 @@
                             </div>
         
                         </div>    
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right Forms WebPage Response">
 
                             <div class="item-box item-box29">
                                 <div class="layer">
@@ -556,7 +471,7 @@
                             </div>
         
                         </div>    
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right Forms WebPage">
 
                             <div class="item-box item-box30">
                                 <div class="layer">
@@ -583,7 +498,7 @@
 
 
                         
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage">
 
                             <div class="item-box">
                                 
@@ -604,7 +519,7 @@
                             
         
         
-                        <div class="project-card reveal fade-bottom">
+                        <div class="project-card reveal fade-bottom WebPage">
 
                             <div class="item-box item-box2">
                                 <div class="layer">
@@ -622,7 +537,7 @@
                             </div>
                         </div>    
                         
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right Tables WebPage">
         
                             <div class="item-box item-box4">
                                 <div class="layer">
@@ -642,7 +557,7 @@
         
         
         
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage">
         
                             <div class="item-box item-box9">
                                 <div class="layer">
@@ -659,7 +574,7 @@
                             </div>
         
                         </div>
-                        <div class="project-card reveal fade-bottom">
+                        <div class="project-card reveal fade-bottom WebPage">
         
                             <div class="item-box item-box12">
                                 <div class="layer">
@@ -677,7 +592,7 @@
                         </div>    
         
         
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right WebPage">
         
                             <div class="item-box item-box7">
                                 <div class="layer">
@@ -695,7 +610,7 @@
                         </div>     
         
         
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left Forms WebPage">
 
     
                             <div class="item-box item-box8">
@@ -713,7 +628,7 @@
         
                             </div>
                         </div>
-                        <div class="project-card reveal fade-bottom">
+                        <div class="project-card reveal fade-bottom Forms WebPage">
 
                             <div class="item-box item-box5">
                                 <div class="layer">
@@ -733,7 +648,7 @@
         
         
         
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-right WebPage">
         
                             <div class="item-box item-box10">
                                 <div class="layer">
@@ -752,7 +667,7 @@
         
         
         
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage">
 
         
                             <div class="item-box item-box11">
@@ -770,9 +685,9 @@
         
                             </div>
                         </div>
-                        <div class="project-card reveal fade-bottom">
+                        <div class="project-card reveal fade-bottom WebPage">
 
-                            <div class="item-box item-box6">
+                            <div class="item-box item-box6 Forms">
                                 <div class="layer">
                                     <div class="icon-box"> 
                                         <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/xmee-login-form1.html" target="_blank">
@@ -788,7 +703,7 @@
                         </div>    
         
         
-                        <div class="project-card reveal fade-right">
+                        <div class="project-card reveal fade-righ WebPaget">
 
                             <div class="item-box item-box15">
                                 <div class="layer">
@@ -809,7 +724,7 @@
         
         
         
-                        <div class="project-card reveal fade-left">
+                        <div class="project-card reveal fade-left WebPage">
 
                             <div class="item-box item-box17">
                                 <div class="layer">
@@ -950,15 +865,6 @@
 
             
 
-            var header = document.getElementById("filter");
-                var btns = header.getElementsByClassName("button-list");
-                for (var i = 0; i < btns.length; i++) {
-                  btns[i].addEventListener("click", function() {
-                  var current = document.getElementsByClassName("active");
-                  current[0].className = current[0].className.replace(" active", "");
-                  this.className += " active";
-                  });
-                }
 
 
 
@@ -974,10 +880,57 @@
         }
 
 
-        
+
+
+
      </script>
             
-        
+        <script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("project-card");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("button-list");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("filter");
+    current[0].className = current[0].className.replace(" filter", "");
+    this.className += " filter";
+  });
+}
+
+
+        </script>
 
 
 
