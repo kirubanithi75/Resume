@@ -698,10 +698,13 @@
         height: 45px;
         min-width: 70px;
         display: flex;
-    align-items: center;
-    justify-content: center;
+        align-items: center;
+        justify-content: center;
     }
 
+    .header-menu {
+        height: 45px;
+    }
 
 
 
