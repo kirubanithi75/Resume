@@ -651,7 +651,7 @@
     .Skills .row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
+        justify-items: center;
 
     }
 
@@ -695,20 +695,26 @@
     .menu-item {
         font-size: 12px;
         padding: 0px;
-        height: 37px;
+        height: 33px;
         min-width: 70px;
         display: flex;
         align-items: center;
         justify-content: center;
         column-gap: 5px;
-
     }
-
     .header-menu {
         height: 45px;
     }
 
+    .main-container .main-section  {
+        height: 55vh;
+    }
 
+    .item-box {
+        height: 125px;
+        width: 113px;
+    
+    }
 
 
 
@@ -748,12 +754,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
-
-    }
-
-    .item-box {
-        height: 200px;
-        width: 200px;
+        justify-items: center;
     }
 
 
@@ -817,11 +818,6 @@
     .center-box::before {
         left: 67px;
     }
-    .item-box {
-        height: 103px;
-         width: 93px;
-    }
-
     .about-me  {
         padding: 33px 30px;
     }
