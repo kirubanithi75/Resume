@@ -1078,10 +1078,12 @@
 @media screen and (min-width:853px) {
     .project-cards { 
         width: 92%;
+        justify-items: center;
     }
 }
 @media screen and (min-width:820px) {
     .project-cards {
         width: 95%;
+        justify-items: center;
     }
 }
