@@ -647,16 +647,13 @@
 }
   
 
-  @media screen and (min-width:321px) and (max-width:768px) {
+  @media screen and (min-width:280px) and (max-width:768px) {
     .Skills .row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
 
     }
-
-
-
     .slide-menu {
         width: 100%;
         height: 37px;
@@ -689,9 +686,6 @@
     }
 
 
-    .menu-h5  {
-        display: non;
-    }
     .menu-item {
         font-size: 12px;
         padding: 0px;
@@ -715,33 +709,6 @@
         width: 113px;
     
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .about-me .row {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -770,11 +737,6 @@
         font-weight: 600;
         line-height: 70px;
     }
-
-
-
-
-
     .page {
         padding-left: 0px;
     }
@@ -903,11 +865,6 @@
 
 
   }
-
-
-
-
-
 
 
 
@@ -1118,261 +1075,8 @@
     }
 
 }
-
-@media screen and (min-width:280px) and (max-width:653px) {
-
-    .Skills .row {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-
+@media screen and (min-width:853px) {
+    .project-cards { 
+        width: 92%;
     }
-
-
-
-    .slide-menu {
-        width: 100%;
-        height: 37px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        z-index: 2;
-    }
-    .slide-menu .header {
-        height: 0px; 
-        padding: 0px 0px;
-        display: flex;
-         align-items: center;
-
-    }
-
-    .menu-section {
-        display: flex;
-        align-items: center;
-        column-gap: 6px;
-    }
-
-    .slide-menu .header-name {
-        display: non;
-        padding: 0px 0px;
-        font-size: 13px;
-    }
-    .slide-menu .contacts {
-        display: none;
-    }
-
-
-    .menu-item {
-        font-size: 12px;
-        padding: 0px;
-        height: 33px;
-        min-width: 41px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        column-gap: 5px;
-    }
-    .header-menu {
-        height: 45px;
-    }
-
-    .main-container .main-section  {
-        height: 55vh;
-    }
-
-    .item-box {
-        height: 125px;
-        width: 96px;
-    
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .about-me .row {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
-        
-
-    }
-
-    .project-cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-        justify-items: center;
-    }
-
-
-
-
-    .main-section .name {
-        font-size: 24px;
-        font-weight: 400;
-    }
-
-    .main-section .web-h3 {
-        font-size: 59px;
-        font-weight: 600;
-        line-height: 70px;
-    }
-
-
-
-
-
-    .page {
-        padding-left: 0px;
-    }
-
-    .fa-home:before {
-        font-size: 15px;
-
-
-    }
-    .main-section .name {
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 30px;
-    }
-
-    .main-section .web-h3 {
-        font-size: 23px;
-        line-height: 28px;
-        font-weight: 500;
-    }
-
-    .box {
-        height: 212px;
-        width: 184px;
-    }
-    .image-h {
-        height: 211px;
-        width: 182px;
-    }
-
-    .box-skill {
-        height: 124px;
-        width: 118px;
-    }
-
-    .box-html {
-        height: 90px;
-        width: 105px;
-    }
-
-    .center-box::before {
-        left: 67px;
-    }
-    .about-me  {
-        padding: 33px 30px;
-    }
-
-    .center-box {
-        height: 85px;
-        width: 85px;
-        font-size: 15px;
-        font-weight: 500;
-    }
-
-
-    .about-me .heading-h2 {
-        font-size: 19px;
-    }
-    .divider {
-        margin-bottom: 18px;
-    }
-    .divider::before {
-        width: 29px;
-    }
-    .divider::after  {
-        width: 29px;
-    }
-    .about-h3 {
-        font-size: 11px;
-    }
-    .line {
-        margin-top: 4px;
-        width: 50px;
-    }
-    .intro-h4s {
-        margin-bottom: 3px;
-    }
-    .intro-h4 {
-        font-size: 13px;
-        margin-top: 6px;
-        margin-bottom: -2px;
-    }
-    .discription {
-        font-size: 11px;
-        line-height: 18px;
-    }
-    .sub-h4  {
-        font-size: 12px;
-        margin-top: 6px;
-    }
-    .Skills {
-        padding: 33px;
-    }
-    .heading-h2l {
-        font-size: 19px;
-    }    
-
-    .heading-h2d {
-        font-size: 19px;
-    }
-    .portfolio {
-        padding: 16px;
-    }
-    .layer .icon-box {
-        font-size: 10px;
-        padding: 5px;
-    }
-    .link-project {
-        font-size: 7px;
-    }
-       .slide-menu .icon-box {
-        font-size: 7px;
-        display: block;
-        padding-left: 15px;
-        height: 40px;
-    
-    }
-    .icon-box i {
-        font-size: 10px;
-    }
-
-
-   .mail-contact {
-        display: none;
-    }
-
-
-
-
-
 }
