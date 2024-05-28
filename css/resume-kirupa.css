@@ -940,6 +940,10 @@
         width: 100px;
     }
 
+    .filter-button {
+        display: none;
+    }
+
   }
 
 
@@ -1133,6 +1137,10 @@
 .item-box {
     height: 285px;
     width: 235px;
+}
+.filter-button {
+
+    display: none;
 }
 
   }
