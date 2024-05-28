@@ -7,10 +7,6 @@
 
 }
 
-.filter-button {
-    display: none;
-}
-
 
 .page {
     padding-left: 250px;
@@ -478,6 +474,10 @@
     background-color: #041331;
     color: white;
 }
+.filter-button {
+    display: none;
+}
+
 
 .project-card {
     display: none;
