@@ -8,13 +8,12 @@
 }
 
 
-
 .page {
     padding-left: 250px;
 
 }
 .slide-menu {
-    height: 100vh;
+    height: 100vh ;
     width: 250px;
     background: var(--primary-bg);
     position: fixed;
@@ -28,8 +27,10 @@
 }
 .slide-menu .header {
     height: 206px;
-    padding: 80px 0px ;
     border-bottom: 1px solid  rgba(255, 255, 255, .02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .slide-menu .header-name {
     font-size: 32px;
@@ -68,7 +69,7 @@
     position: absolute;
     bottom: -122px;
 }
-.slide-menu .icon-box {
+ .icon-box {
     font-size: 12px;
     font-weight: 400;
     color: var(--secondary-bg);
@@ -80,6 +81,17 @@
     align-items: center;
 
 }
+.icon-box2 {
+    font-size: 25px;
+    padding-left: 0;
+    column-gap: 20px;
+    margin-top: 15px;
+    display: none;
+}
+.icon-box2 i {
+    font-size: 30px;
+}
+
 .icon-box i {
     font-size: 17px;
 }
@@ -103,12 +115,14 @@
     content: "";
     height: 100%;
     width: 100%;
-    background-color: rgba(56, 56, 58, .65);
+    background-color: rgb(56 56 58 / 57%);
     position: absolute;
     left: 0;
     right: 0;
     z-index: -1;
 }
+
+
 .main-section .name {
     color: rgb(255, 255, 255);
     font-size: 34px;
@@ -133,7 +147,7 @@
 }
 .intro {
     position: relative;
-    animation: intro 1s backwards;
+    animation: intro 1s;
   
 }
 @keyframes intro {
@@ -146,6 +160,7 @@
         opacity: 1;
       }
   }
+
 
 
 
@@ -205,10 +220,31 @@
     }
   }
   
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about-me {
     width: 100%;
     background: var(--secondary-bg);
     padding: 100px 55px;
+
 }
 .about-me .main-title {
     text-align: center;
@@ -279,10 +315,11 @@
     font-weight: 600;
     color: rgb(68, 68, 68);
     line-height: 39px;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
     margin-top: 25px;
 }
 .intro-h4s {
+    margin-bottom: 10px;
     font-weight: 600;
     font-size: 22px;
 }
@@ -300,7 +337,7 @@
 .Skills {
     width: 100%;
     background-color: #041331;
-    padding: 100px 56px;
+    padding: 100px 55px 70px 55px;
 }
 .heading-h2l span {
     color: var(--secondary-bg);
@@ -355,11 +392,10 @@
     left: 82px;
 }
 .center-box2::before {
-  height: 65px;
+    height: 65px;
     width: 61px;
     top: -3px;
     left: 44px;
-
     
 }
 .center-box3::before {
@@ -380,11 +416,13 @@
 
 
 }
+
 .portfolio {
     width: 100%;
-    background-color: f9f9f9;
+    background-color: #E5E1DA;
     padding-top: 100px;
     padding-bottom: 70px;
+    padding-left: 25px;
 }
 .heading-h2 {
     font-size: 44px;
@@ -419,11 +457,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-    display: none;
+
 }
 .active {
-    color: #16c0f0;
     background-color: #0F1D38;
+    color: #16c0f0;
 }
 .project-cards {
     display: grid;
@@ -431,15 +469,32 @@
     grid-template-columns: repeat(3,1fr);
     width: 80%;
     margin: auto;
+}
+.filter {
+    background-color: #041331;
+    color: white;
+}
+.filter-button {
+    display: none;
+}
+
+
+.project-card {
+    display: none;
 
 }
+.show {
+    display: block;
+  }
+
+
+
 .item-bo {
     height: 309px;
 
 }
 .item-box {
     height: 309px;
-    width: 100%;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -544,6 +599,7 @@
 .item-box24 {
     background-image: url(../image/hazze-pho.jpeg);
     background-position: top;
+
 }
 .item-box25 {
     background-image: url(../image/confer-img.jpeg);
@@ -576,6 +632,36 @@
     background-position: top;
 
 }
+
+
+.item-box31 {
+    background-image: url(../image/table-p1.jpeg);
+    background-position: top;
+
+}
+.item-box32 {
+    background-image: url(../image/tablebox3.jpeg);
+    background-position: top;
+
+}
+.item-box33 {
+    background-image: url(../image/tablecolor.jpeg);
+    background-position: top;
+
+}
+
+.item-box34 {
+    background-image: url(../image/table-tem.jpeg);
+    background-position: top;
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -631,23 +717,25 @@
 }
 
 
-
 .pro-title {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--title-color);
     margin-top: 10px;
 }
-
+.row-box2 {
+    margin-top: 30px;
+}
 .heading-h2d span {
     color: #444;
 }
- .layer .icon-box:hover {
+   
+.layer .icon-box:hover {
     background: rgb(21 137 218);
 }
-  
 
-  @media screen and (min-width:280px) and (max-width:768px) {
+
+@media screen and (min-width:280px) and (max-width:768px) {
     .Skills .row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -863,6 +951,21 @@
         display: none;
     }
 
+    .filter-button {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        grid-gap: 20px;
+    }
+
+    .button-list2 {
+        width: 100px;
+    }
+
+    .filter-button {
+        display: none;
+    }
 
   }
 
@@ -873,6 +976,20 @@
 
 
   @media screen and (min-width:768px) and (max-width:1024px) {
+    .filter-button {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        justify-items: center;
+        grid-gap: 20px;
+    }
+    .button-list2 {
+        width: 117px;
+    }
+
+
+
+
 
     .slide-menu {
     width: 100%;
@@ -1044,16 +1161,10 @@
     height: 285px;
     width: 235px;
 }
+.filter-button {
 
-  }
-  @media screen and (min-width:912px) and (max-width:1368px) {
-
-    .Skills .row {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 25px;
-        justify-items: center;
-    }
+    display: none;
+}
 
   }
   @media screen and (min-width:853px) and (max-width:1280px) {
@@ -1066,6 +1177,8 @@
 
     
   }
+
+
   @media screen and (min-width:820px) and (max-width:1180px) {
 
     .Skills .row {
@@ -1075,13 +1188,13 @@
     }
 
 }
-@media screen and (min-width:853px) {
+@media screen and (min-width:853px) and (max-width:1180px) {
     .project-cards { 
         width: 92%;
         justify-items: center;
     }
 }
-@media screen and (min-width:820px) {
+@media screen and (min-width:820px) and (max-width:1180px) {
     .project-cards {
         width: 95%;
         justify-items: center;
