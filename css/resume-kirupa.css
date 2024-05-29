@@ -962,6 +962,9 @@
     .button-list2 {
         width: 100px;
     }
+    .icon-box {
+        height: 22px;
+    }
 
     .filter-button {
         display: none;
@@ -1165,6 +1168,22 @@
 
     display: none;
 }
+.icon-box {
+    height: 50px;
+}
+
+.layer .icon-box {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.link-project {
+    font-size: 18px;
+}
+.icon-box i {
+    font-size: 22px;
+}
+
 
   }
   @media screen and (min-width:853px) and (max-width:1280px) {
