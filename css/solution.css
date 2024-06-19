@@ -571,8 +571,6 @@ li {
     margin-bottom: 60px;
 }
 .text-box {
-    height: 330px;
-    background-color: #090f35;
     padding: 16px;
     position: relative;
     z-index: 1;
@@ -1102,9 +1100,6 @@ li {
         justify-items: center;
 
     }
-
-
-
 
 
 
