@@ -1013,11 +1013,13 @@ body{
 
 
     .image-profile-layer {
-        height: auto;
         display: block;
     }
 
-
+    .icon-fa {
+        height: 53px;
+        width: 53px;
+    }
     .image-profile {
         height: 473px;
     }
