@@ -94,7 +94,6 @@ body{
 }
 .header {
     height: 100vh;
-    background-color: var(--primary-bg);
     position: fixed;
     right: 0px;
     z-index: 1;
