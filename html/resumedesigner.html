@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/util.css">
+        <link rel="stylesheet" href="../css/resumedesigner.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" >
+
+    </head>
+    <body>
+
+        <div class="container-action">
+            <div id="navbar">
+                <div class="nav-icon margin-bottom-15">
+                    <h4 class="color-text font-weight-700 margin-bottom-10 font-size-15">COLOR SWITCHER</h4>
+                    <div class="close-icon">
+                        <div id="closeButton"  style="display: none;">
+                            x
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="color-picker">
+                    <div class="color-variable fxb fav col-m">
+
+                        <div onclick="toggleMode('purple-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-1.png" alt="purple" data-color="purple">
+                            </a>
+                        </div>
+                        <div  onclick="toggleMode('red-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-red-2.png" alt="red" data-color="red">
+                            </a>
+    
+                        </div>
+                    <div onclick="toggleMode('blueviolet-mode')"><a href="#">
+                        <a href="#">
+                            <img class="color-img" src="../image/purple-blueviolet3.png" alt="blueviolet" data-color="blueviolet">
+                        </a>
+    
+                    </a></div>
+                        <div onclick="toggleMode('blue-mode')"><a href="#">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-blue4.png" alt="blue" data-color="blue">
+                            </a>
+        
+                        </a></div>
+                        <div onclick="toggleMode('goldenrod-mode')"><a href="#">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-goldenrod5.png" alt="goldenrod" data-color="goldenrod">
+                            </a>
+        
+                        </a></div>
+
+                    </div>
+    
+                    <div class="color-variable fxb fav col-m margin-top-10">
+
+                        <div onclick="toggleMode('magenta-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-magenta6.png" alt="">
+                            </a>
+                        </div>
+
+                        <div  onclick="toggleMode('yellowgreen-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-yellowgreen7.png" alt="">
+                            </a>
+                        </div>
+
+                        <div onclick="toggleMode('orange-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-orange8.png" alt="">
+                            </a>
+                        </div>
+                        <div onclick="toggleMode('green-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-green9.png" alt="">
+                            </a>
+                        </div>
+                        <div  onclick="toggleMode('yellow-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-yellow10.png" alt="">
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+            <div>
+                    <button id="toggleButton" class="setting-icon row-flex">
+                        <i class="fa fa-gear fa-spin"
+                        ></i>
+
+                    </button>
+    
+            
+            </div>
+        </div>
+    
+
+
+
+
+    
+
+
+
+        <div class="resume-page">
+            <div class="web-page none-page active" id="page1">
+
+                <div class="bg-accent" id="color-picker-text"></div>
+                <div class="image-profile-layer">
+                    <div class="image-profile">
+                        <img class="resume-image" src="../image/kirupa-image -1removebg.png" alt="">
+    
+                    </div>
+    
+                    <div class="name-text">
+                        <div>
+                            <div class="line-t"></div>
+                            <h1 class="name-web font-weight-700">
+                                I'm Kirupa nithi.
+                                <span>UI & Web Developer.</span>
+        
+                            </h1>    
+                        </div>
+                        <p class="discription mar-l font-weight-500">I'm a Tunisian based web designer & front‑end developer focused on<br> crafting clean & user‑friendly experiences, I am passionate about<br> building excellent software that improves the lives of those around me.</p>
+                        <div class="kn-button">
+                            <button class="kn-btn" onclick="showPage('page2')">more about me</button>
+                            <div class="icon-fa row-flex">
+                                <i class="fa fa-arrow-right"></i>
+    
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+    
+                </div>
+
+            </div>
+            <div class="header">
+
+                <div>
+                    <div class="theme-box" onclick="myFunction()">
+                        <div class="theme row-flex">
+                            <i class="fa fa-sun-o"></i>
+                       </div>
+    
+
+
+                    </div>
+    
+                    <div class="icon-heade">
+                        <div class="menu-items menu" id="myDIV">
+                            <div class="menu-item row-flex active-ico" data-page="page1" onclick="showPage('page1')" >
+                                <i class="fa fa-home"></i>
+                            </div>
+
+                            <div class="menu-item row-flex" data-page="page2" onclick="showPage('page2')">
+                                <i class="fa fa-user"></i>
+                            </div>
+
+                            <div class="menu-item row-flex" data-page="page3" onclick="showPage('page3')">
+                                <li class="fa fa-briefcase"></li>
+                            </div>
+                            <div class="menu-item row-flex" data-page="page4" onclick="showPage('page4')">
+                                <i class="fa fa-envelope"></i>
+                             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="about-container none-page" id="page2">
+
+                <div class="about-header">
+                    <span class="text-span tac font-weight-800">resume</span>
+                    <h2 class="title font-weight-900 tac">
+                        about
+                        <span>me</span>
+                    </h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="personalinfos">
+
+                        <div class="info font-weight-600">
+                            <h3>PERSONAL INFOS</h3>
+                        </div>
+
+                        <div class="address">
+                            <div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">First Name :</span>
+                                    <span class="name-span-2 font-weight-500">Kirupa nithi.R</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Last Name :</span>
+                                    <span class="name-span-2 font-weight-500">Nithi</span>
+    
+                                </div>
+                                <div class=" margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Age :</span>
+                                    <span class="name-span-2 font-weight-500">22 Years</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Nationality  :</span>
+                                    <span class="name-span-2 font-weight-500">Tunisian</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Freelance  :</span>
+                                    <span class="name-span-2 font-weight-500">Available</span>
+    
+                                </div>
+
+
+
+
+                            </div>
+
+                            <div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Address  :</span>
+                                    <span class="name-span-2 font-weight-500">Kalluthu</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Phone :</span>
+                                    <span class="name-span-2 font-weight-500">93606589328</span>
+    
+                                </div>
+                                <div class=" margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Email  :</span>
+                                    <span class="name-span-2 font-weight-500">Kathirkiruba133@gmail.com</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Skype   :</span>
+                                    <span class="name-span-2 font-weight-500">steve.milner</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Langages   :</span>
+                                    <span class="name-span-2 font-weight-500">Tamil, English</span>
+    
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+
+                            
+
+                        </div>
+
+
+                        <div class="kn-button margin-top-30">
+                            <button class="kn-btn">download cv</button>
+                            <div class="icon-fa icon-fa2 row-flex">
+                                <i class="fa fa-download"></i>
+    
+                            </div>
+                        </div>
+    
+
+
+
+
+
+                    </div>
+                    <div class="personalinfos-box">
+
+
+
+
+
+                        <div class="about-info">
+                            <h3 class="about-h3 font-weight-600">Hello! I am Kiruba nithi</h3>
+                            <div class="line"></div>
+
+                            <h4 class="intro-h4 font-size-30 font-weight-600 margin-top-20">I'm Creative UI &amp; Web Developer</h4>
+
+                            <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Objective</h6>
+
+                            <div class="developer-skill">Dynamic and skilled web developer with a passion for creating visually appealing and responsive web applications. Proficient in HTML5, CSS3, Less, CSS variables, JavaScript, animation techniques, and basic Photoshop skills. Committed to delivering high-quality user experiences through innovative and efficient web development practices.</div>
+
+                            <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Education</h6>
+
+                            <div class="developer-skill">Bachelor of Science in Computer Science </div>
+                            <div class="developer-skill">Manonmaniam sundaranar university , Tirunelveli ,Tamil Nadu</div>
+                            <div class="developer-skill">2019-2022</div>
+
+                            <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Technical Skills </h6>
+                            <div class="developer-skill">Languages: HTML5, CSS3, JS </div>
+                            <div class="developer-skill">Preprocessors: Less
+                                Responsive Design: Media queries, Flexbox, CSS Grid
+                                </div>
+                                <div class="developer-skill">
+                                    CSS Variables: Efficient use for maintainable stylesheets
+
+                                </div>
+
+
+
+                            <div class="developer-skill">Design Tools: Photoshop (Basic proficiency)
+                                
+                                </div>
+                                <div class="developer-skill">
+                                    Web Development Tools: VS Code, Browser Developer Tools
+                                </div>
+                            <div class="developer-skill">
+                                Collaboration: GitHub
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="skills-container">
+                    <div>
+                        <h3 class="info info-font tac">my skills</h3>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box">95%</div>
+                            </div>
+                            <h4 class="sub-h4">Html5</h4>
+
+
+                        </div>
+
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box center-box2">90%</div>
+                            </div>
+                            <h4 class="sub-h4">Css3</h4>
+
+                        </div>
+
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box center-box3">70%</div>
+                            </div>
+                            <h4 class="sub-h4">Less</h4>
+                        </div>
+
+
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box center-box4">55%</div>
+                            </div>
+                            <h4 class="sub-h4">JavaScript</h4>
+    
+    
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="Portfolio-container none-page" id="page3">
+
+                <div class="about-header">
+                    <span class="text-span text-span2 tac font-weight-800">works</span>
+                    <h2 class="title title2 font-weight-900 tac">
+                        my
+                        <span>portfolio</span>
+                    </h2>
+                </div>
+
+
+
+                <div class="project-cards">
+                    <div class="project-card reveal fade-left WebPage Response Animation Javascript show activ">
+    
+                        <div class="item-box item-box1">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/muffingroup" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+
+                                    </span><span>Read More</span>
+
+                                </div>
+                                
+    
+                            </div>
+    
+                        </div>
+    
+                    </div> 
+                    <div class="project-card reveal fade-right WebPage Response Animation Javascript show activ">
+    
+                        <div class="item-box item-box23">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/eclipse.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    <div class="project-card reveal fade-left WebPage Response Animation Javascript show activ">
+
+
+                        <div class="item-box item-box20">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/joinforma.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-right WebPage Response show">
+    
+                        <div class="item-box item-box21">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/dive.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+
+
+                    <div class="project-card reveal fade-bottom WebPage Response Animation Javascript show">
+
+                        <div class="item-box item-box25">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/confer.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="project-card reveal fade-left WebPage Response Animation show">
+
+                        <div class="item-box item-box22">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/konato.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+
+
+                   <div class="project-card reveal fade-left WebPage Response Animation show">
+
+                        <div class="item-box item-box18">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/gricklo.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+
+
+
+
+                    <div class="project-card reveal fade-right WebPage Response Animation show">
+
+                        <div class="item-box item-box24">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/hazze.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+
+                    <div class="project-card reveal fade-left WebPage Response Animation Javascript show">
+    
+                        <div class="item-box item-box26">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/event.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+                                
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+
+                    <div class="project-card reveal fade-right Forms WebPage Response show">
+
+                        <div class="item-box item-box27">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/login-form-14" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+
+                    <div class="project-card reveal fade-left Forms WebPage Response show">
+
+                        <div class="item-box item-box28">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/login-regform-32" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+                    <div class="project-card reveal fade-right Forms WebPage Response show">
+
+                        <div class="item-box item-box29">
+                            <div class="layer">
+                                <div class="icon-box">
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/login-regform-33" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+                    <div class="project-card reveal fade-right Forms WebPage show">
+
+                        <div class="item-box item-box30">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/Login-v15" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+
+
+
+
+
+
+
+
+
+
+                    
+                    <div class="project-card reveal fade-left WebPage show">
+
+                        <div class="item-box">
+                            
+                            <div class="layer">
+                                <div class="icon-box"> 
+
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/busicol.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+
+                                </div>
+
+
+        
+    
+                            </div>
+                        </div>
+                    </div>    
+    
+    
+                        
+    
+    
+                    <div class="project-card reveal fade-bottom WebPage show">
+
+                        <div class="item-box item-box2">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/unioncorp.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+                    
+                    <div class="project-card reveal fade-right Tables show">
+    
+                        <div class="item-box item-box4">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/koice-invoice.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+    
+                    </div>     
+
+
+                    <div class="project-card reveal fade-left Tables show">
+
+                        <div class="item-box item-box31">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/Create%20-table.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+                    <div class="project-card reveal fade-righ Tables show">
+
+                        <div class="item-box item-box32">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/Table-Fixed.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+
+
+                    <div class="project-card reveal fade-bottom Tables show">
+
+                        <div class="item-box item-box33">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/table-09.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+                    <div class="project-card reveal fade-righ Tables show">
+
+                        <div class="item-box item-box34">
+                            <div class="layer">
+                                <div class="icon-box">
+                                    <span>
+                                        <a class="link-project" href="file:///C:/Users/LENOVO/Desktop/Learnhtml/html/Pricing-Table.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+                    <div class="project-card reveal fade-left WebPage show">
+    
+                        <div class="item-box item-box9">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/bcom-site.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    <div class="project-card reveal fade-bottom WebPage show">
+    
+                        <div class="item-box item-box12">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/web-sexpert.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+    
+    
+                    <div class="project-card reveal fade-right WebPage show">
+    
+                        <div class="item-box item-box7">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/disc-site.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>     
+    
+    
+                    <div class="project-card reveal fade-left Forms WebPage show">
+
+
+                        <div class="item-box item-box8">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/disc-landing-page.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-bottom Forms WebPage show">
+
+                        <div class="item-box item-box5">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/xmee-login-form.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+    
+    
+    
+                    <div class="project-card reveal fade-right WebPage show">
+    
+                        <div class="item-box item-box10">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/square-unique.html " target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div> 
+    
+    
+    
+                    <div class="project-card reveal fade-left WebPage show">
+
+    
+                        <div class="item-box item-box11">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/layal-site.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-bottom WebPage show">
+
+                        <div class="item-box item-box6 Forms">
+                            <div class="layer">
+                                <div class="icon-box">
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/xmee-login-form1.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+    
+    
+                    <div class="project-card reveal fade-righ WebPaget show">
+
+                        <div class="item-box item-box15">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/beehive.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+    
+    
+    
+                    <div class="project-card reveal fade-left WebPage show">
+
+                        <div class="item-box item-box17">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/sneat-library.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+    
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>        </section>
+        <section>
+            <div class="mail-contanier none-page" id="page4">
+
+                <div class="about-header">
+                    <span class="text-span tac font-weight-800">contact</span>
+                    <h2 class="title font-weight-900 tac">
+                        get in
+                        <span>touch</span>
+                    </h2>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="mail-card">
+                        <h3 class="info info-title font-weight-600">don't be shy !</h3>
+                        <p class="name-span-2 font-weight-500">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+
+                        <div class="mail-icon">
+                            <div class="icon-envelope">
+                                <i class="fa fa-envelope"></i>
+
+                            </div>
+                            <div>
+                                <p class="name-card name-card2 font-weight-500">MAIL ME</p>
+                                <p class="name-span-2 font-weight-500">Kathirkiruba133@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="mail-icon">
+                            <i class="fa fa-phone"></i>
+                            <div>
+                                <p class="name-card name-card2 font-weight-500">CALL ME</p>
+                                <p class="name-span-2 font-weight-500">9360658928</p>
+                            </div>
+                        </div>
+                        <div class="socil-icon fxb">
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-youtube"></i>
+                            </div>
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-dribbble"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="input-card">
+
+                        <div class="input-name-field">
+                            <input class="input-name" type="text" placeholder="YOUR NAME">
+                            <input class="input-name"  type="text" placeholder="YOUR EMAIL">
+                            <input class="input-name"  type="text" placeholder="YOUR SUBJECT">
+
+                        </div>
+
+                        <textarea class="input-name massage-input" placeholder="YOUR MESSAGE" name="message"></textarea>
+
+
+                        <div class="kn-button margin-top-30">
+                            <button class="kn-btn">send message</button>
+                            <div class="icon-fa icon-fa3 row-flex">
+                                <i class="fa fa-paper-plane"></i>
+    
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <script>
+
+function showPage(pageId) {
+            const pages = document.querySelectorAll('.none-page');
+            const menuItems = document.querySelectorAll('.menu-item');
+
+            pages.forEach(page => {
+                if (page.id === pageId) {
+                    page.classList.add('active');
+                } else {
+                    page.classList.remove('active');
+                }
+            });
+
+            menuItems.forEach(item => {
+                if (item.getAttribute('data-page') === pageId) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+
+        // Set initial state
+        document.addEventListener('DOMContentLoaded', () => {
+            showPage('page1');
+        });
+
+        
+
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            const toggleButton = document.getElementById('toggleButton');
+            const closeButton = document.getElementById('closeButton');
+
+            toggleButton.addEventListener('click', function() {
+                navbar.classList.add('open');
+                toggleButton.style.display = 'none';
+                closeButton.style.display = 'block';
+            });
+
+            closeButton.addEventListener('click', function() {
+                navbar.classList.remove('open');
+                toggleButton.style.display = 'block';
+                closeButton.style.display = 'none';
+            });
+        });
+            
+
+
+
+
+
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+    const colorPickerImages = document.querySelectorAll('.color-picker img');
+    const textElement = document.getElementById('color-picker-text');
+
+    colorPickerImages.forEach(img => {
+        img.addEventListener('click', function() {
+            const colorName = this.getAttribute('data-color');
+            const color = getComputedStyle(document.documentElement).getPropertyValue(`--${colorName}`).trim();
+            textElement.style.color = color;
+        });
+    });
+});
+
+
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+
+
+var header = document.getElementById("myDV");
+var btns = header.getElementsByClassName("menu-item");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-icon");
+  current[0].className = current[0].className.replace(" active-icon", "");
+  this.className += " active-icon";
+  });
+}
+
+
+
+
+
+
+
+
+
+
+const modes = [
+  'purple-mode',
+  'red-mode',
+  'blueviolet-mode',
+  'blue-mode',
+  'goldenrod-mode',
+  'magenta-mode',
+  'yellowgreen-mode',
+  'orange-mode',
+  'green-mode',
+  'yellow-mode',
+];
+
+function toggleMode(mode) {
+  const element = document.body;
+  element.classList.remove(...modes);
+  element.classList.add(mode);
+}
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+
+
+
+
+    </body>
+</html>
