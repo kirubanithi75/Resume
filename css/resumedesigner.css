@@ -12,12 +12,6 @@ body{
     --kn-button-hover: #FFFFFF;
 
 
-    --purple: #6957AF;
-    --red: #F72B1C;
-    --blueviolet: #8A2BE2;
-    --blue: #4169E1;
-    --goldenrod: #DAA520;
-
 
 }
 
@@ -37,11 +31,6 @@ body{
 
 
 
-    --purple: #6957AF;
-    --red: #F72B1C;
-    --blueviolet: #8A2BE2;
-    --blue: #4169E1;
-    --goldenrod: #DAA520;
 
 
 }
@@ -1040,25 +1029,25 @@ body{
         width: 68%;
     }
 
-    .name-web {
-        line-height: 62px;
-        font-size: 23px;
-    }
     .name-text {
         width: 70%;
     }
     .name-web {
-        line-height: 38px;
-        font-size: 22px;
+        line-height: 26px;
+        font-size: 19px;
         display: inline;
-
+        padding-left: 0px;
     }
 
     .name-text {
         width: 70%;
         margin-left: 53px;
     }
-
+    .line-t{
+        width: 29px;
+        top: 13px;
+        left: -38px;
+    }
     .discription {
         font-size: 14px;
         color: var(--span-color);
@@ -1164,9 +1153,19 @@ body{
         margin-top: 25px;
     }
 
-
-
-
+    .theme {
+        height: 45px;
+        width: 45px;
+        font-size: 17px;
+    }
+    .web-page {
+        padding-right: 71px;
+    }
+    .menu-item  {
+        height: 45px;
+        width: 45px;
+        font-size: 17px;
+    }
 
 
 
