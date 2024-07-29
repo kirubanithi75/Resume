@@ -94,6 +94,7 @@ body{
 }
 .header {
     height: 100vh;
+    background-color: var(--primary-bg);
     position: fixed;
     right: 0px;
     z-index: 1;
@@ -971,9 +972,6 @@ body{
     z-index: 1;
     transition: background-color 0.3s ease;
 }
-.color-img {
-    width: 30px;
-}
 
 
 
@@ -1029,6 +1027,7 @@ body{
     }
 
     .name-text {
+        height: auto;
         width: 70%;
     }
     .name-web {
