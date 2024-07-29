@@ -1,1187 +1,1438 @@
-body{
-    --primary-bg: #111111;
-    --secondary-bg: #DAA520;
-    --icon-color:#FFFFFF;
-    --icon-header-box-backgroung-color: #2B2A2A;
-    --span-color: #FFFFFF;
-    --text-p-color: #FFFBF0;
-    --h2-color: #FFFFFF;
-    --name-span-color: rgb(255, 255, 255);
-    --sub-header-text-color: hsla(0,0%,100%,.07);
-    --icon-color-header:#FFFFFF;
-    --kn-button-hover: #FFFFFF;
-
-
-    --purple: #6957AF;
-    --red: #F72B1C;
-    --blueviolet: #8A2BE2;
-    --blue: #4169E1;
-    --goldenrod: #DAA520;
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/util.css">
+        <link rel="stylesheet" href="../css/resumedesigner.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" >
+
+    </head>
+    <body>
+
+        <div class="container-action">
+            <div id="navbar">
+                <div class="nav-icon margin-bottom-15">
+                    <h4 class="color-text font-weight-700 margin-bottom-10 font-size-15">COLOR SWITCHER</h4>
+                    <div class="close-icon">
+                        <div id="closeButton"  style="display: none;">
+                            x
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="color-picker">
+                    <div class="color-variable fxb fav col-m">
+
+                        <div onclick="toggleMode('purple-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-1.png" alt="purple" data-color="purple">
+                            </a>
+                        </div>
+                        <div  onclick="toggleMode('red-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-red-2.png" alt="red" data-color="red">
+                            </a>
+    
+                        </div>
+                    <div onclick="toggleMode('blueviolet-mode')"><a href="#">
+                        <a href="#">
+                            <img class="color-img" src="../image/purple-blueviolet3.png" alt="blueviolet" data-color="blueviolet">
+                        </a>
+    
+                    </a></div>
+                        <div onclick="toggleMode('blue-mode')"><a href="#">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-blue4.png" alt="blue" data-color="blue">
+                            </a>
+        
+                        </a></div>
+                        <div onclick="toggleMode('goldenrod-mode')"><a href="#">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-goldenrod5.png" alt="goldenrod" data-color="goldenrod">
+                            </a>
+        
+                        </a></div>
+
+                    </div>
+    
+                    <div class="color-variable fxb fav col-m margin-top-10">
+
+                        <div onclick="toggleMode('magenta-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-magenta6.png" alt="">
+                            </a>
+                        </div>
+
+                        <div  onclick="toggleMode('yellowgreen-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-yellowgreen7.png" alt="">
+                            </a>
+                        </div>
+
+                        <div onclick="toggleMode('orange-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-orange8.png" alt="">
+                            </a>
+                        </div>
+                        <div onclick="toggleMode('green-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-green9.png" alt="">
+                            </a>
+                        </div>
+                        <div  onclick="toggleMode('yellow-mode')">
+                            <a href="#">
+                                <img class="color-img" src="../image/purple-yellow10.png" alt="">
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+            <div>
+                    <button id="toggleButton" class="setting-icon row-flex">
+                        <i class="fa fa-gear fa-spin"
+                        ></i>
 
+                    </button>
+    
+            
+            </div>
+        </div>
+    
 
-}
 
-.dark-mode{
-    --primary-bg: #FFFFFF;
-    --secondary-bg: #DAA520;
-    --icon-color: #FFFFFF;
-    --icon-header-box-backgroung-color: rgb(238, 238, 238);
-    --h2-color: #666666;
-    --sub-header-text-color: #EFF0F0;
-    --icon-color-header: rgb(102, 102, 102);
-    --kn-button-hover:  #666666;
 
-    --name-span-color: #666666;
-    --span-color: #666666;
-    --text-p-color: #FFFBF0;
 
+    
 
 
-    --purple: #6957AF;
-    --red: #F72B1C;
-    --blueviolet: #8A2BE2;
-    --blue: #4169E1;
-    --goldenrod: #DAA520;
 
+        <div class="resume-page">
+            <div class="web-page none-page active" id="page1">
 
-}
-  
-
-
-
-  .purple-mode {
-    --secondary-bg: #6957AF;
-
-  }
-  
-  .red-mode {
-    --secondary-bg: #F72B1C;
-  }
-  .blueviolet-mode {
-    --secondary-bg: #8A2BE2;
-  }
-  .blue-mode {
-    --secondary-bg: #6957AF;
-  }
-  .goldenrod-mode {
-    --secondary-bg: #DAA520;
-  }
-  
-  .magenta-mode {
-    --secondary-bg: #EE6192;
-  }
-  
-  .yellowgreen-mode {
-    --secondary-bg: #9ACD32;
-  }
-  .orange-mode {
-    --secondary-bg: #FA5B0F;
-  }
-  .green-mode {
-    --secondary-bg: #72B626;
-  }
-  
-  .yellow-mode {
-    --secondary-bg: #FFB400;
-  }
-  
-.resume-page {
-    width: 100%;
-    background-color: var(--primary-bg);
-    display: flex;
-}
-.image-profile-layer {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+                <div class="bg-accent" id="color-picker-text"></div>
+                <div class="image-profile-layer">
+                    <div class="image-profile">
+                        <img class="resume-image" src="../image/kirupa-image -1removebg.png" alt="">
+    
+                    </div>
+    
+                    <div class="name-text">
+                        <div>
+                            <div class="line-t"></div>
+                            <h1 class="name-web font-weight-700">
+                                I'm Kirupa nithi.<br>
+                                <span>UI & Web Developer.</span>
+        
+                            </h1>    
+                        </div>
+                        <p class="discription mar-l font-weight-500">I'm a Tunisian based web designer & front‑end developer focused on<br> crafting clean & user‑friendly experiences, I am passionate about<br> building excellent software that improves the lives of those around me.</p>
+                        <div class="kn-button">
+                            <button class="kn-btn" onclick="showPage('page2')">more about me</button>
+                            <div class="icon-fa row-flex">
+                                <i class="fa fa-arrow-right"></i>
+    
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+    
+                </div>
 
-}
-.web-page {
-    width: 100%;
-    padding-right: 160px;
-    position: relative;
-}
-.header {
-    height: 100vh;
-    background-color: var(--primary-bg);
-    position: fixed;
-    right: 0px;
-    z-index: 1;
-}
-.bg-accent {
-    background-color: var(--secondary-bg); 
-    position: fixed;
-    width: 100%;
-    height: 200%;
-    transform: rotate(-15deg);
-    top: -50%;
-    left: -83%;
+            </div>
+            <div class="header">
+
+                <div>
+                    <div class="theme-box" onclick="myFunction()">
+                        <div class="theme row-flex">
+                            <i class="fa fa-sun-o"></i>
+                       </div>
+    
+
+
+                    </div>
+    
+                    <div class="icon-heade">
+                        <div class="menu-items menu" id="myDIV">
+                            <div class="menu-item row-flex active-ico" data-page="page1" onclick="showPage('page1')" >
+                                <i class="fa fa-home"></i>
+                            </div>
+
+                            <div class="menu-item row-flex" data-page="page2" onclick="showPage('page2')">
+                                <i class="fa fa-user"></i>
+                            </div>
+
+                            <div class="menu-item row-flex" data-page="page3" onclick="showPage('page3')">
+                                <li class="fa fa-briefcase"></li>
+                            </div>
+                            <div class="menu-item row-flex" data-page="page4" onclick="showPage('page4')">
+                                <i class="fa fa-envelope"></i>
+                             </div>
+
+
+
+
+
+
+
 
-}
-.resume-image {
-    height: 551px;
-    width: 34%;
-    border-radius: 30px;
-    position: absolute;
-    left: 39px;
-    top: 39px;
-}
-.image-profile {
-    height: 357px;
+
 
-}
-.name-web {
-    line-height: 62px;
-    font-size: 51px;
-    color: var(--secondary-bg);
-    text-transform: uppercase;
-    padding-left: 70px;
 
 
-}
-.name-text {
-    width: 47%;
-    position: relative;
-    margin-top: 0px;
-}
-.line-t {
-    position: absolute;
-    height: 5px;
-    background-color: var(--secondary-bg);
-    width: 40px;
-    top: 30px;
-    left: 0px;
-    border-radius: 10px;
-}
-.discription {
-    font-size: 16px;
-    color: var(--span-color);
-    line-height: 35px;
-    margin-bottom: 28px;
-}
-.kn-btn {
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--kn-button-hover);
-    padding: 16px 70px 16px 35px;
-    background: none;
-    border: 1px solid var(--secondary-bg);
-    border-radius: 30px;
-    cursor: pointer;
-    position: relative;
-    text-transform: uppercase;
-    z-index: 0;
-}
-.kn-btn::before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 90%;
-    right: 0;
-    background-color: var(--secondary-bg);
-    border-radius: 30px;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-   z-index: -2;
-}
-.kn-btn:hover::before {
-    visibility: visible;
-    width: 100%;
-    transition: .65s all;
-    opacity: 1;
-    left: 0;
-}  
-.kn-button {
-    position: relative;
-}
-.icon-fa {
-    height: 54px;
-    width: 54px;
-    background-color: var(--secondary-bg);
-    border-radius: 50%;
-    color: var(--icon-color);
-    font-size: 15px;
-    font-weight: 500;
-    cursor: pointer;
-    position: absolute;
-    left: 178px;
-    bottom: 0px;
-}
-.name-web span {
-    color: var(--span-color);
-    font-size: 43px;
-}
-.theme {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    color: var(--icon-color-header);
-    font-size: 20px;
-    background-color: var(--icon-header-box-backgroung-color);
-    font-weight: 400;
-    cursor: pointer;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="about-container none-page" id="page2">
 
-}
-.theme:hover {
-    background-color: var(--secondary-bg);
-    color: var(--icon-color);
+                <div class="about-header">
+                    <span class="text-span tac font-weight-800">resume</span>
+                    <h2 class="title font-weight-900 tac">
+                        about
+                        <span>me</span>
+                    </h2>
+                </div>
 
-}
-.menu-item {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    color: var(--icon-color-header);
-    font-size: 20px;
-    background-color: var(--icon-header-box-backgroung-color);
-    font-weight: 400;
-    cursor: pointer;
-    position: relative;
-    margin-bottom: 20px;
-}
-.icon-layer {
-    height: 50px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--icon-color);
-    position: relative;
-    z-index: 0;
-    margin-bottom: 20px;
+                <div class="row">
 
-}
-.menu-item::before {
-    content: "";
-    height: 50px;
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    right: 0;
-    background-color: var(--secondary-bg);
-    border-radius: 30px;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--icon-color);
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    text-transform: uppercase;
-    z-index: -2;
+                    <div class="personalinfos">
 
-}
+                        <div class="info font-weight-600">
+                            <h3>PERSONAL INFOS</h3>
+                        </div>
 
-.menu-item:hover::before {
-    visibility: visible;
-    width: 100%;
-    transition: .65s all;
-    opacity: 1;
-    left: -73px;
-    width: 100px;
-}  
-
-.menu-item:nth-child(1)::before {
-    content: "Home";
-    color: #FFFFFF;
-}
-.menu-item:nth-child(2)::before {
-    content: "About";
-    color: #FFFFFF;
+                        <div class="address">
+                            <div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">First Name :</span>
+                                    <span class="name-span-2 font-weight-500">Kirupa nithi.R</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Last Name :</span>
+                                    <span class="name-span-2 font-weight-500">Nithi</span>
+    
+                                </div>
+                                <div class=" margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Age :</span>
+                                    <span class="name-span-2 font-weight-500">22 Years</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Nationality  :</span>
+                                    <span class="name-span-2 font-weight-500">Tunisian</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Freelance  :</span>
+                                    <span class="name-span-2 font-weight-500">Available</span>
+    
+                                </div>
 
-}
-.menu-item:nth-child(3)::before {
-    content: "Portfolio";
-    color: #FFFFFF;
 
-}
-.menu-item:nth-child(4)::before {
-    content: "Contact";
-    color: #FFFFFF;
 
-}
 
-.menu-item:hover:nth-child(3)::before {
-    left: -100px;
-    width: 121px;
-}
-.menu-item:hover:nth-child(4)::before {
-    left: -91px;
-    width: 112px;
-}
+                            </div>
 
+                            <div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Address  :</span>
+                                    <span class="name-span-2 font-weight-500">Kalluthu</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Phone :</span>
+                                    <span class="name-span-2 font-weight-500">93606589328</span>
+    
+                                </div>
+                                <div class=" margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Email  :</span>
+                                    <span class="name-span-2 font-weight-500">Kathirkiruba133@gmail.com</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Skype   :</span>
+                                    <span class="name-span-2 font-weight-500">steve.milner</span>
+    
+                                </div>
+                                <div class="margin margin-bottom-20">
+                                    <span class="name-card font-weight-500">Langages   :</span>
+                                    <span class="name-span-2 font-weight-500">Tamil, English</span>
+    
+                                </div>
 
 
 
 
+                            </div>
 
 
 
 
+                            
 
+                        </div>
 
 
+                        <div class="kn-button margin-top-30">
+                            <button class="kn-btn">download cv</button>
+                            <div class="icon-fa icon-fa2 row-flex">
+                                <i class="fa fa-download"></i>
+    
+                            </div>
+                        </div>
+    
 
 
 
 
 
+                    </div>
+                    <div class="personalinfos-box">
 
 
 
 
 
+                        <div class="about-info">
+                            <h3 class="about-h3 font-weight-600">Hello! I am Kiruba nithi</h3>
+                            <div class="line"></div>
 
+                            <h4 class="intro-h4 font-size-30 font-weight-600 margin-top-20">I'm Creative UI &amp; Web Developer</h4>
 
+                            <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Objective</h6>
 
+                            <div class="developer-skill">Dynamic and skilled web developer with a passion for creating visually appealing and responsive web applications. Proficient in HTML5, CSS3, Less, CSS variables, JavaScript, animation techniques, and basic Photoshop skills. Committed to delivering high-quality user experiences through innovative and efficient web development practices.</div>
 
+                            <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Education</h6>
 
+                            <div class="developer-skill">Bachelor of Science in Computer Science </div>
+                            <div class="developer-skill">Manonmaniam sundaranar university , Tirunelveli ,Tamil Nadu</div>
+                            <div class="developer-skill">2019-2022</div>
 
-.theme-box {
-    height: 105px;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-right: 28px;
-    margin-bottom: 54px;
-}
-.icon-header {
-    height: 272px;
-    width: 100%;
-    display: flex;
-    align-items: end;
-}
-.menu-item:hover {
-    background-color: var(--secondary-bg);
-    color: var(--icon-color);
+                            <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Technical Skills </h6>
+                            <div class="developer-skill">Languages: HTML5, CSS3, JS </div>
+                            <div class="developer-skill">Preprocessors: Less
+                                Responsive Design: Media queries, Flexbox, CSS Grid
+                                </div>
+                                <div class="developer-skill">
+                                    CSS Variables: Efficient use for maintainable stylesheets
 
-}
-.about-container {
-    width: 100%;
-    background-color: var(--primary-bg);
-    padding-bottom: 100px;
-}
-.text-span {
-    font-size: 110px;
-    color: var(--sub-header-text-color);
-    text-transform: uppercase;
-    display: block;
-    letter-spacing: 10px;
-    line-height: 77px;
-}   
-.title {
-    font-size: 56px;
-    color: var(--h2-color);
-    text-transform: uppercase;
-    position: absolute;
-    top: 83px;
+                                </div>
 
 
-}
-.title span {
-    color: var(--secondary-bg);
-}
-.about-header {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding: 80px 0px;
-}
-.about-h3 {
-    font-size: 23px;
-    color: var(--h2-color);
-    line-height: 29px;
-}
 
-.intro-h4 {
-    color: var(--h2-color);
-    line-height: 39px;
-    margin-bottom: 7px;
-}
-.developer-skill {
-    color: var(--name-span-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px;
-}
-.line {
-    border-bottom: 2px solid var(--secondary-bg);
-    width: 96px;
-    margin-top: 10px;
-}
+                            <div class="developer-skill">Design Tools: Photoshop (Basic proficiency)
+                                
+                                </div>
+                                <div class="developer-skill">
+                                    Web Development Tools: VS Code, Browser Developer Tools
+                                </div>
+                            <div class="developer-skill">
+                                Collaboration: GitHub
+                            </div>
 
 
 
 
+                        </div>
 
 
 
 
 
 
-.about-container .row {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin: auto;
-    width: 84%;
-    padding-bottom: 80px;
-}
-.info {
-    color: var(--h2-color);
-    font-size: 26px;
-    margin-bottom: 22px;
-    line-height: 58px;
-}
-.name-card {
-    color: var(--name-span-color);
-    font-size: 15px;
-    opacity: .8;
-    margin-top: 20px;
-}
-.name-span-2 {
 
-    color: var(--name-span-color);
-    font-size: 15px;
 
-}
-.address {
-    display: flex;
-    column-gap: 103px;
-}
-.fa-download:before {
-    content: "\f019";
-    font-size: 20px;
-}
-.icon-fa2 {
-    left: 166px;
-}
-.info-font {
-    text-transform: uppercase;
-    font-size: 26px;
-    padding-bottom: 48px;
-    margin-bottom: 0px;
-}
-.box-html {
-    height: 137px;
-    width: 223px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-.center-box {
-    height: 120px;
-    width: 120px;
-    background-color: var(--primary-bg);
-    border-radius: 50%;
-    border: 5px solid var(--secondary-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--h2-color);
-}
 
-.center-box::before {
-    height: 30px;
-    width: 30px;
-    background-color: var(--primary-bg);
-    content: "";
-    border-radius: 50px;
-    position: absolute;
-    top: -10px;
-    left: 82px;
-}
 
-.sub-h4 {
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--h2-color);
-    text-align: center;
-    margin-top: 10px;
-    text-transform: uppercase;
-}
-.center-box2::before {
-    height: 62px;
-    width: 61px;
-    top: -3px;
-    left: 44px;
-}
-.center-box3::before {
-    height: 110px;
-    width: 61px;
-    top: -14px;
-    left: 23px;
-    transform: rotate(14deg);
-}
-.center-box4::before {
-    height: 139px;
-    width: 46px;
-    top: -5px;
-    left: 40px;
-    border-radius: 1px;
-    transform: rotate(6deg);
-}
-.skills-container .row {
-    display: flex;
-    justify-content: space-around;
-}
-.Portfolio-container {
-    width: 100%;
-    background-color: var(--primary-bg);
-}
-.project-cards {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(3,1fr);
-    width: 55%;
-    margin: auto;
-}
 
 
 
-.item-bo {
-    height: 309px;
 
-}
-.item-box {
-    height: 214px;
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-    background-image: url(../image/ppppp.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    border-radius: 8px;
-    cursor: pointer;
-}
-.item-box2 {
-    background-image: url(../image/always2.jpeg);
-    background-position: top;
 
-}
-.item-box3 {
-    background-image: url(../image/resum4.jpeg);
-}
-.item-box4 {
-    background-image: url(../image/koic.jpeg);
-    background-position: top;
-}
-.item-box5 {
-    background-image: url(../image/xmee-4.jpeg);
-}
-.item-box6 {
-    background-image: url(../image/xmeelogin.jpeg);
-}
-.item-box7 {
-    background-image: url(../image/dis-3.jpeg);
-}
-.item-box8 {
-    background-image: url(../image/join.jpeg);
-}
-.item-box9 {
-    background-image: url(../image/grow.jpeg);
-    background-position: top;
 
-}
-.item-box10 {
-    background-image: url(../image/have.jpeg);
-    background-position: top;
 
-}
-.item-box11 {
-    background-image: url(../image/laya.jpeg);
-    background-position: top;
 
-}
-.item-box12 {
-    background-image: url(../image/web-sexpert.jpeg);
-    background-position: top;
 
-}
-.item-box13 {
-    background-image: url(../image/sidebarwebflow.jpeg);
-    background-position: top;
 
-}
-.item-box14 {
-    background-image: url(../image/ooooo.jpeg);
-    background-position: top;
 
-}
-.item-box15 {
-    background-image: url(../image/bee.jpeg);
-    background-position: top;
 
-}
-.item-box17 {
-    background-image: url(../image/sneat2.jpeg);
-    background-position: top;
 
-}
-.item-box1 {
-    background-image: url(../image/create.jpeg);
-}
-.item-box18 {
-    background-image: url(../image/saker.jpeg);
-}
-.item-box20 {
-    background-image: url(../image/map-1.jpeg);
-    background-position: top;
-}
-.item-box21 {
-    background-image: url(../image/dive-ll.jpeg);
-    background-position: top;
+                    </div>
 
-}
-.item-box22 {
-    background-image: url(../image/konato-img.jpeg);
-    background-position: top;
+                </div>
 
-}
-.item-box23 {
-    background-image: url(../image/eclipse-phot.jpeg);
-    background-position: top;
+                <div class="skills-container">
+                    <div>
+                        <h3 class="info info-font tac">my skills</h3>
+                    </div>
 
-}
-.item-box24 {
-    background-image: url(../image/hazze-pho.jpeg);
-    background-position: top;
+                    <div class="row">
 
-}
-.item-box25 {
-    background-image: url(../image/confer-img.jpeg);
-    background-position: top;
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box">95%</div>
+                            </div>
+                            <h4 class="sub-h4">Html5</h4>
 
-}
-.item-box26 {
-    background-image: url(../image/even-screen.jpeg);
-    background-position: top;
 
-}
-.item-box27 {
-    background-image: url(../image/login-0045.jpeg);
-    background-position: top;
+                        </div>
 
-}
-.item-box28 {
-    background-image: url(../image/register-005.jpeg);
-    background-position: top;
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box center-box2">90%</div>
+                            </div>
+                            <h4 class="sub-h4">Css3</h4>
 
-}
-.item-box29 {
-    background-image: url(../image/color-sing-2.jpeg);
-    background-position: top;
+                        </div>
 
-}
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box center-box3">70%</div>
+                            </div>
+                            <h4 class="sub-h4">Less</h4>
+                        </div>
 
-.item-box30 {
-    background-image: url(../image/login-v15-01.jpeg);
-    background-position: top;
 
-}
+                        <div class="box-skill">
+                            <div class="box-html">
+                                <div class="center-box center-box4">55%</div>
+                            </div>
+                            <h4 class="sub-h4">JavaScript</h4>
+    
+    
+                        </div>
 
+                    </div>
+                </div>
+            </div>
 
-.item-box31 {
-    background-image: url(../image/table-p1.jpeg);
-    background-position: top;
+        </section>
 
-}
-.item-box32 {
-    background-image: url(../image/tablebox3.jpeg);
-    background-position: top;
+        <section>
+            <div class="Portfolio-container none-page" id="page3">
 
-}
-.item-box33 {
-    background-image: url(../image/tablecolor.jpeg);
-    background-position: top;
+                <div class="about-header">
+                    <span class="text-span text-span2 tac font-weight-800">works</span>
+                    <h2 class="title title2 font-weight-900 tac">
+                        my
+                        <span>portfolio</span>
+                    </h2>
+                </div>
 
-}
 
-.item-box34 {
-    background-image: url(../image/table-tem.jpeg);
-    background-position: top;
 
-}
+                <div class="project-cards">
+                    <div class="project-card reveal fade-left WebPage Response Animation Javascript show activ">
+    
+                        <div class="item-box item-box1">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/muffingroup" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
 
 
+                                    </span><span>Read More</span>
 
+                                </div>
+                                
+    
+                            </div>
+    
+                        </div>
+    
+                    </div> 
+                    <div class="project-card reveal fade-right WebPage Response Animation Javascript show activ">
+    
+                        <div class="item-box item-box23">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/eclipse.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
 
-.layer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.246);
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-.item-box:hover .layer {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: .65s all;
-
-}   
-.item-bo:hover {
-    -ms-transform: rotate(-10deg) scale(1.3);
-    transform: rotate(-10deg) scale(1.3);
-    transition: .65s all;
-}
-.layer .icon-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    font-size: 13px;
-    grid-gap: 6px;
-    color: #fff;
-    border-radius: 4px;
-    font-weight: 400;
-    cursor: pointer;
-    line-height: 13px;
+                                    </span><span>Read More</span>
 
-}
-.layer .icon-box i {
-    font-size: 12px;
-}
-.layer .icon-box span {
-    background: var(--secondary-bg);
-    position: absolute;
-    border-radius: 5px;
-    margin:0;
-    height: 30px;
-    width: 91px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .4s;
-    transition: all .4s;
-  }
-  .layer .icon-box span:nth-child(1) {
-    box-shadow:
-     -7px -7px 20px 0px #fff9,
-     -4px -4px 5px 0px #fff9,
-     7px 7px 20px 0px #0002,
-     4px 4px 5px 0px #0001;
-    -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    transform: rotateX(90deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-  }
-  .layer .icon-box span:nth-child(2) {
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-  }
-  .layer .icon-box:hover span:nth-child(1) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-  }
-  .layer .icon-box:hover span:nth-child(2) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-   color: transparent;
-    -webkit-transform: rotateX(-90deg);
-    -moz-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-  }
-  
-
-
-.link-project {
-    font-size: 12px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
+                                </div>
+        
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    <div class="project-card reveal fade-left WebPage Response Animation Javascript show activ">
 
 
-.pro-title {
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--title-color);
-    margin-top: 10px;
-}
-.row-box2 {
-    margin-top: 30px;
-}
-.heading-h2d span {
-    color: #444;
-}
-   
-.mail-contanier {
-    width: 100%;
-    background-color: var(--primary-bg);
-    padding-bottom: 100px;
-}
-.mail-card {
-    width: 28%;
-    padding-right: 56px;
-}
-.input-card {
-    width: 54%;
-    padding-left: 20px;
-   
-}
-.mail-contanier .row {
-    display: flex;
-    justify-content: center;
-}
-.info-title {
-    text-transform: uppercase;
-}
-.name-card2 {
-    margin-top: 0px;
-}
-.icon-envelope {
-    color: var(--secondary-bg);
-    font-size: 33px;
-} 
-.mail-icon {
-    display: flex;
-    align-items: center;
-    column-gap: 16px;
-    margin-top: 16px;
-}
-.fa-phone:before {
-    content: "\f095";
-    font-size: 33px;
-    color: var(--secondary-bg);
-}
-.social-icon-box-m {
-    color: var(--icon-color);
-    background-color: var(--icon-header-box-backgroung-color);
-    cursor: pointer;
-}
-.socil-icon  {
-    margin-top: 16px;
-    column-gap: 12px;
-}
-.input-name {
-    height: 46px;
-    width: 29%;
-    border-radius: 50px;
-    background-color: var(--icon-header-box-backgroung-color);
-    padding: 11px 26px;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--h2-color);
-    outline: none;
-}
-.input-name-field {
-    display: flex;
-    column-gap: 37px;
-    margin-bottom: 30px;
-}
-.massage-input {
-    height: 159px;
-    width: 100%;
-    border-radius: 30px;
-    resize: none;
-}
-.input-name:focus {
-    border: 1px solid var(--secondary-bg);
-  }
-
-.icon-fa3 {
-    left: 164px;
-}
-.social-icon-box-m:hover {
-    background-color: var(--secondary-bg);
-}
+                        <div class="item-box item-box20">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/joinforma.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
 
-.none-page {
-    display: none;
-}
+                                    </span><span>Read More</span>
 
-.none-page.active {
-    display: block;
-}
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-right WebPage Response show">
+    
+                        <div class="item-box item-box21">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/dive.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
 
-.menu-item.active {
-    background-color: var(--secondary-bg);
-    color: var(--icon-color);
-}
+                                    </span><span>Read More</span>
 
-  
+                                </div>
+        
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
 
 
+                    <div class="project-card reveal fade-bottom WebPage Response Animation Javascript show">
 
+                        <div class="item-box item-box25">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/confer.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
 
+                                    </span><span>Read More</span>
 
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>
 
 
 
 
 
-#navbar {
-    top: 104px;
-    background-color: #FFFFFF;
-    color: #111111;
-    position: fixed;
-    left: 0;
-    height: 215px;
-    width: 16%;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
-    z-index: 1;
-    transition: transform 0.3s ease;
-    transform: translateX(-100%); /* Start off-screen */
-    border-radius: 0px  5px 5px 0px;
 
-}
 
-#navbar.open {
-    transform: translateX(0); /* Slide in */
-}
 
-#toggleButton {
-    position: fixed;
-    height: 50px;
-    width: 50px;
-    top: 210px;
-    color: #536485;
-    border-radius: 50%;
-    box-shadow: 0 2px 3px rgba(4,4,7,.2);
-    background-color: #FFFFFF;
-    font-size: 22px;
-    cursor: pointer;
-    z-index: 1;
-    transition: background-color 0.3s ease;
-}
-.color-img {
-    width: 30px;
-}
 
+                    <div class="project-card reveal fade-left WebPage Response Animation show">
 
+                        <div class="item-box item-box22">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/konato.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
 
+                                    </span><span>Read More</span>
 
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
 
-#toggleButton {
-    left: 0px;
-    border: 2px solid #EFF0F0;
-}
 
-#closeButton {
-    top: 6px;
-    display: none;
-    font-size: 29px;
-    position: absolute;
-    right: 18px;
-    color: #536485;
-    cursor: pointer;
-}
+                   <div class="project-card reveal fade-left WebPage Response Animation show">
 
-#navbar ul {
-    list-style-type: none;
-    padding: 0;
-}
+                        <div class="item-box item-box18">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/gricklo.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
 
-#navbar ul li {
-    margin: 15px 0;
-}
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+
+
+
+
+                    <div class="project-card reveal fade-right WebPage Response Animation show">
+
+                        <div class="item-box item-box24">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/hazze.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+
+                    <div class="project-card reveal fade-left WebPage Response Animation Javascript show">
+    
+                        <div class="item-box item-box26">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/event.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+                                
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+
+                    <div class="project-card reveal fade-right Forms WebPage Response show">
+
+                        <div class="item-box item-box27">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/login-form-14" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+
+                    <div class="project-card reveal fade-left Forms WebPage Response show">
+
+                        <div class="item-box item-box28">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/login-regform-32" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+                    <div class="project-card reveal fade-right Forms WebPage Response show">
+
+                        <div class="item-box item-box29">
+                            <div class="layer">
+                                <div class="icon-box">
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/login-regform-33" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+                    <div class="project-card reveal fade-right Forms WebPage show">
+
+                        <div class="item-box item-box30">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/Login-v15" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+
+
+
+
+
+
+
+
+
+
+                    
+                    <div class="project-card reveal fade-left WebPage show">
+
+                        <div class="item-box">
+                            
+                            <div class="layer">
+                                <div class="icon-box"> 
+
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/busicol.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+
+                                </div>
+
+
+        
+    
+                            </div>
+                        </div>
+                    </div>    
+    
+    
+                        
+    
+    
+                    <div class="project-card reveal fade-bottom WebPage show">
+
+                        <div class="item-box item-box2">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/unioncorp.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+                    
+                    <div class="project-card reveal fade-right Tables show">
+    
+                        <div class="item-box item-box4">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/koice-invoice.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+    
+                    </div>     
+
 
-#navbar ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+                    <div class="project-card reveal fade-left Tables show">
+
+                        <div class="item-box item-box31">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/Create%20-table.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+                    <div class="project-card reveal fade-righ Tables show">
+
+                        <div class="item-box item-box32">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/Table-Fixed.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+
+
+                    <div class="project-card reveal fade-bottom Tables show">
+
+                        <div class="item-box item-box33">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/table-09.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+                    <div class="project-card reveal fade-righ Tables show">
+
+                        <div class="item-box item-box34">
+                            <div class="layer">
+                                <div class="icon-box">
+                                    <span>
+                                        <a class="link-project" href="file:///C:/Users/LENOVO/Desktop/Learnhtml/html/Pricing-Table.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+                    <div class="project-card reveal fade-left WebPage show">
+    
+                        <div class="item-box item-box9">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/bcom-site.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    <div class="project-card reveal fade-bottom WebPage show">
+    
+                        <div class="item-box item-box12">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/web-sexpert.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+    
+    
+                    <div class="project-card reveal fade-right WebPage show">
+    
+                        <div class="item-box item-box7">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/disc-site.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>     
+    
+    
+                    <div class="project-card reveal fade-left Forms WebPage show">
+
+
+                        <div class="item-box item-box8">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/disc-landing-page.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-bottom Forms WebPage show">
+
+                        <div class="item-box item-box5">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/xmee-login-form.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>    
+    
+    
+    
+                    <div class="project-card reveal fade-right WebPage show">
+    
+                        <div class="item-box item-box10">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/square-unique.html " target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div> 
+    
+    
+    
+                    <div class="project-card reveal fade-left WebPage show">
+
+    
+                        <div class="item-box item-box11">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/layal-site.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-bottom WebPage show">
+
+                        <div class="item-box item-box6 Forms">
+                            <div class="layer">
+                                <div class="icon-box">
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/xmee-login-form1.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>    
+    
+    
+                    <div class="project-card reveal fade-righ WebPaget show">
+
+                        <div class="item-box item-box15">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/beehive.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+    
+    
+    
+                    <div class="project-card reveal fade-left WebPage show">
+
+                        <div class="item-box item-box17">
+                            <div class="layer">
+                                <div class="icon-box"> 
+                                    <span>
+                                        <a class="link-project" href="https://kirubanithi75.github.io/Resume/html/sneat-library.html" target="_blank">
+                                            <i class="fa fa-eye"></i>
+                                            View Project
+                                        </a>
+
+                                    </span><span>Read More</span>
+
+                                </div>
+        
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+    
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>        </section>
+        <section>
+            <div class="mail-contanier none-page" id="page4">
+
+                <div class="about-header">
+                    <span class="text-span tac font-weight-800">contact</span>
+                    <h2 class="title font-weight-900 tac">
+                        get in
+                        <span>touch</span>
+                    </h2>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="mail-card">
+                        <h3 class="info info-title font-weight-600">don't be shy !</h3>
+                        <p class="name-span-2 font-weight-500">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+
+                        <div class="mail-icon">
+                            <div class="icon-envelope">
+                                <i class="fa fa-envelope"></i>
+
+                            </div>
+                            <div>
+                                <p class="name-card name-card2 font-weight-500">MAIL ME</p>
+                                <p class="name-span-2 font-weight-500">Kathirkiruba133@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="mail-icon">
+                            <i class="fa fa-phone"></i>
+                            <div>
+                                <p class="name-card name-card2 font-weight-500">CALL ME</p>
+                                <p class="name-span-2 font-weight-500">9360658928</p>
+                            </div>
+                        </div>
+                        <div class="socil-icon fxb">
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-youtube"></i>
+                            </div>
+                            <div class="social-icon-box-m">
+                                <i class="fa fa-dribbble"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="input-card">
+
+                        <div class="input-name-field">
+                            <input class="input-name" type="text" placeholder="YOUR NAME">
+                            <input class="input-name"  type="text" placeholder="YOUR EMAIL">
+                            <input class="input-name"  type="text" placeholder="YOUR SUBJECT">
+
+                        </div>
+
+                        <textarea class="input-name massage-input" placeholder="YOUR MESSAGE" name="message"></textarea>
+
+
+                        <div class="kn-button margin-top-30">
+                            <button class="kn-btn">send message</button>
+                            <div class="icon-fa icon-fa3 row-flex">
+                                <i class="fa fa-paper-plane"></i>
+    
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <script>
+
+function showPage(pageId) {
+            const pages = document.querySelectorAll('.none-page');
+            const menuItems = document.querySelectorAll('.menu-item');
+
+            pages.forEach(page => {
+                if (page.id === pageId) {
+                    page.classList.add('active');
+                } else {
+                    page.classList.remove('active');
+                }
+            });
+
+            menuItems.forEach(item => {
+                if (item.getAttribute('data-page') === pageId) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+
+        // Set initial state
+        document.addEventListener('DOMContentLoaded', () => {
+            showPage('page1');
+        });
+
+        
+
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            const toggleButton = document.getElementById('toggleButton');
+            const closeButton = document.getElementById('closeButton');
+
+            toggleButton.addEventListener('click', function() {
+                navbar.classList.add('open');
+                toggleButton.style.display = 'none';
+                closeButton.style.display = 'block';
+            });
+
+            closeButton.addEventListener('click', function() {
+                navbar.classList.remove('open');
+                toggleButton.style.display = 'block';
+                closeButton.style.display = 'none';
+            });
+        });
+            
+
+
+
+
+
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+    const colorPickerImages = document.querySelectorAll('.color-picker img');
+    const textElement = document.getElementById('color-picker-text');
+
+    colorPickerImages.forEach(img => {
+        img.addEventListener('click', function() {
+            const colorName = this.getAttribute('data-color');
+            const color = getComputedStyle(document.documentElement).getPropertyValue(`--${colorName}`).trim();
+            textElement.style.color = color;
+        });
+    });
+});
+
+
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
 }
-.nav-icon {
-    border-bottom: 1px solid #2B2A2A;
+
+
+
+var header = document.getElementById("myDV");
+var btns = header.getElementsByClassName("menu-item");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-icon");
+  current[0].className = current[0].className.replace(" active-icon", "");
+  this.className += " active-icon";
+  });
 }
-@media screen and (min-width:280px) and (max-width:768px) {
-
-
-    .image-profile-layer {
-        height: auto;
-        display: block;
-    }
-
-
-    .image-profile {
-        height: 473px;
-    }
-    .resume-image {
-        height: auto;
-        width: 68%;
-    }
-
-    .name-text {
-        width: 70%;
-    }
-    .name-web {
-        line-height: 26px;
-        font-size: 19px;
-        display: inline;
-        padding-left: 0px;
-    }
-
-    .name-text {
-        width: 70%;
-        margin-left: 53px;
-    }
-    .line-t{
-        width: 29px;
-        top: 13px;
-        left: -38px;
-    }
-    .discription {
-        font-size: 14px;
-        color: var(--span-color);
-        line-height: 23px;
-    }
-    .name-web span {
-        color: var(--span-color);
-        font-size: 18px;
-        display: inline;
-
-    }
-
-    .bg-accent {
-        display: none;
-    }
-    #navbar  {
-        width: 54%;
-    }
-
-    .about-container .row {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: auto;
-        width: 84%;
-        padding-bottom: 80px;
-        justify-items: center;
-    }
-    .text-span {
-        font-size: 74px;
-    }    
-
-
-    .title {
-        font-size: 43px;
-        top: 93px;
-        right: 115px;
-    }
-
-    .name-span-2 {
-        color: var(--name-span-color);
-        font-size: 9px;
-    }
-    .name-card {
-        color: var(--name-span-color);
-        font-size: 9px;
-    }
-    .margin {
-        margin-bottom: 10px;
-    } 
-
-    .about-info {
-        margin-top: 55px;
-    }
-
-
-    .title2 {
-        top: 103px;
-        font-size: 28px;
-        left: 73px;
-    }
-    .text-span2 {
-        font-size: 65px;
-    }
-
-    .project-cards {
-        display: grid;
-        grid-gap: 30px;
-        grid-template-columns: repeat(1, 1fr);
-        width: 40%;
-    }
-
-    .item-box {
-        height: 192px;
-    }
-
-    .mail-contanier .row {
-        display: block;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 70%;
-        justify-items: center;
-    }
-
-    .mail-card  {
-        width: 100%;
-        margin-left: 36px;
-    }
-    .input-card {
-        width: 100%;
-        margin-top: 40px;
-    }
-
-
-    .input-name-field {
-        display: block;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-    }
-
-    .input-name  {
-        width: 100%;
-        margin-top: 25px;
-    }
-
-    .theme {
-        height: 45px;
-        width: 45px;
-        font-size: 17px;
-    }
-    .web-page {
-        padding-right: 71px;
-    }
-    .menu-item  {
-        height: 45px;
-        width: 45px;
-        font-size: 17px;
-    }
+
+
+
+
 
 
 
 
 
 
+const modes = [
+  'purple-mode',
+  'red-mode',
+  'blueviolet-mode',
+  'blue-mode',
+  'goldenrod-mode',
+  'magenta-mode',
+  'yellowgreen-mode',
+  'orange-mode',
+  'green-mode',
+  'yellow-mode',
+];
 
+function toggleMode(mode) {
+  const element = document.body;
+  element.classList.remove(...modes);
+  element.classList.add(mode);
 }
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+
+
+
+
+    </body>
+</html>
