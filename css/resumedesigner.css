@@ -918,7 +918,9 @@ body{
     color: var(--icon-color);
 }
 
-  
+  .color-img {
+    width: 100%;
+  }
 
 
 
