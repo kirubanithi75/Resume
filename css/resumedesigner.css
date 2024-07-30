@@ -1237,6 +1237,29 @@ body{
         font-size: 18px;
     }
 
+    .layer .icon-box span {
+        height: 22px;
+        width: 74px;
+    }
+
+    .layer .icon-box {
+        font-size: 9px;
+    }
+
+    .link-project {
+        font-size: 9px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        column-gap: 3px;
+    }
+    .layer .icon-box i {
+        font-size: 9px;
+    }
+
+
+
+
 
 
 
