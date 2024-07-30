@@ -297,8 +297,8 @@ body{
 }
 
 .menu-item:hover:nth-child(3)::before {
-    left: -100px;
-    width: 121px;
+    left: -113px;
+    width: 141px;
 }
 .menu-item:hover:nth-child(4)::before {
     left: -91px;
