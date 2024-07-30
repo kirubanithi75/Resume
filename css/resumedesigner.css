@@ -827,6 +827,7 @@ body{
 }
    
 .mail-contanier {
+    height: auto;
     width: 100%;
     background-color: var(--primary-bg);
     padding-bottom: 150px;
