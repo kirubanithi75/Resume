@@ -149,10 +149,12 @@ body{
     margin-bottom: 28px;
 }
 .kn-btn {
+    height: 55px;
+    width: 230px ;
     font-size: 15px;
+    padding: 16px 63px 16px 35px;
     font-weight: 700;
     color: var(--kn-button-hover);
-    padding: 16px 70px 16px 35px;
     background: none;
     border: 1px solid var(--secondary-bg);
     border-radius: 30px;
@@ -192,8 +194,8 @@ body{
     font-weight: 500;
     cursor: pointer;
     position: absolute;
+    top: 0px;
     right: -1px;
-    bottom: 0px;
 }
 .name-web span {
     color: var(--span-color);
@@ -898,9 +900,6 @@ body{
     border: 1px solid var(--secondary-bg);
   }
 
-.icon-fa3 {
-    left: 164px;
-}
 .social-icon-box-m:hover {
     background-color: var(--secondary-bg);
 }
@@ -1016,6 +1015,13 @@ body{
     .icon-fa {
         height: 53px;
         width: 53px;
+        right: 0px;
+        font-size: 13px;
+
+    }
+    .fa-download:before {
+        content: "\f019";
+        font-size: 15px;
     }
     .image-profile {
         height: 473px;
@@ -1219,9 +1225,6 @@ body{
         left: 24px;
         border-radius: 1px;
         transform: rotate(16deg);
-    }
-    .icon-fa  {
-        right: 0px;
     }
 
     .center-box  {
