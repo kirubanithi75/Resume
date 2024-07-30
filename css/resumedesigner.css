@@ -94,7 +94,6 @@ body{
 }
 .header {
     height: 100vh;
-    background-color: var(--primary-bg);
     position: fixed;
     right: 0px;
     z-index: 1;
@@ -110,7 +109,6 @@ body{
 
 }
 .resume-image {
-    height: 551px;
     width: 34%;
     border-radius: 30px;
     position: absolute;
@@ -167,7 +165,7 @@ body{
     content: "";
     position: absolute;
     bottom: 0;
-    left: 90%;
+    left: 92%;
     right: 0;
     background-color: var(--secondary-bg);
     border-radius: 30px;
@@ -184,12 +182,9 @@ body{
     opacity: 1;
     left: 0;
 }  
-.kn-button {
-    position: relative;
-}
 .icon-fa {
-    height: 54px;
-    width: 54px;
+    height: 53px;
+    width: 53px;
     background-color: var(--secondary-bg);
     border-radius: 50%;
     color: var(--icon-color);
@@ -197,7 +192,7 @@ body{
     font-weight: 500;
     cursor: pointer;
     position: absolute;
-    left: 178px;
+    right: -1px;
     bottom: 0px;
 }
 .name-web span {
@@ -504,7 +499,7 @@ body{
     height: 62px;
     width: 61px;
     top: -3px;
-    left: 44px;
+    left: 29px;
 }
 .center-box3::before {
     height: 110px;
@@ -515,11 +510,11 @@ body{
 }
 .center-box4::before {
     height: 139px;
-    width: 46px;
-    top: -5px;
-    left: 40px;
+    width: 38px;
+    top: -20px;
+    left: 47px;
     border-radius: 1px;
-    transform: rotate(6deg);
+    transform: rotate(8deg);
 }
 .skills-container .row {
     display: flex;
@@ -835,7 +830,7 @@ body{
 .mail-contanier {
     width: 100%;
     background-color: var(--primary-bg);
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .mail-card {
     width: 28%;
@@ -1089,6 +1084,7 @@ body{
     .name-span-2 {
         color: var(--name-span-color);
         font-size: 9px;
+        line-height: 15px;
     }
     .name-card {
         color: var(--name-span-color);
@@ -1166,6 +1162,54 @@ body{
         width: 45px;
         font-size: 17px;
     }
+
+
+    .mail-contanier .row {
+        width: 80%;
+    }
+    .info {
+        font-size: 17px;
+        line-height: 8px;
+    }
+
+
+    .icon-envelope {
+        font-size: 18px;
+    }
+
+    .fa-phone:before {
+        content: "\f095";
+        font-size: 23px;
+
+    }
+
+    .skills-container .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+
+    .box-html {
+        height: 141px;
+        width: 169px;
+        margin-top: 60px;
+    }
+    .center-box::before {
+        top: 2px;
+    left: 33px;
+    }
+    .center-box2::before {
+        top: -17px;
+        left: 18px;
+    }
+
+    .center-box::before {
+        top: -40px;
+        left: 12px;
+    }
+
+
 
 
 
