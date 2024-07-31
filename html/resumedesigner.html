@@ -11,91 +11,98 @@
     <body>
 
         <div class="container-action">
-            <div id="navbar">
-                <div class="nav-icon margin-bottom-15">
-                    <h4 class="color-text font-weight-700 margin-bottom-10 font-size-15">COLOR SWITCHER</h4>
-                    <div class="close-icon">
-                        <div id="closeButton"  style="display: none;">
-                            x
-                        </div>
-    
-                    </div>
-                </div>
-                <div class="color-picker">
-                    <div class="color-variable fxb fav col-m">
-
-                        <div onclick="toggleMode('purple-mode')">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-1.png" alt="purple" dat-color="purple">
-                            </a>
-                        </div>
-                        <div  onclick="toggleMode('red-mode')">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-red-2.png" alt="red" data-color="red">
-                            </a>
-    
-                        </div>
-                    <div onclick="toggleMode('blueviolet-mode')"><a href="#">
-                        <a href="#">
-                            <img class="color-img" src="../image/purple-blueviolet3.png" alt="blueviolet" data-color="blueviolet">
-                        </a>
-    
-                    </a></div>
-                        <div onclick="toggleMode('blue-mode')"><a href="#">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-blue4.png" alt="blue" data-color="blue">
-                            </a>
+            <div id="navbar" class="row-flex">
+                <div>
+                    <div class="nav-icon margin-bottom-15">
+                        <h4 class="color-text font-weight-500 margin-bottom-10 font-size-15">COLOR SWITCHER</h4>
+                        <div class="close-icon">
+                            <div id="closeButton" class="animated-arrow" style="display: none;">
+                                <span></span>
+                            </div>
         
-                        </a></div>
-                        <div onclick="toggleMode('goldenrod-mode')"><a href="#">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-goldenrod5.png" alt="goldenrod" data-color="goldenrod">
-                            </a>
+                        </div>
+                    </div>
+                    <div class="color-picker">
+                        <div>
+    
+                            <div class="color-variable fxb fav col-m">
+    
+                                <div onclick="toggleMode('purple-mode')">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-1.png" alt="purple" dat-color="purple">
+                                    </a>
+                                </div>
+                                <div  onclick="toggleMode('red-mode')">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-red-2.png" alt="red" data-color="red">
+                                    </a>
+            
+                                </div>
+                            <div onclick="toggleMode('blueviolet-mode')"><a href="#">
+                                <a href="#">
+                                    <img class="color-img" src="../image/purple-blueviolet3.png" alt="blueviolet" data-color="blueviolet">
+                                </a>
+            
+                            </a></div>
+                                <div onclick="toggleMode('blue-mode')"><a href="#">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-blue4.png" alt="blue" data-color="blue">
+                                    </a>
+                
+                                </a></div>
+                                <div onclick="toggleMode('goldenrod-mode')"><a href="#">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-goldenrod5.png" alt="goldenrod" data-color="goldenrod">
+                                    </a>
+                
+                                </a></div>
         
-                        </a></div>
-
+                            </div>
+            
+                            <div class="color-variable fxb fav col-m margin-top-10">
+        
+                                <div onclick="toggleMode('magenta-mode')">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-magenta6.png" alt="">
+                                    </a>
+                                </div>
+        
+                                <div  onclick="toggleMode('yellowgreen-mode')">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-yellowgreen7.png" alt="">
+                                    </a>
+                                </div>
+        
+                                <div onclick="toggleMode('orange-mode')">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-orange8.png" alt="">
+                                    </a>
+                                </div>
+                                <div onclick="toggleMode('green-mode')">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-green9.png" alt="">
+                                    </a>
+                                </div>
+                                <div  onclick="toggleMode('yellow-mode')">
+                                    <a href="#">
+                                        <img class="color-img" src="../image/purple-yellow10.png" alt="">
+                                    </a>
+                                </div>
+        
+        
+                            </div>
+        
+                            
+    
+                        </div>
+                        
+    
+    
                     </div>
     
-                    <div class="color-variable fxb fav col-m margin-top-10">
-
-                        <div onclick="toggleMode('magenta-mode')">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-magenta6.png" alt="">
-                            </a>
-                        </div>
-
-                        <div  onclick="toggleMode('yellowgreen-mode')">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-yellowgreen7.png" alt="">
-                            </a>
-                        </div>
-
-                        <div onclick="toggleMode('orange-mode')">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-orange8.png" alt="">
-                            </a>
-                        </div>
-                        <div onclick="toggleMode('green-mode')">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-green9.png" alt="">
-                            </a>
-                        </div>
-                        <div  onclick="toggleMode('yellow-mode')">
-                            <a href="#">
-                                <img class="color-img" src="../image/purple-yellow10.png" alt="">
-                            </a>
-                        </div>
-
-
-                    </div>
-
-
-
-
                 </div>
 
-
-
+                
             </div>
             <div>
                     <button id="toggleButton" class="setting-icon row-flex">
@@ -451,7 +458,9 @@
                                         </a>
 
 
-                                    </span><span>Read More</span>
+                                    </span><span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View</span>
 
                                 </div>
                                 
@@ -472,7 +481,9 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span><span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View</span>
 
                                 </div>
         
@@ -494,7 +505,9 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span><span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View</span>
 
                                 </div>
         
@@ -515,7 +528,9 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span><span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View</span>
 
                                 </div>
         
@@ -538,7 +553,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -567,7 +586,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -589,7 +612,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -614,7 +641,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -636,7 +667,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
                                 
@@ -658,7 +693,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -679,7 +718,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -699,7 +742,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -719,7 +766,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
                                 </div>
         
     
@@ -751,7 +802,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
 
                                 </div>
@@ -778,7 +833,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -800,7 +859,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -823,7 +886,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -847,7 +914,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -873,7 +944,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -897,7 +972,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -938,7 +1017,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -959,7 +1042,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -981,7 +1068,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1004,7 +1095,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1025,7 +1120,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1049,7 +1148,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1073,7 +1176,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1094,7 +1201,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1116,7 +1227,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1141,7 +1256,11 @@
                                             View Project
                                         </a>
 
-                                    </span><span>Read More</span>
+                                    </span>
+                                    <span class="col-m">
+                                        <i class="fa fa-eye" ></i>
+                                        View
+                                    </span>
 
                                 </div>
         
@@ -1163,7 +1282,9 @@
 
 
 
-            </div>        </section>
+            </div> 
+        
+        </section>
         <section>
             <div class="mail-contanier none-page" id="page4">
 
@@ -1180,7 +1301,7 @@
 
                     <div class="mail-card">
                         <h3 class="info info-title font-weight-600">don't be shy !</h3>
-                        <p class="name-span-2 font-weight-500">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                        <p class="name-span-2">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
 
                         <div class="mail-icon">
                             <div class="icon-envelope">
@@ -1188,7 +1309,7 @@
 
                             </div>
                             <div>
-                                <p class="name-card name-card2 font-weight-500">MAIL ME</p>
+                                <p class="name-card name-card2 font-weight-500">Mail me</p>
                                 <p class="name-span-2 font-weight-500">Kathirkiruba133@gmail.com</p>
                             </div>
                         </div>
@@ -1196,8 +1317,8 @@
                         <div class="mail-icon">
                             <i class="fa fa-phone"></i>
                             <div>
-                                <p class="name-card name-card2 font-weight-500">CALL ME</p>
-                                <p class="name-span-2 font-weight-500">9360658928</p>
+                                <p class="name-card name-card2 font-weight-500">Call me</p>
+                                <p class="name-span-2 name-span-2-font font-weight-500">9360658928</p>
                             </div>
                         </div>
                         <div class="socil-icon fxb">
@@ -1221,7 +1342,6 @@
                         <div class="input-name-field">
                             <input class="input-name" type="text" placeholder="YOUR NAME">
                             <input class="input-name"  type="text" placeholder="YOUR EMAIL">
-                            <input class="input-name"  type="text" placeholder="YOUR SUBJECT">
 
                         </div>
 
