@@ -871,7 +871,7 @@ body{
     color: var(--secondary-bg);
 }
 .social-icon-box-m {
-    color: var(--icon-color);
+    color: var(--icon-color-header);
     background-color: var(--icon-header-box-backgroung-color);
     cursor: pointer;
 }
@@ -907,6 +907,8 @@ body{
 
 .social-icon-box-m:hover {
     background-color: var(--secondary-bg);
+    color: var(--icon-color);
+
 }
 
 .none-page {
@@ -1023,14 +1025,12 @@ body{
 
 
 .animated-arrow span:before {
-    cursor: pointer;
     height: 0.125rem;
     width: 1.0625rem;
     background: #536485;
     position: absolute;
     top: 23px;
     right: 4px;
-    display: block;
     content: "";
     transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -1039,14 +1039,12 @@ body{
     -webkit-transform: rotate(47deg);
 }
 .animated-arrow span:after {
-    cursor: pointer;
     height: 0.125rem;
     width: 1.0625rem;
     background: #536485;
     position: absolute;
     top: 23px;
     right: 4px;
-    display: block;
     content: "";
     transform: rotate(136deg);
     -moz-transform: rotate(45deg);
