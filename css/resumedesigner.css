@@ -850,10 +850,14 @@ body{
 }
 .name-card2 {
     margin-top: 0px;
+    font-size: 13px;
+}
+.name-span-2-font {
+    font-size: 13px;
 }
 .icon-envelope {
     color: var(--secondary-bg);
-    font-size: 33px;
+    font-size: 32px;
 } 
 .mail-icon {
     display: flex;
@@ -863,7 +867,7 @@ body{
 }
 .fa-phone:before {
     content: "\f095";
-    font-size: 33px;
+    font-size: 28px;
     color: var(--secondary-bg);
 }
 .social-icon-box-m {
@@ -877,7 +881,7 @@ body{
 }
 .input-name {
     height: 46px;
-    width: 29%;
+    width: 50%;
     border-radius: 50px;
     background-color: var(--icon-header-box-backgroung-color);
     padding: 11px 26px;
@@ -937,7 +941,7 @@ body{
     color: #111111;
     position: fixed;
     left: 0;
-    height: 215px;
+    height: 173px;
     width: 16%;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
@@ -977,7 +981,9 @@ body{
 }
 
 #closeButton {
-    top: 6px;
+    height: 41px;
+    width: 28px;
+    top: 10px;
     display: none;
     font-size: 29px;
     position: absolute;
@@ -1001,13 +1007,51 @@ body{
     font-size: 18px;
 }
 .nav-icon {
-    border-bottom: 2px solid #E2E4E8;
+    border-bottom: 1px solid #E2E4E8;
 }
 .color-text {
     color: #666666;
 }
 .kn-btn:hover {
     color: #ffffff;
+    transition: 1.300s all;
+}
+
+
+
+
+
+
+.animated-arrow span:before {
+    cursor: pointer;
+    height: 0.125rem;
+    width: 1.0625rem;
+    background: #536485;
+    position: absolute;
+    top: 23px;
+    right: 4px;
+    display: block;
+    content: "";
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(47deg);
+}
+.animated-arrow span:after {
+    cursor: pointer;
+    height: 0.125rem;
+    width: 1.0625rem;
+    background: #536485;
+    position: absolute;
+    top: 23px;
+    right: 4px;
+    display: block;
+    content: "";
+    transform: rotate(136deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 
 
