@@ -185,7 +185,7 @@ body{
     left: 0;
 }  
 .icon-fa {
-    height: 53px;
+    height: 100%;
     width: 53px;
     background-color: var(--secondary-bg);
     border-radius: 50%;
@@ -827,10 +827,9 @@ body{
 }
    
 .mail-contanier {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-color: var(--primary-bg);
-    padding-bottom: 150px;
 }
 .mail-card {
     width: 28%;
@@ -844,6 +843,7 @@ body{
 .mail-contanier .row {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .info-title {
     text-transform: uppercase;
