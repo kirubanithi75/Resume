@@ -827,7 +827,7 @@ body{
 }
    
 .mail-contanier {
-    height: auto;
+    height: 600px;
     width: 100%;
     background-color: var(--primary-bg);
     padding-bottom: 150px;
@@ -1006,6 +1006,15 @@ body{
 .color-text {
     color: #666666;
 }
+.kn-btn:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
 @media screen and (min-width:280px) and (max-width:768px) {
 
     .theme-box {
