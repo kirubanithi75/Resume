@@ -810,6 +810,10 @@ body{
     font-size: 12px;
     color: #FFFFFF;
     text-decoration: none;
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
 }
 
 
