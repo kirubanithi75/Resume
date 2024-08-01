@@ -934,7 +934,9 @@ body{
 
 
 
-
+.color-picker {
+    height: 127px;
+}
 
 
 
@@ -949,13 +951,12 @@ body{
     left: 0;
     height: 173px;
     width: 16%;
-    padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
     z-index: 1;
     transition: transform 0.3s ease;
     transform: translateX(-100%); /* Start off-screen */
-    border-radius: 0px  5px 5px 0px;
-
+    border-radius: 0px  10px 10px 0px;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
 }
 
 #navbar.open {
@@ -989,11 +990,11 @@ body{
 #closeButton {
     height: 41px;
     width: 28px;
-    top: 10px;
+    top: -1px;
     display: none;
     font-size: 29px;
     position: absolute;
-    right: 18px;
+    right: 15px;
     color: #536485;
     cursor: pointer;
 }
@@ -1014,9 +1015,16 @@ body{
 }
 .nav-icon {
     border-bottom: 1px solid #E2E4E8;
+    height: 44px;
+    width: 100%;
+    background-color: var(--secondary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top-right-radius: 10px;
 }
 .color-text {
-    color: #666666;
+    color: #FFFFFF;
 }
 .kn-btn:hover {
     color: #ffffff;
@@ -1031,7 +1039,7 @@ body{
 .animated-arrow span:before {
     height: 0.125rem;
     width: 1.0625rem;
-    background: #536485;
+    background: #FFFFFF;
     position: absolute;
     top: 23px;
     right: 4px;
@@ -1045,7 +1053,7 @@ body{
 .animated-arrow span:after {
     height: 0.125rem;
     width: 1.0625rem;
-    background: #536485;
+    background: #FFFFFF;
     position: absolute;
     top: 23px;
     right: 4px;
