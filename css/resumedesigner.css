@@ -50,7 +50,7 @@ body{
     --secondary-bg: #8A2BE2;
   }
   .blue-mode {
-    --secondary-bg: #6957AF;
+    --secondary-bg: #4169E1;    
   }
   .goldenrod-mode {
     --secondary-bg: #DAA520;
@@ -1017,7 +1017,7 @@ body{
     border-bottom: 1px solid #E2E4E8;
     height: 44px;
     width: 100%;
-    background-color: var(--secondary-bg);
+    background-color: #71797E;
     display: flex;
     align-items: center;
     justify-content: space-around;
