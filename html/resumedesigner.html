@@ -123,10 +123,16 @@
 
 
 
-        <div class="resume-page">
-            <div class="web-page none-page active" id="page1">
 
-                <div class="bg-accent" id="color-picker-text"></div>
+
+
+
+
+
+
+        <div class="resume-page">
+            <div class="web-page visible-page active" id="page1">
+
                 <div class="image-profile-layer">
                     <div class="image-profile">
                         <img class="resume-image" src="../image/kirupa-image -1removebg.png" alt="">
@@ -135,34 +141,36 @@
     
                     <div class="name-text">
                         <div>
-                            <div class="line-t"></div>
-                            <h1 class="name-web font-weight-700">
-                                I'm Kirupa nithi.<br>
-                                <span>UI & Web Developer.</span>
-        
-                            </h1>    
-                        </div>
-                        <p class="discription mar-l font-weight-500">I'm a Tunisian based web designer & front‑end developer focused on<br> crafting clean & user‑friendly experiences, I am passionate about<br> building excellent software that improves the lives of those around me.</p>
-                        <button class="kn-btn" onclick="showPage('page2')">more about me
-                            <div class="icon-fa row-flex">
-                                <i class="fa fa-arrow-right"></i>
-    
+                            <div class="text-line">
+                                <div class="line-t"></div>
+                                <h1 class="name-web font-weight-700">
+                                    I'm Kirupa nithi.<br>
+                                    <span>UI & Web Developer.</span>
+            
+                                </h1>    
                             </div>
-
-                        </button>
-
+                            <p class="description  mar-l font-weight-500">I'm a Tunisian based web designer & front‑end developer focused on<br> crafting clean & user‑friendly experiences, I am passionate about<br> building excellent software that improves the lives of those around me.</p>
+                            <button class="kn-btn" onclick="showPage('page2')">more about me
+                                <div class="icon-fa row-flex">
+                                    <i class="fa fa-arrow-right"></i>
+        
+                                </div>
     
+                            </button>
+    
+    
+                        </div>
     
                     </div>
     
                 </div>
 
             </div>
-            <div class="header">
+            <div class="navbar">
 
                 <div>
                     <div class="theme-box" onclick="myFunction()">
-                        <div class="theme row-flex">
+                        <div class="theme-switch row-flex">
                             <i class="fa fa-sun-o"></i>
                        </div>
     
@@ -171,19 +179,19 @@
                     </div>
     
                     <div class="icon-heade">
-                        <div class="menu-items menu" id="myDIV">
-                            <div class="menu-item row-flex active-ico" data-page="page1" onclick="showPage('page1')" >
+                        <div class="nav-items menu" id="myDIV">
+                            <div class="nav-item row-flex active-ico" data-page="page1" onclick="showPage('page1')" >
                                 <i class="fa fa-home"></i>
                             </div>
 
-                            <div class="menu-item row-flex" data-page="page2" onclick="showPage('page2')">
+                            <div class="nav-item row-flex" data-page="page2" onclick="showPage('page2')">
                                 <i class="fa fa-user"></i>
                             </div>
 
-                            <div class="menu-item row-flex" data-page="page3" onclick="showPage('page3')">
+                            <div class="nav-item row-flex" data-page="page3" onclick="showPage('page3')">
                                 <li class="fa fa-briefcase"></li>
                             </div>
-                            <div class="menu-item row-flex" data-page="page4" onclick="showPage('page4')">
+                            <div class="nav-item row-flex" data-page="page4" onclick="showPage('page4')">
                                 <i class="fa fa-envelope"></i>
                              </div>
 
@@ -204,8 +212,13 @@
             </div>
         </div>
 
+
+
+
+
+        
         <section>
-            <div class="about-container none-page" id="page2">
+            <div class="about-container visible-page" id="page2">
 
                 <div class="about-header">
                     <span class="text-span tac font-weight-800">resume</span>
@@ -225,29 +238,24 @@
 
                         <div class="address">
                             <div>
-                                <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">First Name :</span>
+                                <div class="margin-bottom-20">
+                                    <span class="profile-name font-weight-500">First Name :</span>
                                     <span class="name-span-2 font-weight-500">Kirupa nithi.R</span>
     
                                 </div>
-                                <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Last Name :</span>
+                                <div class="margin-bottom-20">
+                                    <span class="profile-name font-weight-500">Last Name :</span>
                                     <span class="name-span-2 font-weight-500">Nithi</span>
     
                                 </div>
-                                <div class=" margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Age :</span>
+                                <div class="  margin-bottom-20">
+                                    <span class="profile-name font-weight-500">Age :</span>
                                     <span class="name-span-2 font-weight-500">22 Years</span>
     
                                 </div>
-                                <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Nationality  :</span>
-                                    <span class="name-span-2 font-weight-500">Tunisian</span>
-    
-                                </div>
-                                <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Freelance  :</span>
-                                    <span class="name-span-2 font-weight-500">Available</span>
+                                <div class="margin-bottom-20">
+                                    <span class="profile-name font-weight-500">Nationality  :</span>
+                                    <span class="name-span-2 font-weight-500">Tenkasi</span>
     
                                 </div>
 
@@ -258,27 +266,22 @@
 
                             <div>
                                 <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Address  :</span>
+                                    <span class="profile-name font-weight-500">Address  :</span>
                                     <span class="name-span-2 font-weight-500">Kalluthu</span>
     
                                 </div>
                                 <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Phone :</span>
-                                    <span class="name-span-2 font-weight-500">93606589328</span>
+                                    <span class="profile-name font-weight-500">Phone :</span>
+                                    <span class="name-span-2 font-weight-500">9360658928</span>
     
                                 </div>
                                 <div class=" margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Email  :</span>
+                                    <span class="profile-name font-weight-500">Email  :</span>
                                     <span class="name-span-2 font-weight-500">Kathirkiruba133@gmail.com</span>
     
                                 </div>
                                 <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Skype   :</span>
-                                    <span class="name-span-2 font-weight-500">steve.milner</span>
-    
-                                </div>
-                                <div class="margin margin-bottom-20">
-                                    <span class="name-card font-weight-500">Langages   :</span>
+                                    <span class="profile-name font-weight-500">Langages   :</span>
                                     <span class="name-span-2 font-weight-500">Tamil, English</span>
     
                                 </div>
@@ -324,33 +327,33 @@
 
                             <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Objective</h6>
 
-                            <div class="developer-skill">Dynamic and skilled web developer with a passion for creating visually appealing and responsive web applications. Proficient in HTML5, CSS3, Less, CSS variables, JavaScript, animation techniques, and basic Photoshop skills. Committed to delivering high-quality user experiences through innovative and efficient web development practices.</div>
+                            <div class="developer-skill font-size-15 font-weight-400">Dynamic and skilled web developer with a passion for creating visually appealing and responsive web applications. Proficient in HTML5, CSS3, Less, CSS variables, JavaScript, animation techniques, and basic Photoshop skills. Committed to delivering high-quality user experiences through innovative and efficient web development practices.</div>
 
                             <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Education</h6>
 
-                            <div class="developer-skill">Bachelor of Science in Computer Science </div>
-                            <div class="developer-skill">Manonmaniam sundaranar university , Tirunelveli ,Tamil Nadu</div>
-                            <div class="developer-skill">2019-2022</div>
+                            <div class="developer-skill font-size-15 font-weight-400 ">Bachelor of Science in Computer Science </div>
+                            <div class="developer-skill font-size-15 font-weight-400">Manonmaniam sundaranar university , Tirunelveli ,Tamil Nadu</div>
+                            <div class="developer-skill font-size-15 font-weight-400">2019-2022</div>
 
                             <h6 class="intro-h4 margin-bottom-20 font-size-20 font-weight-600">Technical Skills </h6>
-                            <div class="developer-skill">Languages: HTML5, CSS3, JS </div>
-                            <div class="developer-skill">Preprocessors: Less
+                            <div class="developer-skill font-size-15 font-weight-400">Languages: HTML5, CSS3, JS </div>
+                            <div class="developer-skill font-size-15 font-weight-400 ">Preprocessors: Less
                                 Responsive Design: Media queries, Flexbox, CSS Grid
                                 </div>
-                                <div class="developer-skill">
+                                <div class="developer-skill font-size-15 font-weight-400">
                                     CSS Variables: Efficient use for maintainable stylesheets
 
                                 </div>
 
 
 
-                            <div class="developer-skill">Design Tools: Photoshop (Basic proficiency)
+                            <div class="developer-skill font-size-15 font-weight-400">Design Tools: Photoshop (Basic proficiency)
                                 
                                 </div>
-                                <div class="developer-skill">
+                                <div class="developer-skill font-size-15 font-weight-400">
                                     Web Development Tools: VS Code, Browser Developer Tools
                                 </div>
-                            <div class="developer-skill">
+                            <div class="developer-skill font-size-15 font-weight-400">
                                 Collaboration: GitHub
                             </div>
 
@@ -392,34 +395,34 @@
 
                     <div class="row">
 
-                        <div class="box-skill">
-                            <div class="box-html">
-                                <div class="center-box">95%</div>
+                        <div class="skill-set">
+                            <div class="media-list">
+                                <div class="progress-bar">95%</div>
                             </div>
                             <h4 class="sub-h4">Html5</h4>
 
 
                         </div>
 
-                        <div class="box-skill">
-                            <div class="box-html">
-                                <div class="center-box center-box2">90%</div>
+                        <div class="skill-set">
+                            <div class="media-list">
+                                <div class="progress-bar progress-bar2">90%</div>
                             </div>
                             <h4 class="sub-h4">Css3</h4>
 
                         </div>
 
-                        <div class="box-skill">
-                            <div class="box-html">
-                                <div class="center-box center-box3">70%</div>
+                        <div class="skill-set">
+                            <div class="media-list">
+                                <div class="progress-bar progress-bar3">70%</div>
                             </div>
                             <h4 class="sub-h4">Less</h4>
                         </div>
 
 
-                        <div class="box-skill">
-                            <div class="box-html">
-                                <div class="center-box center-box4">55%</div>
+                        <div class="skill-set">
+                            <div class="media-list">
+                                <div class="progress-bar progress-bar4">55%</div>
                             </div>
                             <h4 class="sub-h4">JavaScript</h4>
     
@@ -433,7 +436,7 @@
         </section>
 
         <section>
-            <div class="Portfolio-container none-page" id="page3">
+            <div class="Portfolio-container visible-page" id="page3">
 
                 <div class="about-header">
                     <span class="text-span text-span2 tac font-weight-800">works</span>
@@ -1316,12 +1319,12 @@
         
         </section>
         <section>
-            <div class="mail-contanier none-page" id="page4">
+            <div class="mail-contanier visible-page" id="page4">
 
                 <div>
                     <div class="about-header">
-                        <span class="text-span tac font-weight-800">contact</span>
-                        <h2 class="title font-weight-900 tac">
+                        <span class="text-span text-span-con tac font-weight-800">contact</span>
+                        <h2 class="title title-2 font-weight-900 tac">
                             get in
                             <span>touch</span>
                         </h2>
@@ -1330,9 +1333,9 @@
     
                     <div class="row">
     
-                        <div class="mail-card">
+                        <div class="mail-card font-size-15 ">
                             <h3 class="info info-title font-weight-600">don't be shy !</h3>
-                            <p class="name-span-2">Feel free to get in touch with me. I am always<br> open to discussing new projects, creative ideas<br> or opportunities to be part of your visions.</p>
+                            <p>Feel free to get in touch with me. I am always<br> open to discussing new projects, creative ideas<br> or opportunities to be part of your visions.</p>
     
                             <div class="mail-icon">
                                 <div class="icon-envelope">
@@ -1340,16 +1343,16 @@
     
                                 </div>
                                 <div>
-                                    <p class="name-card name-card2 font-weight-500">Mail me</p>
-                                    <p class="name-span-2 font-weight-500">Kathirkiruba133@gmail.com</p>
+                                    <p class="profile-name name-card2 font-weight-500">Mail me</p>
+                                    <p class="font-weight-500">Kathirkiruba133@gmail.com</p>
                                 </div>
                             </div>
     
                             <div class="mail-icon">
                                 <i class="fa fa-phone"></i>
                                 <div>
-                                    <p class="name-card name-card2 font-weight-500">Call me</p>
-                                    <p class="name-span-2 name-span-2-font font-weight-500">9360658928</p>
+                                    <p class="profile-name name-card2 font-weight-500">Call me</p>
+                                    <p class="font-weight-500">9360658928</p>
                                 </div>
                             </div>
                             <div class="socil-icon fxb">
@@ -1448,8 +1451,8 @@
         <script>
 
 function showPage(pageId) {
-            const pages = document.querySelectorAll('.none-page');
-            const menuItems = document.querySelectorAll('.menu-item');
+            const pages = document.querySelectorAll('.visible-page');
+            const menuItems = document.querySelectorAll('.nav-item');
 
             pages.forEach(page => {
                 if (page.id === pageId) {
@@ -1528,15 +1531,6 @@ function myFunction() {
 
 
 
-var header = document.getElementById("myDV");
-var btns = header.getElementsByClassName("menu-item");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active-icon");
-  current[0].className = current[0].className.replace(" active-icon", "");
-  this.className += " active-icon";
-  });
-}
 
 
 
