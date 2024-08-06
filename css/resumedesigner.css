@@ -16,8 +16,8 @@ body{
 }
 
 .dark-mode{
-    --primary-bg: #FFFFFF;
-    --secondary-bg: #DAA520;
+    --secondary-bg : #FFFFFF;
+    --primary-bg: #DAA520;
     --icon-color: #FFFFFF;
     --icon-header-box-backgroung-color: rgb(238, 238, 238);
     --h2-color: #666666;
@@ -45,7 +45,7 @@ body{
     --primary-bg: #8A2BE2;
   }
   .blue-mode {
-    --secondary-bg: #4169E1;    
+    --primary-bg: #4169E1;    
   }
   .goldenrod-mode {
     --primary-bg: #DAA520;
@@ -428,9 +428,9 @@ body{
 .progress-bar {
     height: 120px;
     width: 120px;
-    background-color: var(--secondary-bg);
+    border: 5px solid var(--primary-bg);
     border-radius: 50%;
-    background-color: var(--primary-bg ); 
+    background-color: var(--secondary-bg); 
     display: flex;
     align-items: center;
     justify-content: center;
