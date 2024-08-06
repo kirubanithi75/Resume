@@ -1,6 +1,6 @@
 body{
-    --primary-bg: #111111;
-    --secondary-bg: #DAA520;
+    --secondary-bg : #111111;
+    --primary-bg: #DAA520;
     --icon-color:#FFFFFF;
     --icon-header-box-backgroung-color: #2B2A2A;
     --span-color: #FFFFFF;
@@ -34,44 +34,44 @@ body{
 
 
   .purple-mode {
-    --secondary-bg: #6957AF;
+    --primary-bg: #6957AF;
 
   }
   
   .red-mode {
-    --secondary-bg: #F72B1C;
+    --primary-bg: #F72B1C;
   }
   .blueviolet-mode {
-    --secondary-bg: #8A2BE2;
+    --primary-bg: #8A2BE2;
   }
   .blue-mode {
     --secondary-bg: #4169E1;    
   }
   .goldenrod-mode {
-    --secondary-bg: #DAA520;
+    --primary-bg: #DAA520;
   }
   
   .magenta-mode {
-    --secondary-bg: #EE6192;
+    --primary-bg: #EE6192;
   }
   
   .yellowgreen-mode {
-    --secondary-bg: #9ACD32;
+    --primary-bg: #9ACD32;
   }
   .orange-mode {
-    --secondary-bg: #FA5B0F;
+    --primary-bg: #FA5B0F;
   }
   .green-mode {
-    --secondary-bg: #72B626;
+    --primary-bg: #72B626;
   }
   
   .yellow-mode {
-    --secondary-bg: #FFB400;
+    --primary-bg: #FFB400;
   }
   
 .resume-page {
     width: 100%;
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
     display: flex;
 }
 .image-profile-layer {
@@ -95,7 +95,7 @@ body{
 }
 .web-page::before {
     content: "";
-    background-color: var(--secondary-bg); 
+    background-color: var(--primary-bg ); 
     position: fixed;
     width: 100%;
     height: 200%;
@@ -116,7 +116,6 @@ body{
 .name-web {
     line-height: 62px;
     font-size: 51px;
-    color: var(--secondary-bg);
     text-transform: uppercase;
     padding-left: 70px;
 
@@ -134,7 +133,7 @@ body{
 .line-t {
     position: absolute;
     height: 5px;
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     width: 40px;
     border-radius: 10px;
     top: 32px;
@@ -152,7 +151,7 @@ body{
     font-weight: 700;
     color: var(--kn-button-hover);
     background: none;
-    border: 1px solid var(--secondary-bg);
+    border: 1px solid var(--primary-bg);
     border-radius: 30px;
     cursor: pointer;
     position: relative;
@@ -165,7 +164,7 @@ body{
     bottom: 0;
     left: 92%;
     right: 0;
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     border-radius: 30px;
     overflow: hidden;
     width: 0;
@@ -183,7 +182,7 @@ body{
 .icon-fa {
     height: 100%;
     width: 53px;
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     border-radius: 50%;
     color: var(--icon-color);
     font-size: 15px;
@@ -208,7 +207,7 @@ body{
 
 }
 .theme:hover {
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     color: var(--icon-color);
 
 }
@@ -243,7 +242,7 @@ body{
     bottom: 0;
     left: 50%;
     right: 0;
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     border-radius: 30px;
     overflow: hidden;
     width: 0;
@@ -315,13 +314,13 @@ body{
     align-items: end;
 }
 .nav-item:hover {
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     color: var(--icon-color);
 
 }
 .about-container {
     width: 100%;
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
     padding-bottom: 100px;
 }
 .text-span {
@@ -342,7 +341,7 @@ body{
 
 }
 .title span {
-    color: var(--secondary-bg);
+    color: var(--primary-bg ); 
 }
 .about-header {
     position: relative;
@@ -363,7 +362,7 @@ body{
     line-height: 25px;
 }
 .line {
-    border-bottom: 2px solid var(--secondary-bg);
+    border-bottom: 2px solid var(--primary-bg);
     width: 96px;
     margin-top: 10px;
 }
@@ -429,9 +428,9 @@ body{
 .progress-bar {
     height: 120px;
     width: 120px;
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
     border-radius: 50%;
-    border: 5px solid var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -443,7 +442,7 @@ body{
 .progress-bar::before {
     height: 30px;
     width: 30px;
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
     content: "";
     border-radius: 50px;
     position: absolute;
@@ -486,7 +485,7 @@ body{
 }
 .Portfolio-container {
     width: 100%;
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
 }
 .project-cards {
     display: grid;
@@ -714,7 +713,7 @@ body{
     font-size: 12px;
 }
 .layer .icon-box span {
-    background: var(--secondary-bg);
+    background-color: var(--primary-bg ); 
     position: absolute;
     border-radius: 5px;
     margin:0;
@@ -798,7 +797,7 @@ body{
 .mail-contanier {
     height: 100vh;
     width: 100%;
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
 }
 .mail-card {
     width: 28%;
@@ -826,7 +825,7 @@ body{
     font-size: 13px;
 }
 .icon-envelope {
-    color: var(--secondary-bg);
+    color: var(--primary-bg ); 
     font-size: 32px;
 } 
 .mail-icon {
@@ -838,7 +837,7 @@ body{
 .fa-phone:before {
     content: "\f095";
     font-size: 28px;
-    color: var(--secondary-bg);
+    color: var(--primary-bg); 
 }
 .social-icon-box-m {
     color: var(--icon-color-header);
@@ -872,11 +871,11 @@ body{
     resize: none;
 }
 .input-name:focus {
-    border: 1px solid var(--secondary-bg);
+    border: 1px solid var(--primary-bg);
   }
 
 .social-icon-box-m:hover {
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg);
     color: var(--icon-color);
 
 }
@@ -890,7 +889,7 @@ body{
 }
 
 .nav-item.active {
-    background-color: var(--secondary-bg);
+    background-color: var(--primary-bg); 
     color: var(--icon-color);
 }
 
