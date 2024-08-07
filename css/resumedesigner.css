@@ -105,7 +105,7 @@ body{
 
 }
 .resume-image {
-    width: 83%;
+    width: 76%;
     border-radius: 30px;
 }
 .image-profile {
@@ -118,6 +118,7 @@ body{
     font-size: 51px;
     text-transform: uppercase;
     padding-left: 70px;
+    color: var(--primary-bg);
 
 
 }
@@ -718,7 +719,7 @@ body{
     border-radius: 5px;
     margin:0;
     height: 30px;
-    width: 96px;
+    width: 105px;
     display: flex;
     justify-content: center;
     align-items: center;
