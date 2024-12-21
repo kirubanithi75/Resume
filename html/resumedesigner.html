@@ -9,6 +9,14 @@
 
     </head>
     <body>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+            <div class="mouse-cursor cursor-outer" id="cursor-outer"></div>
+            <div class="mouse-cursor cursor-inner" id="cursor-inner"></div>
+    
 
         <div class="container-action">
             <div id="navbar" class="">
@@ -105,7 +113,7 @@
                 
             </div>
             <div>
-                    <button id="toggleButton" class="setting-icon row-flex">
+                    <button id="toggleButton" class="setting-icon row-flex navbar-brand">
                         <i class="fa fa-gear fa-spin"
                         ></i>
 
@@ -170,7 +178,7 @@
 
                 <div>
                     <div class="theme-box" onclick="myFunction()">
-                        <div class="theme-switch row-flex">
+                        <div class="theme-switch row-flex navbar-brand">
                             <i class="fa fa-sun-o"></i>
                        </div>
     
@@ -180,18 +188,18 @@
     
                     <div class="icon-heade">
                         <div class="nav-items menu" id="myDIV">
-                            <div class="nav-item row-flex active-ico" data-page="page1" onclick="showPage('page1')" >
+                            <div class="nav-item row-flex active-ico navbar-brand" data-page="page1" onclick="showPage('page1')" >
                                 <i class="fa fa-home"></i>
                             </div>
 
-                            <div class="nav-item row-flex" data-page="page2" onclick="showPage('page2')">
+                            <div class="nav-item row-flex navbar-brand" data-page="page2" onclick="showPage('page2')">
                                 <i class="fa fa-user"></i>
                             </div>
 
-                            <div class="nav-item row-flex" data-page="page3" onclick="showPage('page3')">
+                            <div class="nav-item row-flex navbar-brand" data-page="page3" onclick="showPage('page3')">
                                 <li class="fa fa-briefcase"></li>
                             </div>
-                            <div class="nav-item row-flex" data-page="page4" onclick="showPage('page4')">
+                            <div class="nav-item row-flex navbar-brand" data-page="page4" onclick="showPage('page4')">
                                 <i class="fa fa-envelope"></i>
                              </div>
 
@@ -1581,8 +1589,50 @@ function toggleMode(mode) {
 
 
         </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<script>
+    $(document).ready(function() {
+    // Fakes the loading by setting a timeout
+    setTimeout(function() {
+    $('body').addClass('loaded');
+    }, 1000); // Delay of 3.5 seconds to show the loader animation
+    });
+    </script>
+    
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Update cursor position
+        document.body.addEventListener("mousemove", function(event) {
+            var cursorOuter = document.getElementById("cursor-outer");
+            var cursorInner = document.getElementById("cursor-inner");
+            
+            cursorOuter.style.left = event.clientX + "px";
+            cursorOuter.style.top = event.clientY + "px";
+            cursorInner.style.left = event.clientX + "px";
+            cursorInner.style.top = event.clientY + "px";
+        });
+
+        // Hover effect for navbar items
+        var hoverTargets = document.querySelectorAll(".navbar-brand");
+        hoverTargets.forEach(function(target) {
+            target.addEventListener("mouseover", function() {
+                document.getElementById("cursor-outer").classList.add("hover");
+                document.getElementById("cursor-inner").classList.add("hover");
+            });
+            target.addEventListener("mouseout", function() {
+                document.getElementById("cursor-outer").classList.remove("hover");
+                document.getElementById("cursor-inner").classList.remove("hover");
+            });
+        });
+
+        // Show the cursor after loading
+        window.addEventListener('load', function() {
+            document.getElementById("cursor-outer").style.visibility = "visible";
+            document.getElementById("cursor-inner").style.visibility = "visible";
+        });
+    </script>
 
 
     </body>
