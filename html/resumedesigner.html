@@ -1382,40 +1382,26 @@
     
                             </div>
                         </div>
-                        <div class="input-card">
-    
-                            <div class="input-name-field">
-                                <input class="input-name" type="text" placeholder="YOUR NAME">
-                                <input class="input-name"  type="text" placeholder="YOUR EMAIL">
-    
-                            </div>
-    
-                            <textarea class="input-name massage-input" placeholder="YOUR MESSAGE" name="message"></textarea>
-    
-    
-                            <button class="kn-btn margin-top-30">send message
-                                <div class="icon-fa icon-fa3 row-flex">
-                                    <i class="fa fa-paper-plane"></i>
+
+                            <div class="input-card">
+        
+                                <div class="input-name-field">
+                                    <input class="input-name" id="subject" type="text" placeholder="YOUR NAME">
+                                    <input class="input-name"  id="from" type="text" placeholder="YOUR EMAIL">
         
                                 </div>
-    
-                            </button>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-                        </div>
-    
+        
+                                <textarea class="input-name massage-input" id="body" placeholder="YOUR MESSAGE" name="message"></textarea>
+        
+        
+                                <button class="kn-btn margin-top-30" onclick="sendEmail()">send message
+                                    <div class="icon-fa icon-fa3 row-flex">
+                                        <i class="fa fa-paper-plane"></i>
+            
+                                    </div>
+        
+                                </button>
+                            </div>
     
     
     
@@ -1633,6 +1619,26 @@ function toggleMode(mode) {
             document.getElementById("cursor-inner").style.visibility = "visible";
         });
     </script>
+
+<script>
+    function sendEmail() {
+        const from = document.getElementById("from").value;
+        const subject = document.getElementById("subject").value;
+        const body = document.getElementById("body").value;
+        const to = "kathirkiruba133@gmail.com"; // Replace with your constant email address
+     
+        if (from && subject && body) {
+            // Create the email body including the sender's email address
+            const fullBody = `From: ${from}\n\n${body}`;
+     
+            // Open the default email client with pre-filled details
+            window.location.href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(fullBody)}`;
+        } else {
+            alert("Please fill out all fields!");
+        }
+    }
+    </script>
+    
 
 
     </body>
